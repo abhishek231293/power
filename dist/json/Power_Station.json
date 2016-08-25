@@ -1,0 +1,1046 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 1.000000<br>Station_Na: Arah<br>Near_City: Arah<br>District: Bhojpur<br>State: Bihar<br>Lat: 25.559478<br>Long: 84.667454<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 84.667454, 25.559478, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 2.000000<br>Station_Na: Banka<br>Near_City: Banka<br>District: Banka<br>State: Bihar<br>Lat: 24.883439<br>Long: 86.916611<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 86.916611, 24.883439, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 3.000000<br>Station_Na: Barh<br>Near_City: Barh<br>District: Patna<br>State: Bihar<br>Lat: 25.469469<br>Long: 85.710940<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 85.71094, 25.469469, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 4.000000<br>Station_Na: Begusarai<br>Near_City: Begusarai<br>District: Begusarai<br>State: Bihar<br>Lat: 25.417075<br>Long: 86.133471<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 86.133471, 25.417075, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 5.000000<br>Station_Na: Biharsariff<br>Near_City: Biharsariff<br>District: Nalanda<br>State: Bihar<br>Lat: 25.200126<br>Long: 85.522013<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 85.522013, 25.200126, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 6.000000<br>Station_Na: Bodhgaya<br>Near_City: Bodhgaya<br>District: Gaya<br>State: Bihar<br>Lat: 25.198107<br>Long: 85.522013<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 85.522013, 25.198107, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 7.000000<br>Station_Na: Darbhanga<br>Near_City: Darbhanga<br>District: Darbhanga<br>State: Bihar<br>Lat: 24.697246<br>Long: 84.988503<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 84.988503, 24.697246, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 8.000000<br>Station_Na: Gopalganj<br>Near_City: Gopalganj<br>District: Gopalganj<br>State: Bihar<br>Lat: 26.149429<br>Long: 85.890741<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 85.890741, 26.149429, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 9.000000<br>Station_Na: Hazipur<br>Near_City: Hazipur<br>District: Vaishali<br>State: Bihar<br>Lat: 26.467039<br>Long: 84.433680<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 84.43368, 26.467039, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 10.000000<br>Station_Na: Kahalgaon<br>Near_City: Kahalgaon<br>District: Bhagalpur<br>State: Bihar<br>Lat: 25.270000<br>Long: 87.220000<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 87.22, 25.27, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 11.000000<br>Station_Na: Kishanganj<br>Near_City: Kishanganj<br>District: Kishanganj<br>State: Bihar<br>Lat: 25.579918<br>Long: 85.039659<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 85.039659, 25.579918, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 12.000000<br>Station_Na: Lakhisarai<br>Near_City: Lakhisarai<br>District: Lakhisarai<br>State: Bihar<br>Lat: 25.160000<br>Long: 86.090000<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 86.09, 25.16, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 13.000000<br>Station_Na: Madhepura<br>Near_City: Madhepura<br>District: Madhepura<br>State: Bihar<br>Lat: 25.910000<br>Long: 86.780000<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 86.78, 25.91, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 14.000000<br>Station_Na: Muzaffarpur<br>Near_City: Muzaffarpur<br>District: Muzaffarpur<br>State: Bihar<br>Lat: 25.917754<br>Long: 86.778574<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 86.778574, 25.917754, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 15.000000<br>Station_Na: Patna<br>Near_City: Patna<br>District: Patna<br>State: Bihar<br>Lat: 26.121226<br>Long: 85.364599<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 85.364599, 26.121226, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 16.000000<br>Station_Na: Purnea<br>Near_City: Purnea<br>District: Purnea<br>State: Bihar<br>Lat: 25.611810<br>Long: 85.143299<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 85.143299, 25.61181, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 17.000000<br>Station_Na: sasaram<br>Near_City: sasaram<br>District: Rohtas<br>State: Bihar<br>Lat: 25.780416<br>Long: 87.470369<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 87.470369, 25.780416, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 18.000000<br>Station_Na: Sitamari<br>Near_City: Sitamari<br>District: Sitamari<br>State: Bihar<br>Lat: 25.096676<br>Long: 83.726503<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 83.726503, 25.096676, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 19.000000<br>Station_Na: Sultanganj<br>Near_City: Sultanganj<br>District: Bhagalpur<br>State: Bihar<br>Lat: 25.240000<br>Long: 86.740000<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 86.74, 25.24, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 20.000000<br>Station_Na: Supaul<br>Near_City: Supaul<br>District: Supaul<br>State: Bihar<br>Lat: 25.230000<br>Long: 86.250000<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 86.25, 25.23, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 21.000000<br>Station_Na: Bokaro<br>Near_City: Bokaro<br>District: Bokaro<br>State: Jharkhand<br>Lat: 23.670000<br>Long: 86.150000<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 86.15, 23.67, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 22.000000<br>Station_Na: Chaibasa<br>Near_City: Chaibasa<br>District: West Singhbhum<br>State: Jharkhand<br>Lat: 22.570000<br>Long: 85.820000<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 85.82, 22.57, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 23.000000<br>Station_Na: Chandrapura<br>Near_City: Chandrapura<br>District: Bokaro<br>State: Jharkhand<br>Lat: 23.750000<br>Long: 86.120000<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 86.12, 23.75, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 24.000000<br>Station_Na: Deogarh<br>Near_City: Deogarh<br>District: Deogarh<br>State: Jharkhand<br>Lat: 21.530000<br>Long: 84.730000<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 84.73, 21.53, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 25.000000<br>Station_Na: Dhanbad<br>Near_City: Dhanbad<br>District: Dhanbad<br>State: Jharkhand<br>Lat: 23.800000<br>Long: 86.450000<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 86.45, 23.8, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 26.000000<br>Station_Na: Dumka<br>Near_City: Dumka<br>District: Dumka<br>State: Jharkhand<br>Lat: 24.260000<br>Long: 87.250000<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 87.25, 24.26, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 28.000000<br>Station_Na: Jamshedpur<br>Near_City: Jamshedpur<br>District: West Singhbhum<br>State: Jharkhand<br>Lat: 22.806884<br>Long: 86.197643<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 86.197643, 22.806884, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 29.000000<br>Station_Na: Koderma<br>Near_City: Koderma<br>District: Koderma<br>State: Jharkhand<br>Lat: 24.470000<br>Long: 85.600000<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 85.6, 24.47, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 30.000000<br>Station_Na: Lalmatia<br>Near_City: Lalmatia<br>District: Goda<br>State: Jharkhand<br>Lat: 25.052285<br>Long: 87.362759<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 87.362759, 25.052285, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 31.000000<br>Station_Na: Maithon<br>Near_City: Dhanbad<br>District: Dhanbad<br>State: Jharkhand<br>Lat: 23.795398<br>Long: 86.797485<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 86.797485, 23.795398, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 32.000000<br>Station_Na: Ranchi<br>Near_City: Ranchi<br>District: Ranchi<br>State: Jharkhand<br>Lat: 23.288026<br>Long: 85.279999<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 85.279999, 23.288026, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 33.000000<br>Station_Na: Tenught<br>Near_City: Tenught<br>District: Bokaro<br>State: Jharkhand<br>Lat: 23.735462<br>Long: 85.751109<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 85.751109, 23.735462, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 34.000000<br>Station_Na: Alipurdwar<br>Near_City: Alipurdwar<br>District: Alipurdwar<br>State: West Bengal<br>Lat: 26.480000<br>Long: 89.520000<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 89.52, 26.48, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 35.000000<br>Station_Na: Arambag<br>Near_City: Arambag<br>District: Hoogly<br>State: West Bengal<br>Lat: 22.881711<br>Long: 87.786055<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 87.786055, 22.881711, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 36.000000<br>Station_Na: Asansole<br>Near_City: Asansole<br>District: Burdwan<br>State: West Bengal<br>Lat: 23.686346<br>Long: 86.974440<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 86.97444, 23.686346, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 37.000000<br>Station_Na: Bakreswar<br>Near_City: Siuri<br>District: Burdwan<br>State: West Bengal<br>Lat: 23.828221<br>Long: 87.452860<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 87.45286, 23.828221, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 38.000000<br>Station_Na: Binaguri<br>Near_City: Binaguri<br>District: Jalpaiguri<br>State: West Bengal<br>Lat: 26.742544<br>Long: 89.038296<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 89.038296, 26.742544, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 39.000000<br>Station_Na: Birpara<br>Near_City: Birpara<br>District: Alipurdwar<br>State: West Bengal<br>Lat: 26.708928<br>Long: 89.140527<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 89.140527, 26.708928, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 40.000000<br>Station_Na: Bishnupur<br>Near_City: Bankura<br>District: Bankura<br>State: West Bengal<br>Lat: 23.080000<br>Long: 87.320000<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 87.32, 23.08, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 42.000000<br>Station_Na: Burdwan<br>Near_City: Burdwan<br>District: Burdwan<br>State: West Bengal<br>Lat: 23.230000<br>Long: 86.860000<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 86.86, 23.23, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 43.000000<br>Station_Na: Dalkhola<br>Near_City: Dalkhola<br>District: Utar Dinajpur<br>State: West Bengal<br>Lat: 25.872816<br>Long: 87.838583<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 87.838583, 25.872816, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 44.000000<br>Station_Na: Durgapur<br>Near_City: Durgapur<br>District: Burdwan<br>State: West Bengal<br>Lat: 23.497885<br>Long: 87.328148<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 87.328148, 23.497885, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 45.000000<br>Station_Na: Gokerna<br>Near_City: Baharampur<br>District: Murshidabad<br>State: West Bengal<br>Lat: 24.045994<br>Long: 88.118148<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 88.118148, 24.045994, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 46.000000<br>Station_Na: Haldia<br>Near_City: Haldia<br>District: Purba Medinipur<br>State: West Bengal<br>Lat: 22.030000<br>Long: 88.060000<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 88.06, 22.03, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 47.000000<br>Station_Na: Howrah<br>Near_City: Howrah<br>District: Howrah<br>State: West Bengal<br>Lat: 22.596262<br>Long: 88.261986<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 88.261986, 22.596262, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 48.000000<br>Station_Na: Jerat<br>Near_City: Jerat<br>District: Hoogly<br>State: West Bengal<br>Lat: 23.106813<br>Long: 88.464646<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 88.464646, 23.106813, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 50.000000<br>Station_Na: Kasaba<br>Near_City: Kolkata<br>District: South 24 Pragna<br>State: West Bengal<br>Lat: 22.519723<br>Long: 88.376146<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 88.376146, 22.519723, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 51.000000<br>Station_Na: Kharagpur<br>Near_City: Kharagpur<br>District: Paschim Medinipur<br>State: West Bengal<br>Lat: 22.329117<br>Long: 87.314415<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 87.314415, 22.329117, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 52.000000<br>Station_Na: Kolaghat<br>Near_City: Kolaghat<br>District: Purba Medinipur<br>State: West Bengal<br>Lat: 22.430000<br>Long: 87.870000<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 87.87, 22.43, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 53.000000<br>Station_Na: Krishnanagar<br>Near_City: Krishnanagar<br>District: Nadia<br>State: West Bengal<br>Lat: 23.402371<br>Long: 88.496747<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 88.496747, 23.402371, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 54.000000<br>Station_Na: Lakhikantapur<br>Near_City: Joka\/kolkata<br>District: South 24 Pragna<br>State: West Bengal<br>Lat: 22.113474<br>Long: 88.310480<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 88.31048, 22.113474, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 55.000000<br>Station_Na: Lebong<br>Near_City: Darjeeling<br>District: Darjeeling<br>State: West Bengal<br>Lat: 27.050000<br>Long: 88.270000<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 88.27, 27.05, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 56.000000<br>Station_Na: Medinipur<br>Near_City: Medinipur<br>District: Paschim Medinipur<br>State: West Bengal<br>Lat: 22.420867<br>Long: 87.324429<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 87.324429, 22.420867, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 58.000000<br>Station_Na: Sagardighi<br>Near_City: Baharampur<br>District: Murshidabad<br>State: West Bengal<br>Lat: 24.298605<br>Long: 88.126631<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 88.126631, 24.298605, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 59.000000<br>Station_Na: Santaldih<br>Near_City: Purulia<br>District: purulia<br>State: West Bengal<br>Lat: 23.600000<br>Long: 86.280000<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 86.28, 23.6, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 60.000000<br>Station_Na: satgachia<br>Near_City: Burdwan<br>District: Burdwan<br>State: West Bengal<br>Lat: 23.264531<br>Long: 88.149118<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 88.149118, 23.264531, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 61.000000<br>Station_Na: Subhasgram<br>Near_City: Kolkata<br>District: South 24 Pragna<br>State: West Bengal<br>Lat: 22.413845<br>Long: 88.434252<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 88.434252, 22.413845, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 62.000000<br>Station_Na: Rangit<br>Near_City: Rangit<br>District: South District<br>State: Sikkim<br>Lat: 27.290000<br>Long: 88.290000<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 88.29, 27.29, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 63.000000<br>Station_Na: Gangtok<br>Near_City: Gangtok<br>District: East District<br>State: Sikkim<br>Lat: 27.338225<br>Long: 88.606682<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 88.606682, 27.338225, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 64.000000<br>Station_Na: Melli<br>Near_City: Melli<br>District: South District<br>State: Sikkim<br>Lat: 27.090995<br>Long: 88.458037<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 88.458037, 27.090995, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 66.000000<br>Station_Na: Angul<br>Near_City: Angul<br>District: Angul<br>State: Odisha<br>Lat: 20.850470<br>Long: 85.099697<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 85.099697, 20.85047, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 67.000000<br>Station_Na: Balasore<br>Near_City: Balasore<br>District: Balasore<br>State: Odisha<br>Lat: 21.495641<br>Long: 86.942353<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 86.942353, 21.495641, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 69.000000<br>Station_Na: Baripada<br>Near_City: Baripada<br>District: Mayurbhanja<br>State: Odisha<br>Lat: 21.937313<br>Long: 86.734629<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 86.734629, 21.937313, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 70.000000<br>Station_Na: Bhadrak<br>Near_City: Bhadrak<br>District: Bhadrak<br>State: Odisha<br>Lat: 21.058550<br>Long: 86.496091<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 86.496091, 21.05855, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 71.000000<br>Station_Na: Bhanjanagar<br>Near_City: Bhanjanagar<br>District: Ganjam<br>State: Odisha<br>Lat: 19.933413<br>Long: 84.583468<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 84.583468, 19.933413, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 72.000000<br>Station_Na: Bherampur<br>Near_City: Bherampur<br>District: Ganjam<br>State: Odisha<br>Lat: 19.320000<br>Long: 84.780000<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 84.78, 19.32, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 73.000000<br>Station_Na: Bhubanswar<br>Near_City: Bhubanswar<br>District: Khurdha<br>State: Odisha<br>Lat: 20.270000<br>Long: 85.840000<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 85.84, 20.27, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 74.000000<br>Station_Na: Bolangir<br>Near_City: Bolangir<br>District: Bolangir<br>State: Odisha<br>Lat: 20.715818<br>Long: 83.483362<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 83.483362, 20.715818, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 75.000000<br>Station_Na: Budhipadar<br>Near_City: Jharsugua<br>District: Jharsugua<br>State: Odisha<br>Lat: 20.897716<br>Long: 83.520682<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 83.520682, 20.897716, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 76.000000<br>Station_Na: Cuttack<br>Near_City: Cuttack<br>District: Cuttack<br>State: Odisha<br>Lat: 20.270000<br>Long: 85.520000<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 85.52, 20.27, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 77.000000<br>Station_Na: Dhenkanal<br>Near_City: Dhenkanal<br>District: Dhenkanal<br>State: Odisha<br>Lat: 20.670000<br>Long: 85.600000<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 85.6, 20.67, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 78.000000<br>Station_Na: Duburi<br>Near_City: Jajpur<br>District: jajpur<br>State: Odisha<br>Lat: 20.997623<br>Long: 85.985391<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 85.985391, 20.997623, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 80.000000<br>Station_Na: Indravati<br>Near_City: Bhwanipatna<br>District: kalahandi<br>State: Odisha<br>Lat: 18.733000<br>Long: 80.270000<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 80.27, 18.733, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 81.000000<br>Station_Na: Jaypore<br>Near_City: Jaypore<br>District: Koraput<br>State: Odisha<br>Lat: 18.855610<br>Long: 82.558479<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 82.558479, 18.85561, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 82.000000<br>Station_Na: Jharsugua<br>Near_City: Jharsugua<br>District: Jharsugua<br>State: Odisha<br>Lat: 21.861180<br>Long: 84.014826<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 84.014826, 21.86118, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 83.000000<br>Station_Na: Joda<br>Near_City: Joda<br>District: Kendujhar<br>State: Odisha<br>Lat: 22.017862<br>Long: 85.438070<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 85.43807, 22.017862, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 84.000000<br>Station_Na: Katapali<br>Near_City: Malkangiri<br>District: Malkangiri<br>State: Odisha<br>Lat: 21.407847<br>Long: 83.608518<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 83.608518, 21.407847, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 85.000000<br>Station_Na: Khurdha<br>Near_City: Khurdha<br>District: Khurdha<br>State: Odisha<br>Lat: 20.160000<br>Long: 85.670000<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 85.67, 20.16, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 86.000000<br>Station_Na: Meramundali<br>Near_City: Meramundali<br>District: Dhenkanal<br>State: Odisha<br>Lat: 20.776659<br>Long: 85.615539<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 85.615539, 20.776659, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 87.000000<br>Station_Na: Narendrapur<br>Near_City: Bherampur<br>District: Ganjam<br>State: Odisha<br>Lat: 19.795680<br>Long: 85.094900<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 85.0949, 19.79568, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 88.000000<br>Station_Na: Nayagarh<br>Near_City: Nayagarh<br>District: Nayagarh<br>State: Odisha<br>Lat: 20.129525<br>Long: 85.108838<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 85.108838, 20.129525, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 89.000000<br>Station_Na: Paradeep<br>Near_City: Paradeep<br>District: JagatsinghPur<br>State: Odisha<br>Lat: 20.317263<br>Long: 86.616497<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 86.616497, 20.317263, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 90.000000<br>Station_Na: Puri<br>Near_City: Puri<br>District: Khurdha<br>State: Odisha<br>Lat: 19.810000<br>Long: 85.830000<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 85.83, 19.81, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 91.000000<br>Station_Na: Rajgangpur<br>Near_City: Rourkela<br>District: sundergarh<br>State: Odisha<br>Lat: 22.200000<br>Long: 84.580000<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 84.58, 22.2, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 92.000000<br>Station_Na: Rengali<br>Near_City: Rengali<br>District: Angul<br>State: Odisha<br>Lat: 21.635090<br>Long: 84.044037<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 84.044037, 21.63509, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 93.000000<br>Station_Na: Rourkela<br>Near_City: Rourkela<br>District: sundergarh<br>State: Odisha<br>Lat: 22.200438<br>Long: 84.884090<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 84.88409, 22.200438, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 94.000000<br>Station_Na: Sambalpur<br>Near_City: Sambalpur<br>District: Sambalpur<br>State: Odisha<br>Lat: 21.470000<br>Long: 83.970000<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 83.97, 21.47, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 95.000000<br>Station_Na: Talcher<br>Near_City: Talcher<br>District: Angul<br>State: Odisha<br>Lat: 20.947813<br>Long: 85.211506<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 85.211506, 20.947813, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 96.000000<br>Station_Na: Theruvelli<br>Near_City: Rayagada<br>District: Rayagada<br>State: Odisha<br>Lat: 19.328882<br>Long: 83.440511<br>Region: ER" }, "geometry": { "type": "Point", "coordinates": [ 83.440511, 19.328882, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 3.000000<br>Station_Na: AKOLA<br>Near_City: Yelwan<br>District: Akola<br>State: Maharashtra<br>Lat: 20.719671<br>Long: 76.989412<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 76.989412, 20.719671, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 4.000000<br>Station_Na: Akola(2)<br>Near_City: Yelwan<br>District: Akola<br>State: Maharashtra<br>Lat: 20.702651<br>Long: 76.991816<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 76.991816, 20.702651, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 5.000000<br>Station_Na: Akola(MS)<br>Near_City: Akola<br>District: Akola<br>State: Maharashtra<br>Lat: 21.601098<br>Long: 71.210532<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 71.210532, 21.601098, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 6.000000<br>Station_Na: AMRELI<br>Near_City: GAKHARVALAMOTA<br>District: Amerli<br>State: Gujarat<br>Lat: 22.464122<br>Long: 73.390943<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 73.390943, 22.464122, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 7.000000<br>Station_Na: ASOJ<br>Near_City: Amaliyara<br>District: Vadodara<br>State: Gujarat<br>Lat: 19.877486<br>Long: 75.329418<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 75.329418, 19.877486, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 8.000000<br>Station_Na: AURANGABAD (MSETCL)<br>Near_City: Aurangabad<br>District: Aurnagabad<br>State: Maharashtra<br>Lat: 19.916548<br>Long: 75.343838<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 75.343838, 19.916548, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 9.000000<br>Station_Na: Aurangabad-PG<br>Near_City: Deoli<br>District: Aurnagabad<br>State: Maharashtra<br>Lat: 19.595332<br>Long: 74.504206<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 74.504206, 19.595332, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 13.000000<br>Station_Na: BDTCL DHULE (Sterlite)<br>Near_City: Songir<br>District: Dhule<br>State: Maharashtra<br>Lat: 20.098980<br>Long: 79.110045<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 79.110045, 20.09898, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 14.000000<br>Station_Na: BHADRAVATHI<br>Near_City: Sumthana<br>District: Chandrapur<br>State: Maharashtra<br>Lat: 21.730002<br>Long: 81.949396<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 81.949396, 21.730002, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 15.000000<br>Station_Na: BHATAPARA(PG)<br>Near_City: Alesur<br>District: Baloda Bazar<br>State: Chattisgarh<br>Lat: 21.189294<br>Long: 81.387134<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 81.387134, 21.189294, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 16.000000<br>Station_Na: BHILAI<br>Near_City: Bhilai<br>District: Bhilai<br>State: Chattisgarh<br>Lat: 23.194018<br>Long: 70.165029<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 70.165029, 23.194018, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 17.000000<br>Station_Na: BHIMASAR<br>Near_City: Anjar<br>District: Kutch<br>State: Gujarat<br>Lat: 23.262165<br>Long: 77.418194<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 77.418194, 23.262165, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 18.000000<br>Station_Na: BHOPAL<br>Near_City: Govindpura<br>District: Bhopal<br>State: Madhya Pradesh<br>Lat: 23.256803<br>Long: 77.423687<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 77.423687, 23.256803, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 19.000000<br>Station_Na: BHOPAL (BDTCL)<br>Near_City: Bhopal<br>District: Bhopal<br>State: Madhya Pradesh<br>Lat: 23.256803<br>Long: 77.423687<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 77.423687, 23.256803, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 20.000000<br>Station_Na: Bhopal(BDTCL)<br>Near_City: Bhopal<br>District: Bhopal<br>State: Madhya Pradesh<br>Lat: 21.050380<br>Long: 75.786924<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 75.786924, 21.05038, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 21.000000<br>Station_Na: BHUSAWAL<br>Near_City: DeepNagar<br>District: Jalgaon<br>State: Maharashtra<br>Lat: 22.090253<br>Long: 82.122788<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 82.122788, 22.090253, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 22.000000<br>Station_Na: BILASPUR<br>Near_City: Bharati<br>District: Bilaspur<br>State: Chattisgarh<br>Lat: 24.176982<br>Long: 78.197923<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 78.197923, 24.176982, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 23.000000<br>Station_Na: BINA<br>Near_City: Bina<br>District: Sagar<br>State: Madhya Pradesh<br>Lat: 24.189431<br>Long: 78.204617<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 78.204617, 24.189431, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 24.000000<br>Station_Na: BINA(MP)<br>Near_City: bina<br>District: Sagar<br>State: Madhya Pradesh<br>Lat: 23.353603<br>Long: 81.049032<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 81.049032, 23.353603, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 25.000000<br>Station_Na: BIRSINGPUR<br>Near_City: Birsinghpur<br>District: Satna<br>State: Madhya Pradesh<br>Lat: 19.801513<br>Long: 72.747846<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 72.747846, 19.801513, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 26.000000<br>Station_Na: BOISAR<br>Near_City: Mahagaon<br>District: Thane<br>State: Maharashtra<br>Lat: 19.800000<br>Long: 72.750000<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 72.75, 19.8, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 27.000000<br>Station_Na: CGPL Mundra<br>Near_City: Tunda<br>District: Kutch<br>State: Gujarat<br>Lat: 18.757787<br>Long: 73.865368<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 73.865368, 18.757787, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 28.000000<br>Station_Na: CHAKAN<br>Near_City: Pune<br>District: Pune<br>State: Maharashtra<br>Lat: 19.957698<br>Long: 79.286070<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 79.28607, 19.957698, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 29.000000<br>Station_Na: CHANDRAPUR<br>Near_City: Chandrapur<br>District: Chandrapur<br>State: Maharashtra<br>Lat: 19.999160<br>Long: 79.286213<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 79.286213, 19.99916, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 30.000000<br>Station_Na: CHANDRAPUR(2)<br>Near_City: Chandrapur<br>District: Chandrapur<br>State: Maharashtra<br>Lat: 21.830369<br>Long: 76.218721<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 76.218721, 21.830369, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 31.000000<br>Station_Na: CHHEGOAN<br>Near_City: Chhegoan<br>District: Khandwa<br>State: Madhya Pradesh<br>Lat: 22.586752<br>Long: 71.786284<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 71.786284, 22.586752, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 33.000000<br>Station_Na: DABHOL<br>Near_City: Ratnagiri<br>District: Dabhol<br>State: Maharashtra<br>Lat: 23.820055<br>Long: 79.438162<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 79.438162, 23.820055, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 34.000000<br>Station_Na: DAMOH(PG)<br>Near_City: Kourasa<br>District: Damoh<br>State: Madhya Pradesh<br>Lat: 23.840000<br>Long: 79.450000<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 79.45, 23.84, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 36.000000<br>Station_Na: DEEPNAGAR<br>Near_City: DeepNagar<br>District: Jalgaon<br>State: Maharashtra<br>Lat: 23.172439<br>Long: 72.819307<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 72.819307, 23.172439, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 37.000000<br>Station_Na: DEHGAM<br>Near_City: Ganeshpura<br>District: Dehgam<br>State: Gujarat<br>Lat: 23.170000<br>Long: 72.820000<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 72.82, 23.17, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 39.000000<br>Station_Na: Dharamjaygarh<br>Near_City: Dharamjaygarh<br>District: Raigarh<br>State: Chattisgarh<br>Lat: 22.470000<br>Long: 83.220000<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 83.22, 22.47, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 40.000000<br>Station_Na: DHARIWAL<br>Near_City: Tadali<br>District: Chandrapur<br>State: Maharashtra<br>Lat: 20.905003<br>Long: 74.768286<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 74.768286, 20.905003, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 41.000000<br>Station_Na: DHULE<br>Near_City: Dhule<br>District: Dhule<br>State: Maharashtra<br>Lat: 20.890000<br>Long: 74.770000<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 74.77, 20.89, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 42.000000<br>Station_Na: DURG<br>Near_City: Durg<br>District: Durg<br>State: Chattisgarh<br>Lat: 21.190000<br>Long: 81.280000<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 81.28, 21.19, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 43.000000<br>Station_Na: EMCO Maharashtra<br>Near_City: Warora<br>District: Chandrapur<br>State: Maharashtra<br>Lat: 21.886967<br>Long: 72.658231<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 72.658231, 21.886967, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 45.000000<br>Station_Na: GMR EMCO(CG)<br>Near_City: Tilda<br>District: Raipur<br>State: Chattisgarh<br>Lat: 26.218441<br>Long: 78.176451<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 78.176451, 26.218441, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 46.000000<br>Station_Na: GWALIOR<br>Near_City: Adupura<br>District: Gwalior<br>State: Madhya Pradesh<br>Lat: 22.437568<br>Long: 70.762589<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 70.762589, 22.437568, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 50.000000<br>Station_Na: INDIRASAGAR<br>Near_City: Mundi<br>District: Khandwa<br>State: Madhya Pradesh<br>Lat: 22.714123<br>Long: 75.824862<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 75.824862, 22.714123, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 51.000000<br>Station_Na: INDORE<br>Near_City: Indore<br>District: Indore<br>State: Madhya Pradesh<br>Lat: 22.669620<br>Long: 75.852327<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 75.852327, 22.66962, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 52.000000<br>Station_Na: INDORE(MP)<br>Near_City: Indore<br>District: Indore<br>State: Madhya Pradesh<br>Lat: 22.611079<br>Long: 77.759585<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 77.759585, 22.611079, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 53.000000<br>Station_Na: ITARSI<br>Near_City: Itarsi<br>District: Hoshangabad<br>State: Madhya Pradesh<br>Lat: 23.188338<br>Long: 79.950886<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 79.950886, 23.188338, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 54.000000<br>Station_Na: JABALPUR<br>Near_City: Jabalpur<br>District: Jabalapur<br>State: Madhya Pradesh<br>Lat: 23.174136<br>Long: 79.983501<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 79.983501, 23.174136, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 55.000000<br>Station_Na: JABALPUR(PS)<br>Near_City: Jabalpur<br>District: Jabalapur<br>State: Madhya Pradesh<br>Lat: 17.293446<br>Long: 73.219914<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 73.219914, 17.293446, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 56.000000<br>Station_Na: JAIGAD<br>Near_City: Jaigad<br>District: Ratnagiri<br>State: Maharashtra<br>Lat: 18.259349<br>Long: 74.159417<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 74.159417, 18.259349, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 57.000000<br>Station_Na: JEJURI<br>Near_City: Jejuri<br>District: Pune<br>State: Maharashtra<br>Lat: 21.754796<br>Long: 70.621991<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 70.621991, 21.754796, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 62.000000<br>Station_Na: KALA<br>Near_City: Kala<br>District: Anboli<br>State: DNH<br>Lat: 19.204207<br>Long: 73.001679<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 73.001679, 19.204207, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 64.000000<br>Station_Na: KANSARI<br>Near_City: Kansari<br>District: Bhanashakthi<br>State: Gujarat<br>Lat: 17.287627<br>Long: 74.187398<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 74.187398, 17.287627, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 65.000000<br>Station_Na: KARAD<br>Near_City: Karad<br>District: Satara<br>State: Maharashtra<br>Lat: 22.553504<br>Long: 72.770426<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 72.770426, 22.553504, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 66.000000<br>Station_Na: KASOR<br>Near_City: Sojitra<br>District: Anand<br>State: Gujarat<br>Lat: 23.835837<br>Long: 80.391505<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 80.391505, 23.835837, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 67.000000<br>Station_Na: KATNI<br>Near_City: Katni<br>District: Katni<br>State: Madhya Pradesh<br>Lat: 21.831544<br>Long: 76.332121<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 76.332121, 21.831544, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 68.000000<br>Station_Na: KHANDWA<br>Near_City: Khandwa<br>District: Khandwa<br>State: Madhya Pradesh<br>Lat: 21.318162<br>Long: 79.408493<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 79.408493, 21.318162, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 69.000000<br>Station_Na: KHAPERKHEDA<br>Near_City: Nagpur<br>District: Nagpur<br>State: Maharashtra<br>Lat: 19.040619<br>Long: 73.065677<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 73.065677, 19.040619, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 70.000000<br>Station_Na: KHARGHAR<br>Near_City: Kharghar<br>District: Raigad<br>State: Maharashtra<br>Lat: 16.694079<br>Long: 74.221716<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 74.221716, 16.694079, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 71.000000<br>Station_Na: KOLAHAPUR<br>Near_City: Kolhapur<br>District: Kolhapur<br>State: Maharashtra<br>Lat: 21.248102<br>Long: 79.095540<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 79.09554, 21.248102, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 75.000000<br>Station_Na: KOSAMBA<br>Near_City: Mangrol<br>District: Surat<br>State: Gujarat<br>Lat: 24.702315<br>Long: 80.986562<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 80.986562, 24.702315, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 76.000000<br>Station_Na: KOTRA<br>Near_City: Kotra<br>District: Raigarh<br>State: Chattisgarh<br>Lat: 20.722080<br>Long: 78.589468<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 78.589468, 20.72208, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 78.000000<br>Station_Na: KWPCL<br>Near_City: Raigarh<br>District: Raigarh<br>State: Chattisgarh<br>Lat: 18.632867<br>Long: 74.023468<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 74.023468, 18.632867, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 80.000000<br>Station_Na: LONIKHAND(NEW)<br>Near_City: Lonikhand<br>District: Pune<br>State: Maharashtra<br>Lat: 20.390250<br>Long: 72.860112<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 72.860112, 20.39025, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 82.000000<br>Station_Na: MANSAR<br>Near_City: Surendranagar<br>District: Halvad<br>State: Gujarat<br>Lat: 15.590714<br>Long: 73.805881<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 73.805881, 15.590714, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 85.000000<br>Station_Na: NAGDA<br>Near_City: Nagda<br>District: Ujjain<br>State: Madhya Pradesh<br>Lat: 20.945569<br>Long: 72.942324<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 72.942324, 20.945569, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 86.000000<br>Station_Na: NAVSARI(PG)<br>Near_City: Navasari<br>District: Surat<br>State: Gujarat<br>Lat: 17.436476<br>Long: 73.668022<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 73.668022, 17.436476, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 88.000000<br>Station_Na: NSPCL<br>Near_City: Bhilai<br>District: Durg<br>State: Chattisgarh<br>Lat: 22.243781<br>Long: 76.148121<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 76.148121, 22.243781, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 89.000000<br>Station_Na: OMKARESWAR<br>Near_City: Mortakka<br>District: Khandwa<br>State: Madhya Pradesh<br>Lat: 19.357065<br>Long: 73.170562<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 73.170562, 19.357065, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 90.000000<br>Station_Na: PADGHE<br>Near_City: Panvel<br>District: Raigad<br>State: Maharashtra<br>Lat: 18.856503<br>Long: 76.537013<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 76.537013, 18.856503, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 92.000000<br>Station_Na: PATHADI<br>Near_City: Pathadi<br>District: Korba<br>State: Chattisgarh<br>Lat: 22.883905<br>Long: 72.543236<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 72.543236, 22.883905, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 93.000000<br>Station_Na: PIRANA (PG)<br>Near_City: Dascroi<br>District: Ahmedabad<br>State: Gujarat<br>Lat: 22.883905<br>Long: 72.543236<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 72.543236, 22.883905, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 94.000000<br>Station_Na: PIRANA(T)<br>Near_City: Ahmedabad<br>District: Ahmedabad<br>State: Gujarat<br>Lat: 18.520307<br>Long: 73.853474<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 73.853474, 18.520307, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 95.000000<br>Station_Na: PUNE<br>Near_City: Pune<br>District: Pune<br>State: Maharashtra<br>Lat: 21.894633<br>Long: 83.378992<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 83.378992, 21.894633, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 96.000000<br>Station_Na: Raigarh PS(Kotra)<br>Near_City: Kotra<br>District: Raigarh<br>State: Chattisgarh<br>Lat: 21.258341<br>Long: 81.629391<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 81.629391, 21.258341, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 97.000000<br>Station_Na: Raipur<br>Near_City: Kumhari<br>District: Durg<br>State: Chattisgarh<br>Lat: 21.895667<br>Long: 83.395245<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 83.395245, 21.895667, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 98.000000<br>Station_Na: RAITA<br>Near_City: Raita<br>District: Raipur<br>State: Chattisgarh<br>Lat: 22.676273<br>Long: 74.944217<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 74.944217, 22.676273, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 99.000000<br>Station_Na: RAJGARH<br>Near_City: Rajgarh<br>District: Dhar<br>State: Madhya Pradesh<br>Lat: 17.587740<br>Long: 73.175247<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 73.175247, 17.58774, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 102.000000<br>Station_Na: SAMI<br>Near_City: Sami<br>District: Patan<br>State: Gujarat<br>Lat: 24.267545<br>Long: 79.092623<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 79.092623, 24.267545, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 103.000000<br>Station_Na: Sasan<br>Near_City: Waidhan<br>District: Singrauli<br>State: Madhya Pradesh<br>Lat: 24.565235<br>Long: 80.812969<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 80.812969, 24.565235, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 104.000000<br>Station_Na: SATNA<br>Near_City: Lalpur<br>District: Satna<br>State: Madhya Pradesh<br>Lat: 24.160000<br>Long: 80.830000<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 80.83, 24.16, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 105.000000<br>Station_Na: SATPURA(MP)<br>Near_City: Sarni<br>District: Betul<br>State: Madhya Pradesh<br>Lat: 22.101068<br>Long: 79.544778<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 79.544778, 22.101068, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 106.000000<br>Station_Na: Seoni(PG)<br>Near_City: Lugharwada<br>District: Seoni<br>State: Madhya Pradesh<br>Lat: 22.080000<br>Long: 79.530000<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 79.53, 22.08, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 107.000000<br>Station_Na: SINGHAJI<br>Near_City: Khandwa<br>District: Khandwa<br>State: Madhya Pradesh<br>Lat: 22.141938<br>Long: 82.290502<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 82.290502, 22.141938, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 109.000000<br>Station_Na: SKS<br>Near_City: Binjkote<br>District: Raigarh<br>State: Chattisgarh<br>Lat: 23.372790<br>Long: 72.580183<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 72.580183, 23.37279, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 111.000000<br>Station_Na: SOLAPUR(MS)<br>Near_City: Solapur<br>District: Lamboti<br>State: Maharashtra<br>Lat: 17.680000<br>Long: 75.920000<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 75.92, 17.68, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 112.000000<br>Station_Na: SOLAPUR(PG)<br>Near_City: Limbichincholi<br>District: Solapur<br>State: Maharashtra<br>Lat: 17.680000<br>Long: 75.920000<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 75.92, 17.68, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 113.000000<br>Station_Na: SSP<br>Near_City: Navagam<br>District: Jamnagar<br>State: Gujarat<br>Lat: 21.339109<br>Long: 72.981462<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 72.981462, 21.339109, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 115.000000<br>Station_Na: SUJALPUR<br>Near_City: Shujalpur<br>District: Shajapur<br>State: Madhya Pradesh<br>Lat: 23.400000<br>Long: 76.720000<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 76.72, 23.4, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 116.000000<br>Station_Na: Tamnar PS(Raigarh)<br>Near_City: Bhendra<br>District: Raigarh<br>State: Chattisgarh<br>Lat: 22.050000<br>Long: 83.800000<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 83.8, 22.05, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 117.000000<br>Station_Na: TAPTITANDA<br>Near_City: Thapti Tanda<br>District: Aurnagabad<br>State: Maharashtra<br>Lat: 19.863521<br>Long: 72.685840<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 72.68584, 19.863521, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 118.000000<br>Station_Na: TARAPUR<br>Near_City: Akkarpatti<br>District: Thane<br>State: Maharashtra<br>Lat: 21.412162<br>Long: 79.970741<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 79.970741, 21.412162, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 119.000000<br>Station_Na: Tiroda<br>Near_City: Tirora<br>District: Gondia<br>State: Maharashtra<br>Lat: 21.400000<br>Long: 79.930000<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 79.93, 21.4, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 122.000000<br>Station_Na: Vadodara(PG)<br>Near_City: Wahodia<br>District: Vadodara<br>State: Gujarat<br>Lat: 22.300000<br>Long: 73.020000<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 73.02, 22.3, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 124.000000<br>Station_Na: VAPI<br>Near_City: Ambheti<br>District: Valsad<br>State: Gujarat<br>Lat: 20.380998<br>Long: 72.879324<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 72.879324, 20.380998, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 125.000000<br>Station_Na: VARSANA<br>Near_City: Varsana<br>District: Kachchh<br>State: Gujarat<br>Lat: 23.177134<br>Long: 70.204518<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 70.204518, 23.177134, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 126.000000<br>Station_Na: VSTPS<br>Near_City: Vindhyanagar<br>District: Sidhi<br>State: Madhya Pradesh<br>Lat: 24.095052<br>Long: 82.662134<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 82.662134, 24.095052, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 127.000000<br>Station_Na: Wardha(PG)<br>Near_City: Deoli<br>District: Wardha<br>State: Maharashtra<br>Lat: 20.757719<br>Long: 78.609724<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 78.609724, 20.757719, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 128.000000<br>Station_Na: WARORA<br>Near_City: Warora<br>District: Chandrapur<br>State: Maharashtra<br>Lat: 20.246737<br>Long: 79.005761<br>Region: WR" }, "geometry": { "type": "Point", "coordinates": [ 79.005761, 20.246737, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 1.000000<br>Station_Na:   Dasuya<br>Near_City: <br>District: hoshiarpur<br>State: Punjab<br>Lat: 31.820000<br>Long: 75.660000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 75.66, 31.82, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 4.000000<br>Station_Na:   Muktsar<br>Near_City: <br>District: <br>State: Punjab<br>Lat: 30.470000<br>Long: 74.510000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 74.51, 30.47, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 5.000000<br>Station_Na:   Rajpura<br>Near_City: <br>District: <br>State: Punjab<br>Lat: 30.480000<br>Long: 76.600000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 76.6, 30.48, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 7.000000<br>Station_Na:    Nakodar<br>Near_City: <br>District: jalandhar<br>State: Punjab<br>Lat: 35.130000<br>Long: 75.470000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 75.47, 35.13, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 8.000000<br>Station_Na:     Dhuri<br>Near_City: <br>District: Sangrur<br>State: Punjab<br>Lat: 30.370000<br>Long: 75.870000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 75.87, 30.37, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 9.000000<br>Station_Na:     Makhu<br>Near_City: <br>District: Ferozepur<br>State: Punjab<br>Lat: 31.100000<br>Long: 75.000000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 75.0, 31.1, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 10.000000<br>Station_Na:     Malerkotla<br>Near_City: <br>District: <br>State: Punjab<br>Lat: 30.510000<br>Long: 75.880000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 75.88, 30.51, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 11.000000<br>Station_Na:      Jalandhar<br>Near_City: <br>District: <br>State: Punjab<br>Lat: 31.320000<br>Long: 75.570000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 75.57, 31.32, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 12.000000<br>Station_Na:      Moga<br>Near_City: <br>District: <br>State: Punjab<br>Lat: 30.080000<br>Long: 75.170000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 75.17, 30.08, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 13.000000<br>Station_Na:       Amritsar<br>Near_City: <br>District: <br>State: Punjab<br>Lat: 31.640000<br>Long: 74.860000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 74.86, 31.64, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 14.000000<br>Station_Na:       Ludhiana<br>Near_City: <br>District: <br>State: Punjab<br>Lat: 30.910000<br>Long: 75.850000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 75.85, 30.91, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 15.000000<br>Station_Na:       Patiala<br>Near_City: <br>District: <br>State: Punjab<br>Lat: 30.340000<br>Long: 76.380000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 76.38, 30.34, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 16.000000<br>Station_Na: Ropar<br>Near_City: <br>District: <br>State: Punjab<br>Lat: 29.695658<br>Long: 76.762648<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 76.762648, 29.695658, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 17.000000<br>Station_Na: Talwandi Saboo<br>Near_City: <br>District: <br>State: Punjab<br>Lat: 29.152714<br>Long: 75.720711<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 75.720711, 29.152714, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 18.000000<br>Station_Na: Nuhiawali<br>Near_City: <br>District: <br>State: Haryana<br>Lat: 30.158394<br>Long: 77.313836<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 77.313836, 30.158394, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 19.000000<br>Station_Na: Hisar<br>Near_City: <br>District: <br>State: Haryana<br>Lat: 28.680423<br>Long: 76.920043<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 76.920043, 28.680423, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 20.000000<br>Station_Na: Abdullapur<br>Near_City: <br>District: <br>State: Haryana<br>Lat: 28.337928<br>Long: 77.324560<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 77.32456, 28.337928, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 21.000000<br>Station_Na: Bahadurgarh<br>Near_City: <br>District: <br>State: Haryana<br>Lat: 28.799470<br>Long: 76.133074<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 76.133074, 28.79947, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 22.000000<br>Station_Na: Ballabgarh<br>Near_City: <br>District: <br>State: Haryana<br>Lat: 28.498915<br>Long: 76.991252<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 76.991252, 28.498915, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 23.000000<br>Station_Na: Bhiwani<br>Near_City: <br>District: <br>State: Haryana<br>Lat: 28.988885<br>Long: 77.114789<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 77.114789, 28.988885, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 24.000000<br>Station_Na: Daultabad<br>Near_City: <br>District: <br>State: Haryana<br>Lat: 28.345482<br>Long: 76.181259<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 76.181259, 28.345482, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 25.000000<br>Station_Na: Deepalpur<br>Near_City: <br>District: <br>State: Haryana<br>Lat: 28.465744<br>Long: 77.314642<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 77.314642, 28.465744, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 26.000000<br>Station_Na: Dhanonda<br>Near_City: <br>District: <br>State: Haryana<br>Lat: 29.516708<br>Long: 75.453730<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 75.45373, 29.516708, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 27.000000<br>Station_Na: Faridabad<br>Near_City: <br>District: <br>State: Haryana<br>Lat: 28.460684<br>Long: 77.026562<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 77.026562, 28.460684, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 28.000000<br>Station_Na: Fatehabad<br>Near_City: <br>District: <br>State: Haryana<br>Lat: 29.309902<br>Long: 76.308585<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 76.308585, 29.309902, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 29.000000<br>Station_Na: Gurgaon<br>Near_City: <br>District: <br>State: Haryana<br>Lat: 28.603890<br>Long: 76.571267<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 76.571267, 28.60389, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 30.000000<br>Station_Na: Jind<br>Near_City: <br>District: <br>State: Haryana<br>Lat: 29.792388<br>Long: 76.400585<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 76.400585, 29.792388, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 31.000000<br>Station_Na: Kabulpur<br>Near_City: <br>District: <br>State: Haryana<br>Lat: 29.343165<br>Long: 75.774645<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 75.774645, 29.343165, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 32.000000<br>Station_Na: Kaithal<br>Near_City: <br>District: <br>State: Haryana<br>Lat: 28.273752<br>Long: 76.138578<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 76.138578, 28.273752, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 33.000000<br>Station_Na: Kirori<br>Near_City: <br>District: <br>State: Haryana<br>Lat: 28.353565<br>Long: 76.940160<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 76.94016, 28.353565, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 34.000000<br>Station_Na: Mahendergarh<br>Near_City: <br>District: <br>State: Haryana<br>Lat: 28.273724<br>Long: 76.138610<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 76.13861, 28.273724, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 35.000000<br>Station_Na: Manesar<br>Near_City: <br>District: sonipat<br>State: Haryana<br>Lat: 28.139967<br>Long: 77.333593<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 77.333593, 28.139967, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 36.000000<br>Station_Na: Nawada<br>Near_City: <br>District: <br>State: Haryana<br>Lat: 30.700442<br>Long: 76.841197<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 76.841197, 30.700442, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 37.000000<br>Station_Na: Palwal<br>Near_City: <br>District: Rohtak<br>State: Haryana<br>Lat: 29.387261<br>Long: 76.972336<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 76.972336, 29.387261, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 38.000000<br>Station_Na: Panchkula<br>Near_City: <br>District: <br>State: Haryana<br>Lat: 29.010017<br>Long: 76.643150<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 76.64315, 29.010017, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 39.000000<br>Station_Na: Panipat<br>Near_City: <br>District: <br>State: Haryana<br>Lat: 26.802009<br>Long: 71.031876<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 71.031876, 26.802009, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 40.000000<br>Station_Na: Sonepat<br>Near_City: <br>District: <br>State: Haryana<br>Lat: 26.802009<br>Long: 71.031876<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 71.031876, 26.802009, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 41.000000<br>Station_Na: Jaisalmer<br>Near_City: <br>District: <br>State: Rajasthan<br>Lat: 27.561348<br>Long: 76.625667<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 76.625667, 27.561348, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 42.000000<br>Station_Na: Akal<br>Near_City: <br>District: Jaisalmer<br>State: Rajasthan<br>Lat: 25.150374<br>Long: 76.299484<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 76.299484, 25.150374, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 43.000000<br>Station_Na: Alwar<br>Near_City: <br>District: <br>State: Rajasthan<br>Lat: 23.550484<br>Long: 74.447194<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 74.447194, 23.550484, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 44.000000<br>Station_Na: Anta<br>Near_City: <br>District: Baran<br>State: Rajasthan<br>Lat: 25.739031<br>Long: 71.394255<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 71.394255, 25.739031, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 45.000000<br>Station_Na: Banswara<br>Near_City: <br>District: <br>State: Rajasthan<br>Lat: 26.832314<br>Long: 76.048467<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 76.048467, 26.832314, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 46.000000<br>Station_Na: Barmer<br>Near_City: <br>District: <br>State: Rajasthan<br>Lat: 27.236087<br>Long: 77.480046<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 77.480046, 27.236087, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 47.000000<br>Station_Na: Bassi<br>Near_City: <br>District: Jaipur<br>State: Rajasthan<br>Lat: 25.335503<br>Long: 74.598851<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 74.598851, 25.335503, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 48.000000<br>Station_Na: Bharatpur<br>Near_City: <br>District: <br>State: Rajasthan<br>Lat: 24.999439<br>Long: 72.271399<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 72.271399, 24.999439, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 49.000000<br>Station_Na: Bhilwara<br>Near_City: <br>District: <br>State: Rajasthan<br>Lat: 28.211995<br>Long: 76.858097<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 76.858097, 28.211995, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 50.000000<br>Station_Na: Bhinmal<br>Near_City: <br>District: <br>State: Rajasthan<br>Lat: 28.014218<br>Long: 73.357960<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 73.35796, 28.014218, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 51.000000<br>Station_Na: Bhiwadi<br>Near_City: <br>District: <br>State: Rajasthan<br>Lat: 28.210000<br>Long: 76.870000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 76.87, 28.21, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 52.000000<br>Station_Na: Bikaner<br>Near_City: <br>District: <br>State: Rajasthan<br>Lat: 24.887590<br>Long: 74.625609<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 74.625609, 24.88759, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 53.000000<br>Station_Na: Chhabra<br>Near_City: <br>District: Baran<br>State: Rajasthan<br>Lat: 26.696334<br>Long: 77.895489<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 77.895489, 26.696334, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 54.000000<br>Station_Na: Chittorgarh<br>Near_City: <br>District: <br>State: Rajasthan<br>Lat: 29.626323<br>Long: 74.287671<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 74.287671, 29.626323, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 55.000000<br>Station_Na: Dholpur<br>Near_City: <br>District: <br>State: Rajasthan<br>Lat: 26.700000<br>Long: 77.900000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 77.9, 26.7, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 56.000000<br>Station_Na: Didwana<br>Near_City: <br>District: Nagaur<br>State: Rajasthan<br>Lat: 26.734994<br>Long: 77.035013<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 77.035013, 26.734994, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 57.000000<br>Station_Na: HanumanGarh<br>Near_City: <br>District: <br>State: Rajasthan<br>Lat: 26.912350<br>Long: 75.787024<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 75.787024, 26.91235, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 58.000000<br>Station_Na: Hindaun<br>Near_City: <br>District: <br>State: Rajasthan<br>Lat: 26.212897<br>Long: 73.024914<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 73.024914, 26.212897, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 59.000000<br>Station_Na: Jaipur<br>Near_City: <br>District: <br>State: Rajasthan<br>Lat: 24.294537<br>Long: 76.526413<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 76.526413, 24.294537, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 60.000000<br>Station_Na: Jodhpur<br>Near_City: <br>District: <br>State: Rajasthan<br>Lat: 25.046638<br>Long: 73.891423<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 73.891423, 25.046638, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 61.000000<br>Station_Na: Kalisindh<br>Near_City: <br>District: Jhalawar<br>State: Rajasthan<br>Lat: 25.169990<br>Long: 75.853940<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 75.85394, 25.16999, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 62.000000<br>Station_Na: Kankroli<br>Near_City: <br>District: <br>State: Rajasthan<br>Lat: 27.702813<br>Long: 76.198445<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 76.198445, 27.702813, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 63.000000<br>Station_Na: Kota<br>Near_City: <br>District: <br>State: Rajasthan<br>Lat: 26.724137<br>Long: 73.916636<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 73.916636, 26.724137, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 64.000000<br>Station_Na: Kotputli<br>Near_City: <br>District: <br>State: Rajasthan<br>Lat: 27.967266<br>Long: 76.401708<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 76.401708, 27.967266, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 65.000000<br>Station_Na: Merta<br>Near_City: <br>District: Nagaur<br>State: Rajasthan<br>Lat: 26.650000<br>Long: 74.033000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 74.033, 26.65, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 66.000000<br>Station_Na: Neemrana<br>Near_City: <br>District: alwar<br>State: Rajasthan<br>Lat: 27.990000<br>Long: 76.380000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 76.38, 27.99, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 67.000000<br>Station_Na: Phagi<br>Near_City: <br>District: Jaipur<br>State: Rajasthan<br>Lat: 26.600000<br>Long: 75.950000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 75.95, 26.6, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 68.000000<br>Station_Na: Pratapgarh<br>Near_City: <br>District: <br>State: Rajasthan<br>Lat: 25.930000<br>Long: 81.980000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 81.98, 25.93, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 70.000000<br>Station_Na: Ramgarh<br>Near_City: <br>District: <br>State: Rajasthan<br>Lat: 26.024683<br>Long: 76.343097<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 76.343097, 26.024683, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 71.000000<br>Station_Na: Ratangarh<br>Near_City: <br>District: <br>State: Rajasthan<br>Lat: 27.613277<br>Long: 75.139761<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 75.139761, 27.613277, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 72.000000<br>Station_Na: Sawai Madhopur<br>Near_City: <br>District: <br>State: Rajasthan<br>Lat: 25.980000<br>Long: 76.370000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 76.37, 25.98, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 73.000000<br>Station_Na: Sikar<br>Near_City: <br>District: <br>State: Rajasthan<br>Lat: 29.318303<br>Long: 73.899962<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 73.899962, 29.318303, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 75.000000<br>Station_Na: Suratgarh<br>Near_City: <br>District: <br>State: Rajasthan<br>Lat: 28.545511<br>Long: 77.024839<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 77.024839, 28.545511, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 76.000000<br>Station_Na: Badarpur<br>Near_City: <br>District: <br>State: Delhi<br>Lat: 28.800048<br>Long: 77.057402<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 77.057402, 28.800048, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 77.000000<br>Station_Na: Bamnoli<br>Near_City: <br>District: <br>State: Delhi<br>Lat: 28.653071<br>Long: 77.267188<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 77.267188, 28.653071, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 78.000000<br>Station_Na: Bawana<br>Near_City: <br>District: <br>State: Delhi<br>Lat: 28.800000<br>Long: 77.030000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 77.03, 28.8, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 80.000000<br>Station_Na: Gopalpur<br>Near_City: <br>District: <br>State: Delhi<br>Lat: 28.533070<br>Long: 76.961625<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 76.961625, 28.53307, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 81.000000<br>Station_Na: Harsh Vihar<br>Near_City: <br>District: <br>State: Delhi<br>Lat: 28.591272<br>Long: 77.234074<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 77.234074, 28.591272, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 82.000000<br>Station_Na: Jhatikara<br>Near_City: <br>District: <br>State: Delhi<br>Lat: 28.575176<br>Long: 77.260578<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 77.260578, 28.575176, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 84.000000<br>Station_Na: Maharani Bagh<br>Near_City: <br>District: <br>State: Delhi<br>Lat: 28.516762<br>Long: 77.179758<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 77.179758, 28.516762, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 85.000000<br>Station_Na: Mandaula<br>Near_City: <br>District: <br>State: Delhi<br>Lat: 28.672591<br>Long: 77.029560<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 77.02956, 28.672591, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 86.000000<br>Station_Na: Mehrauli<br>Near_City: <br>District: <br>State: Delhi<br>Lat: 28.613879<br>Long: 76.997058<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 76.997058, 28.613879, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 87.000000<br>Station_Na: Mundka<br>Near_City: <br>District: <br>State: Delhi<br>Lat: 28.826469<br>Long: 77.110505<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 77.110505, 28.826469, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 88.000000<br>Station_Na: Najafgarh<br>Near_City: <br>District: <br>State: Delhi<br>Lat: 28.637436<br>Long: 77.254785<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 77.254785, 28.637436, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 89.000000<br>Station_Na: Narela<br>Near_City: <br>District: <br>State: Delhi<br>Lat: 28.727832<br>Long: 77.140628<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 77.140628, 28.727832, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 90.000000<br>Station_Na: Rajghat<br>Near_City: <br>District: <br>State: Delhi<br>Lat: 28.672657<br>Long: 77.149234<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 77.149234, 28.672657, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 91.000000<br>Station_Na: Rohini<br>Near_City: <br>District: <br>State: Delhi<br>Lat: 27.180898<br>Long: 78.006349<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 78.006349, 27.180898, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 92.000000<br>Station_Na: Rohtak Road<br>Near_City: <br>District: <br>State: Delhi<br>Lat: 25.440794<br>Long: 81.840534<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 81.840534, 25.440794, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 93.000000<br>Station_Na: Agra<br>Near_City: <br>District: <br>State: UP<br>Lat: 24.206772<br>Long: 82.765658<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 82.765658, 24.206772, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 94.000000<br>Station_Na: Allahabad<br>Near_City: <br>District: <br>State: UP<br>Lat: 26.466270<br>Long: 79.506412<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 79.506412, 26.46627, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 95.000000<br>Station_Na: Anpara<br>Near_City: <br>District: Sonebhadra<br>State: UP<br>Lat: 26.073764<br>Long: 83.185791<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 83.185791, 26.073764, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 96.000000<br>Station_Na: Auraiya<br>Near_City: <br>District: <br>State: UP<br>Lat: 25.760977<br>Long: 84.147676<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 84.147676, 25.760977, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 97.000000<br>Station_Na: Azamgarh<br>Near_City: <br>District: <br>State: UP<br>Lat: 26.060000<br>Long: 83.190000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 83.19, 26.06, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 98.000000<br>Station_Na: Balia<br>Near_City: <br>District: <br>State: UP<br>Lat: 28.370256<br>Long: 79.431124<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 79.431124, 28.370256, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 99.000000<br>Station_Na: Banda<br>Near_City: <br>District: <br>State: UP<br>Lat: 28.552862<br>Long: 77.551446<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 77.551446, 28.552862, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 100.000000<br>Station_Na: Bareilly<br>Near_City: <br>District: <br>State: UP<br>Lat: 25.929642<br>Long: 80.807090<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 80.80709, 25.929642, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 101.000000<br>Station_Na: Dadri<br>Near_City: <br>District: <br>State: UP<br>Lat: 26.756724<br>Long: 83.369479<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 83.369479, 26.756724, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 102.000000<br>Station_Na: Fatehpur<br>Near_City: <br>District: <br>State: UP<br>Lat: 28.443638<br>Long: 77.535052<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 77.535052, 28.443638, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 103.000000<br>Station_Na: Gorakhpur<br>Near_City: <br>District: <br>State: UP<br>Lat: 26.760000<br>Long: 83.370000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 83.37, 26.76, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 104.000000<br>Station_Na: Greater Noida<br>Near_City: <br>District: <br>State: UP<br>Lat: 26.450287<br>Long: 80.332346<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 80.332346, 26.450287, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 105.000000<br>Station_Na: Harduaganj<br>Near_City: <br>District: <br>State: UP<br>Lat: 26.835406<br>Long: 80.928798<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 80.928798, 26.835406, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 106.000000<br>Station_Na: Kanpur<br>Near_City: <br>District: <br>State: UP<br>Lat: 27.230516<br>Long: 79.018292<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 79.018292, 27.230516, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 107.000000<br>Station_Na: Lucknow<br>Near_City: <br>District: <br>State: UP<br>Lat: 25.945812<br>Long: 83.557498<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 83.557498, 25.945812, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 108.000000<br>Station_Na: Mainpuri<br>Near_City: <br>District: <br>State: UP<br>Lat: 28.978711<br>Long: 77.703695<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 77.703695, 28.978711, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 109.000000<br>Station_Na: Mau<br>Near_City: <br>District: <br>State: UP<br>Lat: 28.829580<br>Long: 78.777561<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 78.777561, 28.82958, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 110.000000<br>Station_Na: Meerut<br>Near_City: <br>District: <br>State: UP<br>Lat: 28.784313<br>Long: 77.498662<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 77.498662, 28.784313, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 111.000000<br>Station_Na: Moradabad<br>Near_City: <br>District: <br>State: UP<br>Lat: 29.477347<br>Long: 77.709312<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 77.709312, 29.477347, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 112.000000<br>Station_Na: Muradnagar<br>Near_City: <br>District: <br>State: UP<br>Lat: 29.397076<br>Long: 77.708420<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 77.70842, 29.397076, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 113.000000<br>Station_Na: Muzaffarnagar<br>Near_City: <br>District: <br>State: UP<br>Lat: 29.328761<br>Long: 78.384676<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 78.384676, 29.328761, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 114.000000<br>Station_Na: Nara<br>Near_City: <br>District: Muzzafarnagar<br>State: UP<br>Lat: 28.622576<br>Long: 77.364471<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 77.364471, 28.622576, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 115.000000<br>Station_Na: Nehtor<br>Near_City: <br>District: Bijnor<br>State: UP<br>Lat: 29.330000<br>Long: 78.380000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 78.38, 29.33, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 116.000000<br>Station_Na: Noida<br>Near_City: <br>District: <br>State: UP<br>Lat: 26.474952<br>Long: 80.219579<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 80.219579, 26.474952, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 117.000000<br>Station_Na: Obra<br>Near_City: <br>District: Sonebhadra<br>State: UP<br>Lat: 24.420000<br>Long: 82.980000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 82.98, 24.42, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 118.000000<br>Station_Na: Panki<br>Near_City: <br>District: kanpur<br>State: UP<br>Lat: 24.203054<br>Long: 83.007152<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 83.007152, 24.203054, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 119.000000<br>Station_Na: Parichha<br>Near_City: <br>District: Jhansi<br>State: UP<br>Lat: 25.520000<br>Long: 78.750000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 78.75, 25.52, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 120.000000<br>Station_Na: Rihand<br>Near_City: <br>District: Sonebhadra<br>State: UP<br>Lat: 27.883391<br>Long: 79.915815<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 79.915815, 27.883391, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 121.000000<br>Station_Na: Rosa<br>Near_City: <br>District: Shahjahanpur<br>State: UP<br>Lat: 25.381709<br>Long: 83.021792<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 83.021792, 25.381709, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 122.000000<br>Station_Na: Sahanjahanpur<br>Near_City: <br>District: <br>State: UP<br>Lat: 27.880000<br>Long: 79.910000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 79.91, 27.88, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 123.000000<br>Station_Na: Sarnath<br>Near_City: <br>District: Varanasi<br>State: UP<br>Lat: 26.750937<br>Long: 81.983407<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 81.983407, 26.750937, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 124.000000<br>Station_Na: Singrauli<br>Near_City: <br>District: Sonebhadra<br>State: UP<br>Lat: 26.265623<br>Long: 82.071689<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 82.071689, 26.265623, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 125.000000<br>Station_Na: Sohawal<br>Near_City: <br>District: Faizabad<br>State: UP<br>Lat: 26.551680<br>Long: 80.485125<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 80.485125, 26.55168, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 126.000000<br>Station_Na: Sultanpur<br>Near_City: <br>District: <br>State: UP<br>Lat: 29.222467<br>Long: 79.523588<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 79.523588, 29.222467, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 127.000000<br>Station_Na: Unnao<br>Near_City: <br>District: <br>State: UP<br>Lat: 29.203916<br>Long: 78.965991<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 78.965991, 29.203916, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 128.000000<br>Station_Na: Haldwani<br>Near_City: <br>District: <br>State: Uttarakhand<br>Lat: 29.220000<br>Long: 79.520000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 79.52, 29.22, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 129.000000<br>Station_Na: Kashipur<br>Near_City: <br>District: <br>State: Uttarakhand<br>Lat: 29.220000<br>Long: 78.950000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 78.95, 29.22, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 130.000000<br>Station_Na: Koteshwar<br>Near_City: <br>District: <br>State: Uttarakhand<br>Lat: 28.925397<br>Long: 79.701013<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 79.701013, 28.925397, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 131.000000<br>Station_Na: Ranikhet<br>Near_City: <br>District: <br>State: Uttarakhand<br>Lat: 29.650000<br>Long: 79.420000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 79.42, 29.65, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 132.000000<br>Station_Na: Sitarganj<br>Near_City: <br>District: <br>State: Uttarakhand<br>Lat: 28.930000<br>Long: 79.700000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 79.7, 28.93, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 133.000000<br>Station_Na: Tanakpur<br>Near_City: <br>District: Champawat<br>State: Uttarakhand<br>Lat: 29.080000<br>Long: 80.120000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 80.12, 29.08, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 136.000000<br>Station_Na: Dhauliganga<br>Near_City: <br>District: Pithoragarh<br>State: Uttarakhand<br>Lat: 29.583590<br>Long: 80.215268<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 80.215268, 29.58359, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 137.000000<br>Station_Na: Khodri<br>Near_City: <br>District: Dakpathat<br>State: Uttarakhand<br>Lat: 30.072882<br>Long: 78.231018<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 78.231018, 30.072882, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 138.000000<br>Station_Na: Pithoragarh<br>Near_City: <br>District: Pithoragarh<br>State: Uttarakhand<br>Lat: 29.865154<br>Long: 77.886971<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 77.886971, 29.865154, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 139.000000<br>Station_Na: Rishikesh<br>Near_City: <br>District: <br>State: Uttarakhand<br>Lat: 30.379614<br>Long: 78.439965<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 78.439965, 30.379614, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 140.000000<br>Station_Na: Roorkee<br>Near_City: <br>District: <br>State: Uttarakhand<br>Lat: 29.867163<br>Long: 77.886756<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 77.886756, 29.867163, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 141.000000<br>Station_Na: Tehri<br>Near_City: <br>District: <br>State: Uttarakhand<br>Lat: 30.379614<br>Long: 78.439965<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 78.439965, 30.379614, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 143.000000<br>Station_Na: Bhakra<br>Near_City: <br>District: Bilaspur<br>State: Himachal Pradesh<br>Lat: 31.411084<br>Long: 76.432006<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 76.432006, 31.411084, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 145.000000<br>Station_Na: Baspa<br>Near_City: <br>District: <br>State: Himachal Pradesh<br>Lat: 31.420000<br>Long: 78.260000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 78.26, 31.42, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 147.000000<br>Station_Na: Chamera<br>Near_City: Dalhousie<br>District: Chamba<br>State: Himachal Pradesh<br>Lat: 32.598529<br>Long: 75.985901<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 75.985901, 32.598529, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 149.000000<br>Station_Na: Hamirpur<br>Near_City: <br>District: <br>State: Himachal Pradesh<br>Lat: 31.697455<br>Long: 76.516909<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 76.516909, 31.697455, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 150.000000<br>Station_Na: Jassor<br>Near_City: <br>District: <br>State: Himachal Pradesh<br>Lat: 32.286334<br>Long: 75.867299<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 75.867299, 32.286334, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 152.000000<br>Station_Na: Kunihar<br>Near_City: <br>District: <br>State: Himachal Pradesh<br>Lat: 31.079213<br>Long: 76.962157<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 76.962157, 31.079213, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 153.000000<br>Station_Na: Malana<br>Near_City: <br>District: <br>State: Himachal Pradesh<br>Lat: 32.060000<br>Long: 77.270000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 77.27, 32.06, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 154.000000<br>Station_Na: Nalagarh<br>Near_City: <br>District: <br>State: Himachal Pradesh<br>Lat: 31.042271<br>Long: 76.719146<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 76.719146, 31.042271, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 155.000000<br>Station_Na: Nathpa Jhakri<br>Near_City: <br>District: <br>State: Himachal Pradesh<br>Lat: 31.530000<br>Long: 77.980000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 77.98, 31.53, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 157.000000<br>Station_Na: Parbati<br>Near_City: <br>District: Kullu<br>State: Himachal Pradesh<br>Lat: 32.072102<br>Long: 77.590141<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 77.590141, 32.072102, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 159.000000<br>Station_Na: Rampur<br>Near_City: <br>District: <br>State: Himachal Pradesh<br>Lat: 28.800000<br>Long: 79.000000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 79.0, 28.8, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 161.000000<br>Station_Na: Baglihar<br>Near_City: <br>District: <br>State: J&amp;K<br>Lat: 33.160000<br>Long: 75.330000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 75.33, 33.16, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 162.000000<br>Station_Na: Chenani<br>Near_City: <br>District: <br>State: J&amp;K<br>Lat: 33.030000<br>Long: 75.280000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 75.28, 33.03, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 164.000000<br>Station_Na: Dulhasti<br>Near_City: <br>District: <br>State: J&amp;K<br>Lat: 33.360000<br>Long: 75.798000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 75.798, 33.36, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 165.000000<br>Station_Na: Hiranagar<br>Near_City: <br>District: <br>State: J&amp;K<br>Lat: 32.489746<br>Long: 75.274107<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 75.274107, 32.489746, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 166.000000<br>Station_Na: Jammu<br>Near_City: <br>District: <br>State: J&amp;K<br>Lat: 32.732996<br>Long: 74.855976<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 74.855976, 32.732996, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 167.000000<br>Station_Na: Kishenpur<br>Near_City: <br>District: <br>State: J&amp;K<br>Lat: 32.930895<br>Long: 75.113525<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 75.113525, 32.930895, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 172.000000<br>Station_Na: Pampore<br>Near_City: <br>District: <br>State: J&amp;K<br>Lat: 34.043699<br>Long: 74.897919<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 74.897919, 34.043699, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 175.000000<br>Station_Na: Udhampur<br>Near_City: <br>District: <br>State: J&amp;K<br>Lat: 32.921673<br>Long: 75.133731<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 75.133731, 32.921673, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 176.000000<br>Station_Na: Udhampur<br>Near_City: <br>District: <br>State: J&amp;K<br>Lat: 32.921673<br>Long: 75.133731<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 75.133731, 32.921673, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 179.000000<br>Station_Na: Wagoora<br>Near_City: <br>District: <br>State: J&amp;K<br>Lat: 33.995394<br>Long: 74.862370<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 74.86237, 33.995394, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 180.000000<br>Station_Na: ZianKote<br>Near_City: <br>District: <br>State: J&amp;K<br>Lat: 34.003293<br>Long: 74.869080<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 74.86908, 34.003293, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 182.000000<br>Station_Na: Mohali<br>Near_City: <br>District: <br>State: Chandigarh<br>Lat: 30.780000<br>Long: 76.690000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 76.69, 30.78, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 183.000000<br>Station_Na: Mani Majra<br>Near_City: <br>District: <br>State: Chandigarh<br>Lat: 30.720000<br>Long: 76.830000<br>Region: NR" }, "geometry": { "type": "Point", "coordinates": [ 76.83, 30.72, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 1.000000<br>Station_Na: Anantapur<br>Near_City: <br>District: <br>State: Andhra Pradesh<br>Lat: 14.673193<br>Long: 77.585778<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.585778, 14.673193, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 2.000000<br>Station_Na: Chittoor<br>Near_City: <br>District: <br>State: Andhra Pradesh<br>Lat: 13.208529<br>Long: 79.082994<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 79.082994, 13.208529, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 4.000000<br>Station_Na: Gandikota<br>Near_City: Jammalamadugu<br>District: Kadapa<br>State: Andhra Pradesh<br>Lat: 14.810000<br>Long: 78.280000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 78.28, 14.81, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 8.000000<br>Station_Na: Kondapur<br>Near_City: Kondapur<br>District: Anantapur<br>State: Andhra Pradesh<br>Lat: 17.480000<br>Long: 78.410000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 78.41, 17.48, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 9.000000<br>Station_Na: Krishna<br>Near_City: <br>District: <br>State: Andhra Pradesh<br>Lat: 15.558883<br>Long: 77.873154<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.873154, 15.558883, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 10.000000<br>Station_Na: Kurnool<br>Near_City: <br>District: <br>State: Andhra Pradesh<br>Lat: 15.820663<br>Long: 78.033457<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 78.033457, 15.820663, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 12.000000<br>Station_Na: Nellore<br>Near_City: <br>District: <br>State: Andhra Pradesh<br>Lat: 14.438670<br>Long: 79.979954<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 79.979954, 14.43867, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 13.000000<br>Station_Na: Prakasam<br>Near_City: <br>District: <br>State: Andhra Pradesh<br>Lat: 15.500000<br>Long: 80.050000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 80.05, 15.5, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 14.000000<br>Station_Na: Ramagiri<br>Near_City: Ramagiri<br>District: Anantapur<br>State: Andhra Pradesh<br>Lat: 14.310130<br>Long: 77.504425<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.504425, 14.31013, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 16.000000<br>Station_Na: Srikakulam<br>Near_City: <br>District: <br>State: Andhra Pradesh<br>Lat: 18.300000<br>Long: 83.900000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 83.9, 18.3, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 18.000000<br>Station_Na: Vajrakarur<br>Near_City: Vajrakarur<br>District: Anantapur<br>State: Andhra Pradesh<br>Lat: 15.010000<br>Long: 77.380000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.38, 15.01, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 19.000000<br>Station_Na: Visakhapatnam<br>Near_City: <br>District: <br>State: Andhra Pradesh<br>Lat: 17.715050<br>Long: 83.307558<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 83.307558, 17.71505, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 20.000000<br>Station_Na: Vizianagaram<br>Near_City: <br>District: <br>State: Andhra Pradesh<br>Lat: 18.120000<br>Long: 83.420000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 83.42, 18.12, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 22.000000<br>Station_Na: YSR (Kadapa)<br>Near_City: <br>District: <br>State: Andhra Pradesh<br>Lat: 14.470087<br>Long: 78.820009<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 78.820009, 14.470087, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 23.000000<br>Station_Na: Bagalkot<br>Near_City: <br>District: <br>State: Karnataka<br>Lat: 16.188959<br>Long: 75.695772<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 75.695772, 16.188959, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 25.000000<br>Station_Na: Bangalore<br>Near_City: <br>District: <br>State: Karnataka<br>Lat: 12.960000<br>Long: 77.560000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.56, 12.96, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 26.000000<br>Station_Na: Belagavi<br>Near_City: <br>District: <br>State: Karnataka<br>Lat: 15.850000<br>Long: 74.500000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 74.5, 15.85, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 27.000000<br>Station_Na: Belgaum<br>Near_City: <br>District: <br>State: Karnataka<br>Lat: 15.853692<br>Long: 74.507017<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 74.507017, 15.853692, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 28.000000<br>Station_Na: Bellary<br>Near_City: <br>District: <br>State: Karnataka<br>Lat: 15.134439<br>Long: 76.909075<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 76.909075, 15.134439, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 30.000000<br>Station_Na: Bidar<br>Near_City: <br>District: <br>State: Karnataka<br>Lat: 17.900000<br>Long: 77.500000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.5, 17.9, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 32.000000<br>Station_Na: Bijapur<br>Near_City: <br>District: <br>State: Karnataka<br>Lat: 16.825574<br>Long: 75.715184<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 75.715184, 16.825574, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 34.000000<br>Station_Na: Chamarajanagar<br>Near_City: <br>District: <br>State: Karnataka<br>Lat: 11.925890<br>Long: 76.937935<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 76.937935, 11.92589, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 36.000000<br>Station_Na: Chickmagalur <br>Near_City: <br>District: <br>State: Karnataka<br>Lat: 13.312998<br>Long: 75.770380<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 75.77038, 13.312998, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 37.000000<br>Station_Na: Chikballapur <br>Near_City: <br>District: <br>State: Karnataka<br>Lat: 13.430000<br>Long: 77.420000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.42, 13.43, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 40.000000<br>Station_Na: Chitradurga<br>Near_City: <br>District: <br>State: Karnataka<br>Lat: 14.230441<br>Long: 76.401272<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 76.401272, 14.230441, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 43.000000<br>Station_Na: Davanagere<br>Near_City: <br>District: <br>State: Karnataka<br>Lat: 14.467760<br>Long: 75.923238<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 75.923238, 14.46776, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 45.000000<br>Station_Na: Dharwad<br>Near_City: <br>District: <br>State: Karnataka<br>Lat: 15.350000<br>Long: 75.080000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 75.08, 15.35, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 47.000000<br>Station_Na: Gadag<br>Near_City: <br>District: <br>State: Karnataka<br>Lat: 15.430929<br>Long: 75.631585<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 75.631585, 15.430929, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 49.000000<br>Station_Na: Gulbarga<br>Near_City: <br>District: <br>State: Karnataka<br>Lat: 17.333597<br>Long: 76.835089<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 76.835089, 17.333597, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 51.000000<br>Station_Na: Hassan<br>Near_City: <br>District: <br>State: Karnataka<br>Lat: 15.332345<br>Long: 75.563983<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 75.563983, 15.332345, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 53.000000<br>Station_Na: Haveri<br>Near_City: <br>District: <br>State: Karnataka<br>Lat: 14.801148<br>Long: 75.399506<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 75.399506, 14.801148, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 56.000000<br>Station_Na: Kodagu<br>Near_City: <br>District: <br>State: Karnataka<br>Lat: 12.420000<br>Long: 75.730000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 75.73, 12.42, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 58.000000<br>Station_Na: Kolar<br>Near_City: <br>District: <br>State: Karnataka<br>Lat: 13.137493<br>Long: 78.132863<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 78.132863, 13.137493, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 60.000000<br>Station_Na: Koppal<br>Near_City: <br>District: <br>State: Karnataka<br>Lat: 15.350000<br>Long: 76.150000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 76.15, 15.35, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 61.000000<br>Station_Na: Mandya<br>Near_City: <br>District: <br>State: Karnataka<br>Lat: 12.520000<br>Long: 76.900000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 76.9, 12.52, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 62.000000<br>Station_Na: Mysore<br>Near_City: <br>District: <br>State: Karnataka<br>Lat: 12.313169<br>Long: 76.620655<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 76.620655, 12.313169, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 64.000000<br>Station_Na: Raichur<br>Near_City: <br>District: <br>State: Karnataka<br>Lat: 16.200334<br>Long: 77.360716<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.360716, 16.200334, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 66.000000<br>Station_Na: Ramanagara<br>Near_City: <br>District: <br>State: Karnataka<br>Lat: 12.720000<br>Long: 77.300000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.3, 12.72, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 67.000000<br>Station_Na: Shimoga<br>Near_City: <br>District: <br>State: Karnataka<br>Lat: 13.933901<br>Long: 75.567198<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 75.567198, 13.933901, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 69.000000<br>Station_Na: Tumkur<br>Near_City: <br>District: <br>State: Karnataka<br>Lat: 13.340000<br>Long: 77.100000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.1, 13.34, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 71.000000<br>Station_Na: Udupi<br>Near_City: <br>District: <br>State: Karnataka<br>Lat: 13.335173<br>Long: 74.745455<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 74.745455, 13.335173, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 73.000000<br>Station_Na: Yadgir<br>Near_City: <br>District: <br>State: Karnataka<br>Lat: 16.770000<br>Long: 77.130000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.13, 16.77, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 74.000000<br>Station_Na: Alappuzha<br>Near_City: <br>District: <br>State: Kerala<br>Lat: 9.490000<br>Long: 76.300000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 76.3, 9.49, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 75.000000<br>Station_Na: Ernakulam<br>Near_City: <br>District: <br>State: Kerala<br>Lat: 9.980000<br>Long: 76.280000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 76.28, 9.98, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 76.000000<br>Station_Na: Idukki<br>Near_City: <br>District: <br>State: Kerala<br>Lat: 9.850000<br>Long: 76.940000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 76.94, 9.85, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 77.000000<br>Station_Na: Kannur<br>Near_City: <br>District: <br>State: Kerala<br>Lat: 11.860000<br>Long: 75.350000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 75.35, 11.86, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 78.000000<br>Station_Na: Kasaragod<br>Near_City: <br>District: <br>State: Kerala<br>Lat: 12.500000<br>Long: 75.000000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 75.0, 12.5, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 79.000000<br>Station_Na: Kollam<br>Near_City: <br>District: <br>State: Kerala<br>Lat: 8.880000<br>Long: 76.600000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 76.6, 8.88, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 80.000000<br>Station_Na: Kottayam<br>Near_City: <br>District: <br>State: Kerala<br>Lat: 9.580000<br>Long: 76.520000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 76.52, 9.58, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 81.000000<br>Station_Na: Kozhikode<br>Near_City: <br>District: <br>State: Kerala<br>Lat: 11.250000<br>Long: 75.770000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 75.77, 11.25, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 82.000000<br>Station_Na: Malappuram<br>Near_City: <br>District: <br>State: Kerala<br>Lat: 11.288433<br>Long: 75.799041<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 75.799041, 11.288433, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 83.000000<br>Station_Na: Palakkad<br>Near_City: <br>District: <br>State: Kerala<br>Lat: 10.770000<br>Long: 76.650000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 76.65, 10.77, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 84.000000<br>Station_Na: Pathanamthitta<br>Near_City: <br>District: <br>State: Kerala<br>Lat: 9.270000<br>Long: 76.780000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 76.78, 9.27, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 85.000000<br>Station_Na: Thiruvananthapuram<br>Near_City: <br>District: <br>State: Kerala<br>Lat: 8.495463<br>Long: 76.948185<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 76.948185, 8.495463, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 86.000000<br>Station_Na: Thrissur<br>Near_City: <br>District: <br>State: Kerala<br>Lat: 10.522835<br>Long: 76.221378<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 76.221378, 10.522835, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 87.000000<br>Station_Na: Wayanad<br>Near_City: <br>District: <br>State: Kerala<br>Lat: 11.600000<br>Long: 76.080000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 76.08, 11.6, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 89.000000<br>Station_Na: Amuthapuram<br>Near_City: Sengottai<br>District: Tirunelveli<br>State: Tamil Nadu<br>Lat: 9.063025<br>Long: 77.553499<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.553499, 9.063025, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 90.000000<br>Station_Na: Andipatti<br>Near_City: Andipatti<br>District: Theni<br>State: Tamil Nadu<br>Lat: 9.980000<br>Long: 77.610000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.61, 9.98, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 91.000000<br>Station_Na: Anikadavu<br>Near_City: Udumalpet<br>District: Tirupur<br>State: Tamil Nadu<br>Lat: 10.791996<br>Long: 77.177053<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.177053, 10.791996, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 92.000000<br>Station_Na: Anna Nagar<br>Near_City: Aralvaimozhi<br>District: Kanyakumari<br>State: Tamil Nadu<br>Lat: 13.080000<br>Long: 80.210000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 80.21, 13.08, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 93.000000<br>Station_Na: Anthiyur<br>Near_City: Anthiyur<br>District: Erode<br>State: Tamil Nadu<br>Lat: 11.580000<br>Long: 77.600000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.6, 11.58, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 94.000000<br>Station_Na: Aralvaimozhi<br>Near_City: Aralvaimozhi<br>District: Kanyakumari<br>State: Tamil Nadu<br>Lat: 8.240000<br>Long: 77.520000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.52, 8.24, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 97.000000<br>Station_Na: Chennai<br>Near_City: <br>District: <br>State: Tamil Nadu<br>Lat: 13.080000<br>Long: 80.270000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 80.27, 13.08, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 101.000000<br>Station_Na: Coimbatore<br>Near_City: <br>District: <br>State: Tamil Nadu<br>Lat: 11.010000<br>Long: 76.970000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 76.97, 11.01, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 102.000000<br>Station_Na: Cuddalore<br>Near_City: <br>District: <br>State: Tamil Nadu<br>Lat: 11.751580<br>Long: 79.750428<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 79.750428, 11.75158, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 103.000000<br>Station_Na: Dharapuram<br>Near_City: Dharapuram<br>District: Tirupur<br>State: Tamil Nadu<br>Lat: 10.730000<br>Long: 77.520000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.52, 10.73, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 104.000000<br>Station_Na: Dharmapuri<br>Near_City: <br>District: <br>State: Tamil Nadu<br>Lat: 12.120000<br>Long: 78.150000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 78.15, 12.12, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 105.000000<br>Station_Na: Dindigul<br>Near_City: <br>District: <br>State: Tamil Nadu<br>Lat: 10.350000<br>Long: 77.980000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.98, 10.35, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 108.000000<br>Station_Na: Erode<br>Near_City: <br>District: <br>State: Tamil Nadu<br>Lat: 11.350000<br>Long: 77.730000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.73, 11.35, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 109.000000<br>Station_Na: Gangaikondan<br>Near_City: Sengottai<br>District: Tirunelveli<br>State: Tamil Nadu<br>Lat: 8.850000<br>Long: 77.780000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.78, 8.85, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 114.000000<br>Station_Na: Kadayam<br>Near_City: Sengottai<br>District: Tirunelveli<br>State: Tamil Nadu<br>Lat: 8.830000<br>Long: 77.350000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.35, 8.83, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 115.000000<br>Station_Na: Kadayanallur<br>Near_City: Sengottai<br>District: Tirunelveli<br>State: Tamil Nadu<br>Lat: 9.080000<br>Long: 77.350000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.35, 9.08, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 116.000000<br>Station_Na: Kalivelampatty<br>Near_City: Kalivelampatty<br>District: Coimbatore<br>State: Tamil Nadu<br>Lat: 12.775727<br>Long: 80.076414<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 80.076414, 12.775727, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 117.000000<br>Station_Na: Kamachipuram<br>Near_City: Dindigul <br>District: Dindigul <br>State: Tamil Nadu<br>Lat: 9.860000<br>Long: 77.450000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.45, 9.86, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 118.000000<br>Station_Na: Kanchipuram<br>Near_City: <br>District: <br>State: Tamil Nadu<br>Lat: 12.834230<br>Long: 79.702350<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 79.70235, 12.83423, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 121.000000<br>Station_Na: Kannanallur<br>Near_City: Aralvaimozhi<br>District: Kanyakumari<br>State: Tamil Nadu<br>Lat: 8.250000<br>Long: 77.410000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.41, 8.25, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 124.000000<br>Station_Na: Karadivavi<br>Near_City: Palladam <br>District: Tirupur<br>State: Tamil Nadu<br>Lat: 8.070000<br>Long: 77.540000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.54, 8.07, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 125.000000<br>Station_Na: Karungulam<br>Near_City: Aralvaimozhi<br>District: Kanyakumari<br>State: Tamil Nadu<br>Lat: 8.810000<br>Long: 78.040000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 78.04, 8.81, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 126.000000<br>Station_Na: Karur<br>Near_City: <br>District: <br>State: Tamil Nadu<br>Lat: 10.950000<br>Long: 78.080000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 78.08, 10.95, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 127.000000<br>Station_Na: Kayathar<br>Near_City: Sengottai<br>District: Tirunelveli<br>State: Tamil Nadu<br>Lat: 8.950000<br>Long: 77.764134<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.764134, 8.95, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 130.000000<br>Station_Na: Kethanur<br>Near_City: Kethanur<br>District: Tirupur<br>State: Tamil Nadu<br>Lat: 10.910000<br>Long: 77.260000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.26, 10.91, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 131.000000<br>Station_Na: Kinathukadavu<br>Near_City: Kinathukadavu<br>District: Coimbatore<br>State: Tamil Nadu<br>Lat: 10.820000<br>Long: 77.020000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.02, 10.82, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 132.000000<br>Station_Na: Kodikurichi<br>Near_City: Sengottai<br>District: Tirunelveli<br>State: Tamil Nadu<br>Lat: 8.657057<br>Long: 77.362976<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.362976, 8.657057, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 135.000000<br>Station_Na: Koodankulam<br>Near_City: Aralvaimozhi<br>District: Kanyakumari<br>State: Tamil Nadu<br>Lat: 8.171052<br>Long: 77.692852<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.692852, 8.171052, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 137.000000<br>Station_Na: Krishnagiri<br>Near_City: <br>District: <br>State: Tamil Nadu<br>Lat: 12.510000<br>Long: 78.210000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 78.21, 12.51, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 138.000000<br>Station_Na: Kundadam<br>Near_City: Kundadam<br>District: Erode <br>State: Tamil Nadu<br>Lat: 11.285698<br>Long: 76.651007<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 76.651007, 11.285698, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 140.000000<br>Station_Na: Madathukulam<br>Near_City: Madathukulam<br>District: Tirupur<br>State: Tamil Nadu<br>Lat: 10.570000<br>Long: 77.350000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.35, 10.57, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 141.000000<br>Station_Na: Madurai<br>Near_City: <br>District: <br>State: Tamil Nadu<br>Lat: 9.900000<br>Long: 78.100000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 78.1, 9.9, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 144.000000<br>Station_Na: Mandapam<br>Near_City: Mandapam<br>District: Ramanathapuram<br>State: Tamil Nadu<br>Lat: 9.280000<br>Long: 79.120000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 79.12, 9.28, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 146.000000<br>Station_Na: Markeyankottai<br>Near_City: Markeyankottai<br>District: Theni<br>State: Tamil Nadu<br>Lat: 9.850000<br>Long: 77.360000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.36, 9.85, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 149.000000<br>Station_Na: Muppandal<br>Near_City: Aralvaimozhi<br>District: Kanyakumari<br>State: Tamil Nadu<br>Lat: 8.260000<br>Long: 77.540000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.54, 8.26, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 150.000000<br>Station_Na: Nagapattinam<br>Near_City: <br>District: <br>State: Tamil Nadu<br>Lat: 10.770000<br>Long: 79.830000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 79.83, 10.77, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 151.000000<br>Station_Na: Namakkal<br>Near_City: <br>District: <br>State: Tamil Nadu<br>Lat: 11.210000<br>Long: 78.160000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 78.16, 11.21, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 152.000000<br>Station_Na: Negamam<br>Near_City: Pollachi<br>District: Coimbatore<br>State: Tamil Nadu<br>Lat: 10.730000<br>Long: 77.100000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.1, 10.73, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 153.000000<br>Station_Na: Nilgiris<br>Near_City: <br>District: <br>State: Tamil Nadu<br>Lat: 11.400000<br>Long: 76.700000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 76.7, 11.4, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 156.000000<br>Station_Na: Palladam<br>Near_City: Palladam<br>District: Tirupur<br>State: Tamil Nadu<br>Lat: 10.992424<br>Long: 77.286315<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.286315, 10.992424, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 157.000000<br>Station_Na: Panagudi<br>Near_City: Aralvaimozhi<br>District: Kanyakumari<br>State: Tamil Nadu<br>Lat: 8.340000<br>Long: 77.560000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.56, 8.34, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 162.000000<br>Station_Na: Perambular<br>Near_City: <br>District: <br>State: Tamil Nadu<br>Lat: 11.230000<br>Long: 78.880000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 78.88, 11.23, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 165.000000<br>Station_Na: Pongalur<br>Near_City: Pongalur<br>District: Coimbatore<br>State: Tamil Nadu<br>Lat: 11.058599<br>Long: 78.082573<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 78.082573, 11.058599, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 166.000000<br>Station_Na: Ponnapuram<br>Near_City: Dharapuram<br>District: Tirupur<br>State: Tamil Nadu<br>Lat: 10.697719<br>Long: 77.393160<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.39316, 10.697719, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 169.000000<br>Station_Na: Pudukkottai<br>Near_City: <br>District: <br>State: Tamil Nadu<br>Lat: 10.381876<br>Long: 78.817964<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 78.817964, 10.381876, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 171.000000<br>Station_Na: Rameshwaram<br>Near_City: Rameshwaram<br>District: Ramanathapuram<br>State: Tamil Nadu<br>Lat: 9.280000<br>Long: 79.300000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 79.3, 9.28, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 172.000000<br>Station_Na: Ramnathapuram<br>Near_City: <br>District: <br>State: Tamil Nadu<br>Lat: 9.280000<br>Long: 77.430000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.43, 9.28, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 174.000000<br>Station_Na: Rasipalayam<br>Near_City: Sulur <br>District: Coimbatore<br>State: Tamil Nadu<br>Lat: 11.050000<br>Long: 77.120000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.12, 11.05, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 176.000000<br>Station_Na: Sadayapalayam<br>Near_City: Sadayapalayam<br>District: Erode<br>State: Tamil Nadu<br>Lat: 10.796886<br>Long: 77.286072<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.286072, 10.796886, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 177.000000<br>Station_Na: Salem<br>Near_City: <br>District: <br>State: Tamil Nadu<br>Lat: 11.668376<br>Long: 78.152218<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 78.152218, 11.668376, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 179.000000<br>Station_Na: Shenbagarampudhur<br>Near_City: Aralvaimozhi<br>District: Kanyakumari<br>State: Tamil Nadu<br>Lat: 8.434338<br>Long: 77.420654<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.420654, 8.434338, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 180.000000<br>Station_Na: Shencottah<br>Near_City: Sengottai<br>District: Tirunelveli<br>State: Tamil Nadu<br>Lat: 8.970000<br>Long: 77.240000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.24, 8.97, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 181.000000<br>Station_Na: Sivaganga<br>Near_City: <br>District: <br>State: Tamil Nadu<br>Lat: 9.870000<br>Long: 78.480000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 78.48, 9.87, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 185.000000<br>Station_Na: Surandai<br>Near_City: Sengottai<br>District: Tirunelveli<br>State: Tamil Nadu<br>Lat: 8.970000<br>Long: 77.400000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.4, 8.97, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 186.000000<br>Station_Na: Tenkasi<br>Near_City: Sengottai<br>District: Tirunelveli<br>State: Tamil Nadu<br>Lat: 8.970000<br>Long: 77.300000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.3, 8.97, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 187.000000<br>Station_Na: Thalaiyuthu<br>Near_City: Sengottai<br>District: Tirunelveli<br>State: Tamil Nadu<br>Lat: 8.850000<br>Long: 77.780000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.78, 8.85, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 190.000000<br>Station_Na: Thanjavur<br>Near_City: <br>District: <br>State: Tamil Nadu<br>Lat: 10.773109<br>Long: 79.124365<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 79.124365, 10.773109, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 191.000000<br>Station_Na: Theni<br>Near_City: Theni<br>District: Theni<br>State: Tamil Nadu<br>Lat: 10.006213<br>Long: 77.475386<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.475386, 10.006213, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 192.000000<br>Station_Na: Theni District<br>Near_City: <br>District: <br>State: Tamil Nadu<br>Lat: 10.006213<br>Long: 77.475386<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.475386, 10.006213, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 194.000000<br>Station_Na: Thirumazhisai<br>Near_City: Thirumazhisai<br>District: Thiruvallur <br>State: Tamil Nadu<br>Lat: 13.050000<br>Long: 80.060000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 80.06, 13.05, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 195.000000<br>Station_Na: Thoothukodi District<br>Near_City: <br>District: <br>State: Tamil Nadu<br>Lat: 8.765992<br>Long: 78.135266<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 78.135266, 8.765992, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 197.000000<br>Station_Na: Tiruchirappalli<br>Near_City: <br>District: <br>State: Tamil Nadu<br>Lat: 10.787443<br>Long: 78.704138<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 78.704138, 10.787443, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 198.000000<br>Station_Na: Tirunelveli<br>Near_City: <br>District: <br>State: Tamil Nadu<br>Lat: 8.732229<br>Long: 77.700634<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.700634, 8.732229, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 199.000000<br>Station_Na: Tiruppur<br>Near_City: <br>District: <br>State: Tamil Nadu<br>Lat: 11.110000<br>Long: 77.340000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.34, 11.11, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 200.000000<br>Station_Na: Tiruvallur<br>Near_City: <br>District: <br>State: Tamil Nadu<br>Lat: 12.976457<br>Long: 79.198179<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 79.198179, 12.976457, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 201.000000<br>Station_Na: Tiruvannamalai<br>Near_City: <br>District: <br>State: Tamil Nadu<br>Lat: 12.227874<br>Long: 79.069018<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 79.069018, 12.227874, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 202.000000<br>Station_Na: Tiruvarur<br>Near_City: <br>District: <br>State: Tamil Nadu<br>Lat: 10.772940<br>Long: 79.636788<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 79.636788, 10.77294, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 203.000000<br>Station_Na: Tuticorin Sea Shore<br>Near_City: Tuticorin Sea Shore<br>District: Tuticorin<br>State: Tamil Nadu<br>Lat: 8.765992<br>Long: 78.135266<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 78.135266, 8.765992, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 204.000000<br>Station_Na: Udayathur<br>Near_City: Aralvaimozhi<br>District: Kanyakumari<br>State: Tamil Nadu<br>Lat: 8.613610<br>Long: 77.626648<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.626648, 8.61361, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 205.000000<br>Station_Na: Udumalpet<br>Near_City: Udumalpet<br>District: Tirupur<br>State: Tamil Nadu<br>Lat: 10.582153<br>Long: 77.251225<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.251225, 10.582153, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 206.000000<br>Station_Na: Uthamapalayam<br>Near_City: Uthamapalayam<br>District: Theni<br>State: Tamil Nadu<br>Lat: 9.800000<br>Long: 77.330000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.33, 9.8, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 208.000000<br>Station_Na: Vadakarai<br>Near_City: Sengottai<br>District: Tirunelveli<br>State: Tamil Nadu<br>Lat: 9.030000<br>Long: 77.270000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.27, 9.03, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 211.000000<br>Station_Na: Vaigai<br>Near_City: Vaigai<br>District: Madurai<br>State: Tamil Nadu<br>Lat: 9.350000<br>Long: 79.000000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 79.0, 9.35, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 212.000000<br>Station_Na: Vallioor<br>Near_City: Aralvaimozhi<br>District: Kanyakumari<br>State: Tamil Nadu<br>Lat: 8.230000<br>Long: 77.370000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.37, 8.23, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 214.000000<br>Station_Na: Veeranam<br>Near_City: Sengottai<br>District: Tirunelveli<br>State: Tamil Nadu<br>Lat: 8.938831<br>Long: 77.494369<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.494369, 8.938831, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 216.000000<br>Station_Na: Vellore<br>Near_City: <br>District: <br>State: Tamil Nadu<br>Lat: 12.920000<br>Long: 79.130000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 79.13, 12.92, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 217.000000<br>Station_Na: Villupuram<br>Near_City: <br>District: <br>State: Tamil Nadu<br>Lat: 11.931768<br>Long: 79.489331<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 79.489331, 11.931768, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 218.000000<br>Station_Na: Virudhnagar<br>Near_City: <br>District: <br>State: Tamil Nadu<br>Lat: 9.580000<br>Long: 77.950000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 77.95, 9.58, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 220.000000<br>Station_Na: Hyderabad<br>Near_City: <br>District: <br>State: Telangana<br>Lat: 17.370000<br>Long: 78.480000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 78.48, 17.37, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 221.000000<br>Station_Na: Medak<br>Near_City: <br>District: <br>State: Telangana<br>Lat: 18.040000<br>Long: 78.260000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 78.26, 18.04, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 222.000000<br>Station_Na: Adilabad<br>Near_City: <br>District: <br>State: Telangana<br>Lat: 19.670000<br>Long: 78.530000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 78.53, 19.67, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 223.000000<br>Station_Na: Nalgonda<br>Near_City: <br>District: <br>State: Telangana<br>Lat: 17.100000<br>Long: 79.300000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 79.3, 17.1, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 224.000000<br>Station_Na: Khammam<br>Near_City: <br>District: <br>State: Telangana<br>Lat: 17.250000<br>Long: 80.150000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 80.15, 17.25, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 225.000000<br>Station_Na: Nizamabad<br>Near_City: <br>District: <br>State: Telangana<br>Lat: 18.670000<br>Long: 78.090000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 78.09, 18.67, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 226.000000<br>Station_Na: Karimnagar<br>Near_City: <br>District: <br>State: Telangana<br>Lat: 18.430000<br>Long: 79.120000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 79.12, 18.43, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 227.000000<br>Station_Na: Rangareddy<br>Near_City: <br>District: <br>State: Telangana<br>Lat: 17.200000<br>Long: 78.480000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 78.48, 17.2, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 228.000000<br>Station_Na: Mahbubnagar<br>Near_City: <br>District: <br>State: Telangana<br>Lat: 16.750000<br>Long: 78.000000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 78.0, 16.75, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 229.000000<br>Station_Na: Warangal<br>Near_City: <br>District: <br>State: Telangana<br>Lat: 18.000000<br>Long: 79.580000<br>Region: SR" }, "geometry": { "type": "Point", "coordinates": [ 79.58, 18.0, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 1.000000<br>Station_Na: Aalong<br>Near_City: Aalong<br>District: West Siang<br>State: Arunachal Pradesh<br>Lat: 28.168875<br>Long: 94.801369<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 94.801369, 28.168875, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 3.000000<br>Station_Na: Daporijo<br>Near_City: Daporijo<br>District: Upper Subansiri<br>State: Arunachal Pradesh<br>Lat: 27.986671<br>Long: 94.219608<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 94.219608, 27.986671, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 4.000000<br>Station_Na: Deomali<br>Near_City: Khonsa<br>District: Tirap<br>State: Arunachal Pradesh<br>Lat: 27.189296<br>Long: 95.469818<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 95.469818, 27.189296, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 5.000000<br>Station_Na: Khuppi<br>Near_City: Bomdila<br>District: West Kameng<br>State: Arunachal Pradesh<br>Lat: 27.122702<br>Long: 92.219238<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 92.219238, 27.122702, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 7.000000<br>Station_Na: Pasighat<br>Near_City: Pasighat<br>District: East Siang<br>State: Arunachal Pradesh<br>Lat: 28.070000<br>Long: 95.330000<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 95.33, 28.07, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 9.000000<br>Station_Na: Ziro<br>Near_City: Ziro<br>District: Lower Subansiri<br>State: Arunachal Pradesh<br>Lat: 27.546937<br>Long: 93.816376<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 93.816376, 27.546937, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 10.000000<br>Station_Na: AGIA<br>Near_City: GOALPARA<br>District: <br>State: Assam<br>Lat: 26.085039<br>Long: 90.555189<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 90.555189, 26.085039, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 11.000000<br>Station_Na: BARNAGAR<br>Near_City: BARPETA<br>District: <br>State: Assam<br>Lat: 26.476719<br>Long: 90.852814<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 90.852814, 26.476719, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 13.000000<br>Station_Na: DHALIGAON<br>Near_City: BONGAIGAON<br>District: <br>State: Assam<br>Lat: 26.497461<br>Long: 90.528016<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 90.528016, 26.497461, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 14.000000<br>Station_Na: GOHPUR<br>Near_City: GOHPUR<br>District: <br>State: Assam<br>Lat: 26.884488<br>Long: 93.632047<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 93.632047, 26.884488, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 15.000000<br>Station_Na: HALFLONG<br>Near_City: HALFLONG<br>District: <br>State: Assam<br>Lat: 25.178224<br>Long: 93.009167<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 93.009167, 25.178224, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 16.000000<br>Station_Na: MARIANI<br>Near_City: MARIANI<br>District: <br>State: Assam<br>Lat: 26.658237<br>Long: 94.317663<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 94.317663, 26.658237, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 17.000000<br>Station_Na: NALBARI<br>Near_City: NALBARI<br>District: <br>State: Assam<br>Lat: 26.443640<br>Long: 91.439502<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 91.439502, 26.44364, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 19.000000<br>Station_Na: PANCHGRAM<br>Near_City: KARIMGANJ<br>District: <br>State: Assam<br>Lat: 24.866503<br>Long: 92.578511<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 92.578511, 24.866503, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 20.000000<br>Station_Na: RANGIA<br>Near_City: RANGIA<br>District: <br>State: Assam<br>Lat: 26.440835<br>Long: 91.614168<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 91.614168, 26.440835, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 21.000000<br>Station_Na: ROWTA<br>Near_City: MANGALDOI<br>District: <br>State: Assam<br>Lat: 26.715944<br>Long: 92.208667<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 92.208667, 26.715944, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 22.000000<br>Station_Na: SAMAGURI<br>Near_City: NAGAON<br>District: <br>State: Assam<br>Lat: 26.416855<br>Long: 92.839787<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 92.839787, 26.416855, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 23.000000<br>Station_Na: SARUSAJAI<br>Near_City: GREATER GUWAHATI<br>District: <br>State: Assam<br>Lat: 26.110283<br>Long: 91.757805<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 91.757805, 26.110283, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 24.000000<br>Station_Na: SRIKONA<br>Near_City: SICHAR<br>District: <br>State: Assam<br>Lat: 24.833519<br>Long: 92.716963<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 92.716963, 24.833519, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 25.000000<br>Station_Na: TINSUKIA<br>Near_City: TINSUKIA<br>District: <br>State: Assam<br>Lat: 27.490266<br>Long: 95.360162<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 95.360162, 27.490266, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 26.000000<br>Station_Na: 132 KV Churachandpur<br>Near_City: Churachandpur<br>District: Churachandpur<br>State: Manipur<br>Lat: 24.345924<br>Long: 93.701949<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 93.701949, 24.345924, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 27.000000<br>Station_Na: 132 KV Jiribam<br>Near_City: Jiribam<br>District: Imphal East<br>State: Manipur<br>Lat: 24.796397<br>Long: 93.127313<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 93.127313, 24.796397, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 28.000000<br>Station_Na: 132 KV Kakching<br>Near_City: Kakching<br>District: Thoubal<br>State: Manipur<br>Lat: 24.490742<br>Long: 93.972731<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 93.972731, 24.490742, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 29.000000<br>Station_Na: 132 KV Karong<br>Near_City: Senapti<br>District: Senapati<br>State: Manipur<br>Lat: 25.302810<br>Long: 94.044553<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 94.044553, 25.30281, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 30.000000<br>Station_Na: 132 KV Kongba<br>Near_City: Imphal<br>District: Imphal East<br>State: Manipur<br>Lat: 24.788605<br>Long: 93.960543<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 93.960543, 24.788605, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 31.000000<br>Station_Na: 132 KV Ningthoukhong<br>Near_City: Moirang<br>District: Bishnupur<br>State: Manipur<br>Lat: 24.570231<br>Long: 93.768861<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 93.768861, 24.570231, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 32.000000<br>Station_Na: 132 KV Rengpang<br>Near_City: Tamenglong<br>District: Tamenglong<br>State: Manipur<br>Lat: 24.960538<br>Long: 93.486786<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 93.486786, 24.960538, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 33.000000<br>Station_Na: 132 KV Yaingangpokpi<br>Near_City: Imphal<br>District: Imphal East<br>State: Manipur<br>Lat: 24.900295<br>Long: 94.128771<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 94.128771, 24.900295, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 35.000000<br>Station_Na: JOWAI<br>Near_City: JOWAI<br>District: WEST JAINTIA HILLS<br>State: Meghalaya<br>Lat: 25.357716<br>Long: 92.369564<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 92.369564, 25.357716, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 39.000000<br>Station_Na: UMIAM<br>Near_City: SHILLONG<br>District: EAST KHASI HILLS<br>State: Meghalaya<br>Lat: 25.644776<br>Long: 91.887403<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 91.887403, 25.644776, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 41.000000<br>Station_Na: Mamit<br>Near_City: Mamit<br>District: Mamit<br>State: Mizoram<br>Lat: 23.920000<br>Long: 92.490000<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 92.49, 23.92, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 47.000000<br>Station_Na: Saitual<br>Near_City: Saitual<br>District: Aizawl<br>State: Mizoram<br>Lat: 23.970411<br>Long: 92.576029<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 92.576029, 23.970411, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 55.000000<br>Station_Na: Kohima<br>Near_City: Kohima<br>District: Kohima<br>State: Nagaland<br>Lat: 25.669689<br>Long: 94.112992<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 94.112992, 25.669689, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 57.000000<br>Station_Na: Meluri<br>Near_City: Meluri<br>District: Phek<br>State: Nagaland<br>Lat: 25.689027<br>Long: 94.628491<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 94.628491, 25.689027, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 62.000000<br>Station_Na: Tuensang<br>Near_City: Tuensang<br>District: Tuensang<br>State: Nagaland<br>Lat: 26.270000<br>Long: 94.830000<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 94.83, 26.27, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 64.000000<br>Station_Na: Wokha<br>Near_City: Wokha<br>District: Wokha<br>State: Nagaland<br>Lat: 26.093711<br>Long: 94.260964<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 94.260964, 26.093711, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 65.000000<br>Station_Na: Zunheboto<br>Near_City: Zunheboto<br>District: Zunheboto<br>State: Nagaland<br>Lat: 26.010000<br>Long: 94.510000<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 94.51, 26.01, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "description: <br>No: 66.000000<br>Station_Na: Agartala 79 Tilla 132 KV S\/S<br>Near_City: Agartala<br>District: West Tripura<br>State: Tripura<br>Lat: 23.830000<br>Long: 91.270000<br>Region: NER" }, "geometry": { "type": "Point", "coordinates": [ 91.27, 23.83, 0.0 ] } }
+
+]
+}

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Untitled map</name>
+		<description><![CDATA[]]></description>
+		<Folder>
+			<name>india kml file</name>
+			<Placemark>
+				<name>Fremont Troll</name>
+				<description><![CDATA[The Fremont Troll (http://en.wikipedia.org/wiki/Fremont_Troll) is a large concrete sculpture <br>       of the mythical troll who lives under the bridge.       <br>The troll is holding a Volkswagen bug in his hand.]]></description>
+				<styleUrl>#icon-1899-0288D1</styleUrl>
+				<Point>
+					<coordinates>-122.347341,47.651119,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Fremont</name>
+				<styleUrl>#poly-AAAAAA-1-127-nodesc</styleUrl>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<tessellate>1</tessellate>
+							<coordinates>-122.355097,47.662138,0.0 -122.355411,47.662166,0.0 -122.355842,47.662256,0.0 -122.355923,47.662291,0.0 -122.356102,47.662369,0.0 -122.356211,47.662416,0.0 -122.356649,47.662632,0.0 -122.357167,47.662905,0.0 -122.357582,47.663185,0.0 -122.357979,47.663513,0.0 -122.359151,47.664534,0.0 -122.35946,47.664842,0.0 -122.359693,47.665095,0.0 -122.359794,47.665221,0.0 -122.360185,47.665844,0.0 -122.360456,47.666311,0.0 -122.360782,47.666889,0.0 -122.360782,47.661499,0.0 -122.366199,47.661499,0.0 -122.366199,47.659287,0.0 -122.364583,47.657625,0.0 -122.363887,47.656911,0.0 -122.360866,47.653842,0.0 -122.360866,47.653525,0.0 -122.360867,47.653313,0.0 -122.360867,47.653254,0.0 -122.360365,47.652973,0.0 -122.357977,47.651771,0.0 -122.354806,47.650271,0.0 -122.35012,47.648234,0.0 -122.348219,47.647487,0.0 -122.346879,47.648488,0.0 -122.343329,47.648166,0.0 -122.342776,47.648076,0.0 -122.342087,47.661391,0.0 -122.347266,47.661383,0.0 -122.347233,47.664984,0.0 -122.353984,47.665063,0.0 -122.35397,47.662131,0.0 -122.354576,47.662131,0.0 -122.355097,47.662138,0.0</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Style id='icon-1899-0288D1-normal'>
+			<IconStyle>
+				<color>ffD18802</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-1899-0288D1-highlight'>
+			<IconStyle>
+				<color>ffD18802</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.0</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-1899-0288D1'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1899-0288D1-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='poly-AAAAAA-1-127-nodesc-normal'>
+			<LineStyle>
+				<color>ffAAAAAA</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7FAAAAAA</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='poly-AAAAAA-1-127-nodesc-highlight'>
+			<LineStyle>
+				<color>ffAAAAAA</color>
+				<width>2.0</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7FAAAAAA</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='poly-AAAAAA-1-127-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#poly-AAAAAA-1-127-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#poly-AAAAAA-1-127-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

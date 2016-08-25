@@ -1,0 +1,6601 @@
+
+
+
+
+
+
+
+
+
+.State {
+    font-family: 'Anaheim', sans-serif, Aparajita_cxb;
+}
+
+.value {
+    font-size: 22px;
+}
+
+.Unit {
+    font-size: 12px;
+}
+
+.AreaName {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.State_Name_Font {
+    font-size: 14px;
+}
+
+/*AreaName of INDEX Page*/
+
+.A1_AreaName1 {
+    position: absolute;
+    left: 612px;
+    top: 121px;
+    z-index: 0;
+}
+
+.A1_AreaName2 {
+    position: absolute;
+    left: 575px;
+    top: 330px;
+    z-index: 0;
+}
+
+.E1_AreaName {
+    position: absolute;
+    left: 500px;
+    top: 71px;
+    z-index: 0;
+}
+
+.E2_AreaName {
+    position: absolute;
+    /*left: 500px;
+    top: 373px;*/
+    left: 494px;
+    top: 407px;
+    z-index: 0;
+}
+
+.N1_AreaName {
+    position: absolute;
+    left: 52px;
+    top: 53px;
+    z-index: 0;
+}
+
+.N2_AreaName {
+    position: absolute;
+    left: 3px;
+    top: 210px;
+    z-index: 0;
+}
+
+.N3_AreaName {
+    position: absolute;
+    left: 137px;
+    top: 124px;
+    z-index: 0;
+}
+
+.S1_AreaName {
+    position: absolute;
+    left: 4px;
+    top: 452px;
+    z-index: 0;
+}
+
+.S2_AreaName {
+    position: absolute;
+    left: 92px;
+    top: 551px;
+    z-index: 0;
+}
+
+.W1_AreaName {
+    position: absolute;
+    left: 5px;
+    top: 295px;
+    z-index: 0;
+}
+
+.W2_AreaName {
+    position: absolute;
+    left: 3px;
+    top: 371px;
+    z-index: 0;
+}
+
+.W3_AreaName {
+    position: absolute;
+    left: 429px;
+    top: 486px;
+    z-index: 0;
+}
+
+/*Rajesh 03/03/2016*/
+.value_AsReported_Top {
+    left: 256px;
+    position: relative;
+    top: -411px;
+}
+
+.value_DemandMET_Top_en {
+    left: 276px;
+    position: relative;
+    top: 2px;
+}
+
+.value_ExchangePrice_Top_en {
+    left: -317px;
+    position: relative;
+    top: -360px;
+}
+
+.value_PowerPurchase_Top_en {
+    left: -246px;
+    position: relative;
+    top: 54px;
+    line-height: 25px;
+}
+
+.value_PowerPurchase_Top_2_en {
+    left: -385px;
+    position: relative;
+    top: 78px;
+    line-height: 25px;
+}
+
+.value_PowerShortage_Top_en {
+    left: 296px;
+    position: relative;
+    top: -306px;
+}
+
+/*Rajesh 11/06/2016*/
+.value_DemandMET_Top_hi {
+    left: 290px;
+    position: relative;
+    top: 2px;
+    width: 800px;
+}
+
+.value_ExchangePrice_Top_hi {
+    left: -327px;
+    position: relative;
+    top: -391px;
+    width: 800px;
+}
+
+.value_PowerPurchase_Top_hi {
+    left: -313px;
+    position: relative;
+    top: 47px;
+    line-height: 25px;
+    width: 800px;
+}
+
+.value_PowerPurchase_Top_2_hi {
+    left: -308px;
+    position: relative;
+    top: 37px;
+    line-height: 25px;
+    width: 800px;
+}
+
+.value_PowerShortage_Top_hi {
+    left: 308px;
+    position: relative;
+    top: -328px;
+    width: 800px;
+}
+
+/*Rajesh 03/03/2016*/
+.value_PrevDemandMET_Label_en {
+    left: 231px;
+    position: relative;
+    top: 19px;
+}
+
+.value_PrevDemandMET_en {
+    left: 310px;
+    position: relative;
+    top: -17px;
+}
+
+.value_DemandMET_Label_en {
+    left: 224px;
+    position: relative;
+    top: -76px;
+}
+
+.value_DemandMET_en {
+    left: 309px;
+    position: relative;
+    top: -113px;
+}
+
+/*Rajesh 11/06/2016*/
+.value_PrevDemandMET_Label_hi {
+    left: 231px;
+    position: relative;
+    top: 19px;
+}
+
+.value_PrevDemandMET_hi {
+    left: 310px;
+    position: relative;
+    top: -17px;
+}
+
+.value_DemandMET_Label_hi {
+    left: 220px;
+    position: relative;
+    top: -76px;
+}
+
+.value_DemandMET_hi {
+    left: 309px;
+    position: relative;
+    top: -113px;
+}
+
+/*Rajesh 03/03/2016*/
+.value_PrevPowerPurchase_Label_en {
+    left: -340px;
+    position: relative;
+    top: 88px;
+}
+
+.value_PrevPowerPurchase_en {
+    left: -276px;
+    position: relative;
+    top: 52px;
+}
+
+.value_PowerPurchase_Label_en {
+    left: -346px;
+    position: relative;
+    top: -6px;
+}
+
+.value_PowerPurchase_en {
+    left: -276px;
+    position: relative;
+    top: -43px;
+}
+
+/*Rajesh 11/06/2016*/
+.value_PrevPowerPurchase_Label_hi {
+    left: -340px;
+    position: relative;
+    top: 54px;
+}
+
+.value_PrevPowerPurchase_hi {
+    left: -276px;
+    position: relative;
+    top: 19px;
+}
+
+.value_PowerPurchase_Label_hi {
+    left: -353px;
+    position: relative;
+    top: -40px;
+}
+
+.value_PowerPurchase_hi {
+    left: -276px;
+    position: relative;
+    top: -74px;
+}
+
+/*Rajesh 03/03/2016*/
+.value_PrevExchangePrice_Label_en {
+    left: -341px;
+    position: relative;
+    top: -345px;
+}
+
+.value_PrevExchangePrice_en {
+    left: -255px;
+    position: relative;
+    top: -380px;
+}
+
+.value_ExchangePrice_Label_en {
+    left: -347px;
+    position: relative;
+    top: -440px;
+}
+
+.value_ExchangePrice_en {
+    left: -254px;
+    position: relative;
+    top: -476px;
+}
+
+/*Rajesh 11/06/2016*/
+.value_PrevExchangePrice_Label_hi {
+    left: -341px;
+    position: relative;
+    top: -370px;
+}
+
+.value_PrevExchangePrice_hi {
+    left: -255px;
+    position: relative;
+    top: -405px;
+}
+
+.value_ExchangePrice_Label_hi {
+    left: -353px;
+    position: relative;
+    top: -468px;
+}
+
+.value_ExchangePrice_hi {
+    left: -254px;
+    position: relative;
+    top: -504px;
+}
+
+/*Rajesh 03-03-2016*/
+.value_PeakDemand_Label_en {
+    left: 247px;
+    position: relative;
+    top: -315px;
+}
+
+.value_PeakDemand_en {
+    left: 350px;
+    position: relative;
+    top: -351px;
+}
+
+.value_TotalEnergy_Label_en {
+    left: 230px;
+    position: relative;
+    top: -367px;
+}
+
+.value_TotalEnergy_en {
+    left: 350px;
+    position: relative;
+    top: -401px;
+}
+
+/*Rajesh 03-03-2016*/
+.value_PeakDemand_Label_hi {
+    left: 276px;
+    position: relative;
+    top: -335px;
+    width: 100%;
+}
+
+.value_PeakDemand_hi {
+    left: 421px;
+    position: relative;
+    top: -371px;
+    width: 100%;
+}
+
+.value_TotalEnergy_Label_hi {
+    left: 230px;
+    position: relative;
+    top: -387px;
+    width: 100%;
+}
+
+.value_TotalEnergy_hi {
+    left: 421px;
+    position: relative;
+    top: -421px;
+    width: 100%;
+}
+
+/*Rajesh 03-03-2016*/
+.value_AsReported {
+    font-size: 13px;
+    font-family: 'Anaheim', sans-serif, Aparajita_cxb;
+    display: inline-block;
+}
+
+.value_StateDetails_Label_en {
+    font-size: 15px;
+    font-family: 'Anaheim', sans-serif, Aparajita_cxb;
+    display: inline-block;
+}
+
+.value_StateDetails_en {
+    font-size: 15px;
+    font-family: 'Anaheim', sans-serif, Aparajita_cxb;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.value_StateDetails_Top_en {
+    font-size: 20px;
+    font-family: 'Anaheim', sans-serif, Aparajita_cxb;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+/*Rajesh 11-03-2016*/
+.value_StateDetails_Label_hi {
+    font-size: 19px;
+    font-family: 'Anaheim', sans-serif, Aparajita_cxb;
+    display: inline-block;
+}
+
+.value_StateDetails_hi {
+    font-size: 15px;
+    font-family: 'Anaheim', sans-serif, Aparajita_cxb;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.value_StateDetails_Top_hi {
+    font-size: 24px;
+    font-family: 'Anaheim', sans-serif, Aparajita_cxb;
+    display: inline-block;
+    /*text-decoration: underline;*/
+    /*border-bottom: 1px solid;*/
+    line-height: 32px;
+    /*margin-bottom: 5px;*/
+}
+
+
+/*UTK*/
+.value_uttarakhand {
+    position: absolute;
+    left: 421px;
+    top: 78px;
+}
+
+.value_uttarakhand_state {
+    position: absolute;
+    left: 206px;
+    top: 333px;
+    z-index: 0;
+}
+
+.value_UTK_DehradunUrban {
+    position: absolute;
+    left: 735px;
+    top: 98px;
+    /*z-index:0;*/
+}
+
+.value_UTK_DehradunUrban_state {
+    position: absolute;
+    left: 627px;
+    top: 99px;
+}
+
+.value_UTK_DehradunRural {
+    position: absolute;
+    left: 150px;
+    top: 8px;
+    /*z-index:0;*/
+}
+
+.value_UTK_DehradunRural_state {
+    position: absolute;
+    left: 49px;
+    top: 9px;
+}
+
+.value_UTK_Haldwani {
+    /*left: 270px;*/
+    /*left: 221px;
+    top: 15px;
+    position: relative;*/
+    position: absolute;
+    left: 704px;
+    top: 376px;
+    /*z-index:0;*/
+}
+
+.value_UTK_Haldwani_state {
+    position: absolute;
+    left: 641px;
+    top: 377px;
+}
+
+.value_UTK_Haridwar {
+    /*left: 270px;*/
+    /*left: 221px;
+    top: 15px;
+    position: relative;*/
+    position: absolute;
+    left: 108px;
+    top: 237px;
+    /*z-index:0;*/
+}
+
+.value_UTK_Haridwar_state {
+    position: absolute;
+    left: 48px;
+    top: 238px;
+}
+
+.value_UTK_Kashipur {
+    /*left: 270px;*/
+    /*left: 221px;
+    top: 15px;
+    position: relative;*/
+    position: absolute;
+    left: 227px;
+    top: 353px;
+    /*z-index:0;*/
+}
+
+.value_UTK_Kashipur_state {
+    position: absolute;
+    left: 168px;
+    top: 352px;
+}
+
+.value_UTK_Pithoragarh {
+    /*left: 270px;*/
+    /*left: 221px;
+    top: 15px;
+    position: relative;*/
+    position: absolute;
+    left: 747px;
+    top: 300px;
+    /*z-index:0;*/
+}
+
+.value_UTK_Pithoragarh_state {
+    position: absolute;
+    left: 672px;
+    top: 301px;
+}
+
+.value_UTK_Ranikhet {
+    /*left: 270px;*/
+    /*left: 221px;
+    top: 15px;
+    position: relative;*/
+    position: absolute;
+    left: 767px;
+    top: 236px;
+    /*z-index:0;*/
+}
+
+.value_UTK_Ranikhet_state {
+    position: absolute;
+    left: 707px;
+    top: 237px;
+}
+
+.value_UTK_Roorkee {
+    /*left: 270px;*/
+    /*left: 221px;
+    top: 15px;
+    position: relative;*/
+    position: absolute;
+    left: 99px;
+    top: 296px;
+    /*z-index:0;*/
+}
+
+.value_UTK_Roorkee_state {
+    position: absolute;
+    left: 43px;
+    top: 297px;
+}
+
+
+.value_UTK_Rudrapur {
+    /*left: 270px;*/
+    /*left: 221px;
+    top: 15px;
+    position: relative;*/
+    position: absolute;
+    left: 284px;
+    top: 399px;
+    /*z-index:0;*/
+}
+
+.value_UTK_Rudrapur_state {
+    position: absolute;
+    left: 222px;
+    top: 400px;
+}
+
+.value_UTK_Srinagar {
+    /*left: 270px;*/
+    /*left: 221px;
+    top: 15px;
+    position: relative;*/
+    position: absolute;
+    left: 108px;
+    top: 198px;
+    /*z-index:0;*/
+}
+
+.value_UTK_Srinagar_state {
+    position: absolute;
+    left: 53px;
+    top: 199px;
+}
+
+.value_UTK_Tehri {
+    /*left: 270px;*/
+    /*left: 221px;
+    top: 15px;
+    position: relative;*/
+    position: absolute;
+    left: 759px;
+    top: 155px;
+    /*z-index:0;*/
+}
+
+.value_UTK_Tehri_state {
+    position: absolute;
+    left: 722px;
+    top: 156px;
+}
+/*End UTK*/
+
+
+
+/*TML*/
+.value_tamilnadu {
+    position: absolute;
+    left: 630px;
+    top: 639px;
+    width: 100px;
+    text-align: left;
+}
+
+.value_tamilnadu_state {
+    position: absolute;
+    left: 525px;
+    top: 690px;
+    z-index: 0;
+    width: 100px;
+    text-align: left;
+}
+
+.value_TML_tamilnadu {
+    /*left: 270px;*/
+    /*left: 221px;
+    top: 15px;
+    position: relative;*/
+    position: absolute;
+    left: 178px;
+    top: 286px;
+    /*z-index:0;*/
+}
+
+.value_TML_tamilnadu_state {
+    position: absolute;
+    left: 119px;
+    top: 287px;
+}
+/*TML Ends*/
+/*JRK*/
+.value_jharkhand {
+    position: absolute;
+    left: 516px;
+    top: 468px;
+}
+
+.value_jharkhand_state {
+    position: absolute;
+    /*left: 622px;*/
+    left: 685px;
+    top: 178px;
+    z-index: 0;
+}
+
+.value_JRK_Ranchi {
+    position: absolute;
+    left: 143px;
+    top: 198px;
+    /*z-index:0;*/
+}
+
+.value_JRK_Ranchi_state {
+    position: absolute;
+    left: 97px;
+    top: 199px;
+}
+
+.value_JRK_Hazaribagh {
+    position: absolute;
+    left: 781px;
+    top: 126px;
+    /*z-index:0;*/
+}
+
+.value_JRK_Hazaribagh_state {
+    position: absolute;
+    left: 706px;
+    top: 127px;
+}
+
+.value_JRK_Deoghar {
+    /*left: 270px;*/
+    /*left: 221px;
+    top: 15px;
+    position: relative;*/
+    position: absolute;
+    left: 461px;
+    top: 20px;
+    /*z-index:0;*/
+}
+
+.value_JRK_Deoghar_state {
+    position: absolute;
+    left: 404px;
+    top: 21px;
+}
+
+.value_JRK_Dumka {
+    position: absolute;
+    left: 781px;
+    top: 91px;
+    /*z-index:0;*/
+}
+
+.value_JRK_Dumka_state {
+    position: absolute;
+    left: 729px;
+    top: 92px;
+}
+
+.value_JRK_Ramgarh {
+    position: absolute;
+    left: 117px;
+    top: 167px;
+    /*z-index:0;*/
+}
+
+.value_JRK_Ramgarh_state {
+    position: absolute;
+    left: 51px;
+    top: 168px;
+}
+
+.value_JRK_EastCentralRail {
+    position: absolute;
+    left: 762px;
+    top: 162px;
+    /*z-index:0;*/
+}
+
+.value_JRK_EastCentralRail_state {
+    position: absolute;
+    left: 632px;
+    top: 163px;
+}
+
+.value_JRK_Dhanbad {
+    position: absolute;
+    left: 762px;
+    top: 185px;
+    /*z-index:0;*/
+}
+
+.value_JRK_Dhanbad_state {
+    position: absolute;
+    left: 699px;
+    top: 186px;
+}
+
+.value_JRK_Chas {
+    position: absolute;
+    left: 672px;
+    top: 215px;
+    /*z-index:0;*/
+}
+
+.value_JRK_Chas_state {
+    position: absolute;
+    left: 635px;
+    top: 216px;
+}
+/*End JRK*/
+/*KRL*/
+.value_kerala {
+    position: absolute;
+    left: 84px;
+    top: 562px;
+}
+
+.value_kerala_state {
+    position: absolute;
+    /*left: 115px;*/
+    left: 526px;
+    top: 667px;
+    z-index: 0;
+}
+
+.value_KRL_kerala {
+    /*left: 270px;*/
+    /*left: 221px;
+    top: 15px;
+    position: relative;*/
+    position: absolute;
+    left: 356px;
+    top: 302px;
+    /*z-index:0;*/
+}
+
+.value_KRL_kerala_state {
+    position: absolute;
+    left: 249px;
+    top: 303px;
+}
+/*KRL ENds*/
+
+/*KRT*/
+.value_karnataka {
+    position: absolute;
+    left: 85px;
+    top: 513px;
+}
+
+.value_karnataka_state {
+    position: absolute;
+    /*left: 26px;*/
+    left: 235px;
+    top: 606px;
+    z-index: 0;
+}
+
+/*Old Position For Mysore*/
+/*.value_KRT_Mysore_state {
+        left: 575px;
+    top: 513px;
+    position: absolute;
+}
+.value_KRT_Mysore {
+    left: 625px;
+    top: 512px;
+    position: absolute;
+}*/
+
+
+.value_KRT_Mysore_state {
+    left: 612px;
+    top: 545px;
+    position: absolute;
+}
+
+.value_KRT_Mysore {
+    left: 662px;
+    top: 544px;
+    position: absolute;
+}
+
+.value_KRT_Hassan_state {
+    left: 133px;
+    top: 450px;
+    position: absolute;
+}
+
+.value_KRT_Hassan {
+    left: 183px;
+    top: 450px;
+    position: absolute;
+}
+
+.value_KRT_Mandya_state {
+    left: 642px;
+    top: 490px;
+    position: absolute;
+}
+
+.value_KRT_Mandya {
+    left: 702px;
+    top: 490px;
+    position: absolute;
+}
+
+.value_KRT_ChamaRajNagar_state {
+    left: 581px;
+    top: 575px;
+    position: absolute;
+}
+
+.value_KRT_ChamaRajNagar {
+    left: 684px;
+    top: 575px;
+    position: absolute;
+}
+
+.value_KRT_Kodagu_state {
+    left: 149px;
+    top: 504px;
+    position: absolute;
+}
+
+.value_KRT_Kodagu {
+    left: 203px;
+    top: 503px;
+    position: absolute;
+}
+
+.value_KRT_Bangalore_state {
+    left: 706px;
+    top: 448px;
+    position: absolute;
+}
+
+.value_KRT_Bangalore {
+    left: 774px;
+    top: 448px;
+    position: absolute;
+}
+
+.value_KRT_Chikkaballapura_state {
+    left: 80px;
+    top: 420px;
+    position: absolute;
+}
+
+.value_KRT_Chikkaballapura {
+    left: 184px;
+    top: 419px;
+    position: absolute;
+}
+
+.value_KRT_Chitradurga_state {
+    left: 567px;
+    top: 338px;
+    position: absolute;
+}
+
+.value_KRT_Chitradurga {
+    left: 644px;
+    top: 338px;
+    position: absolute;
+}
+
+.value_KRT_Davanagere_state {
+    left: 548px;
+    top: 307px;
+    position: absolute;
+}
+
+.value_KRT_Davanagere {
+    left: 629px;
+    top: 307px;
+    position: absolute;
+}
+
+.value_KRT_Kolar_state {
+    left: 712px;
+    top: 419px;
+    position: absolute;
+}
+
+.value_KRT_Kolar {
+    left: 751px;
+    top: 419px;
+    position: absolute;
+}
+
+.value_KRT_Ramanagara_state {
+    left: 613px;
+    top: 519px;
+    position: absolute;
+}
+
+.value_KRT_Ramanagara {
+    left: 696px;
+    top: 518px;
+    position: absolute;
+}
+
+.value_KRT_Tumkur_state {
+    left: 666px;
+    top: 367px;
+    position: absolute;
+}
+
+.value_KRT_Tumkur {
+    left: 717px;
+    top: 367px;
+    position: absolute;
+}
+
+
+.value_KRT_Kalaburagi_state {
+    left: 594px;
+    top: 67px;
+    position: absolute;
+}
+
+.value_KRT_Kalaburagi {
+    left: 666px;
+    top: 66px;
+    position: absolute;
+}
+/*KRT Ends*/
+
+/*PNB*/
+.value_punjab {
+    position: absolute;
+    left: 237px;
+    top: 189px;
+}
+
+.value_punjab_state {
+    position: absolute;
+    /*left: 161px;*/
+    left: 233px;
+    top: 217px;
+    z-index: 0;
+}
+
+.value_PNB_punjab {
+    /*left: 270px;*/
+    /*left: 221px;
+    top: 15px;
+    position: relative;*/
+    position: absolute;
+    left: 181px;
+    top: 267px;
+    /*z-index:0;*/
+}
+
+.value_PNB_punjab_state {
+    position: absolute;
+    left: 121px;
+    top: 268px;
+}
+/*PNB Ends*/
+/*WB*/
+.value_westbengal {
+    position: absolute;
+    left: 577px;
+    top: 425px;
+}
+
+.value_westbengal_state {
+    position: absolute;
+    /*left: 601px;
+    top: 71px;*/
+    left: 612px;
+    top: 202px;
+    z-index: 0;
+}
+
+.value_WB_westbengal {
+    position: absolute;
+    left: 660px;
+    top: 328px;
+}
+
+.value_WB_westbengal_state {
+    position: absolute;
+    left: 597px;
+    top: 328px;
+}
+
+.value_sikkim {
+    position: absolute;
+    left: 620px;
+    top: -9px;
+}
+
+.value_sikkim_state {
+    position: absolute;
+    left: 794px;
+    top: 178px;
+}
+
+.value_arunachalpradesh {
+    position: absolute;
+    left: 865px;
+    top: 195px;
+    width: 100px;
+    text-align: left;
+}
+
+.value_arunachalpradesh_state {
+    position: absolute;
+    left: 768px;
+    top: 233px;
+    width: 147px;
+    line-height: 16px;
+}
+
+.value_manipur {
+    position: absolute;
+    left: 849px;
+    top: 370px;
+    width: 100px;
+    text-align: left;
+}
+
+.value_manipur_state {
+    position: absolute;
+    left: 783px;
+    top: 398px;
+}
+
+.value_nagaland {
+    position: absolute;
+    left: 953px;
+    top: 426px;
+}
+
+.value_nagaland_state {
+    position: absolute;
+    left: 846px;
+    top: 421px;
+}
+
+.value_mizoram {
+    position: absolute;
+    left: 633px;
+    top: 250px;
+}
+
+.value_mizoram_state {
+    position: absolute;
+    left: 745px;
+    top: 421px;
+}
+
+.value_tripura {
+    position: absolute;
+    left: 632px;
+    top: 292px;
+}
+
+.value_tripura_state {
+    position: absolute;
+    left: 954px;
+    top: 421px;
+}
+
+.value_meghalaya {
+    position: absolute;
+    left: 855px;
+    top: 398px;
+}
+
+.value_meghalaya_state {
+    position: absolute;
+    left: 882px;
+    top: 398px;
+}
+
+.value_bihar {
+    position: absolute;
+    left: 735px;
+    top: 150px;
+    width: 100px;
+    text-align: left;
+}
+
+.value_bihar_state {
+    position: absolute;
+    left: 612px;
+    top: 178px;
+}
+
+.value_haryana {
+    position: absolute;
+    left: 78px;
+    top: 126px;
+}
+
+.value_haryana_state {
+    position: absolute;
+    /*left: 75px;*/
+    left: 210px;
+    top: 126px;
+}
+
+.value_jammukashmir {
+    position: absolute;
+    left: 447px;
+    top: -10px;
+}
+
+.value_jammukashmir_state {
+    position: absolute;
+    left: 235px;
+    top: 147px;
+}
+
+.value_goa {
+    position: absolute;
+    left: 70px;
+    top: 491px;
+}
+
+.value_goa_state {
+    position: absolute;
+    /*left: 90px;*/
+    left: 104px;
+    top: 506px;
+}
+
+.value_gujarat {
+    position: absolute;
+    left: 7px;
+    top: 240px;
+}
+
+.value_gujarat_state {
+    position: absolute;
+    /*left: 111px;*/
+    left: 150px;
+    top: 506px;
+}
+
+.value_chandigarh {
+    position: absolute;
+    left: 77px;
+    top: 96px;
+}
+
+.value_chandigarh_state {
+    position: absolute;
+    /*left: 128px;*/
+    left: 77px;
+    top: 126px;
+}
+
+.value_damandiu {
+    position: absolute;
+    left: 47px;
+    top: 643px;
+}
+
+.value_damandiu_state {
+    position: absolute;
+    left: 47px;
+    top: 663px;
+}
+
+.value_dadarnagarhaveli {
+    position: absolute;
+    left: 47px;
+    top: 694px;
+}
+
+.value_dadarnagarhaveli_state {
+    position: absolute;
+    left: 47px;
+    top: 714px;
+}
+
+.value_uttaranchal {
+    position: absolute;
+    left: 194px;
+    top: 643px;
+}
+
+.value_uttaranchal_state {
+    position: absolute;
+    left: 194px;
+    top: 663px;
+}
+
+
+/*WB Ends*/
+
+
+
+
+
+
+
+
+
+
+
+
+.value_odisha {
+    left: 636px;
+    top: 538px;
+    position: absolute;
+    width: 100px;
+    text-align: left;
+}
+
+.value_odisha_state {
+    left: 661px;
+    top: 568px;
+    position: absolute;
+}
+
+/*for main page*/
+.value_delhi {
+    position: absolute;
+    left: 77px;
+    top: 282px;
+}
+
+.value_delhi_state {
+    /*left: 624px;
+    top: 742px;
+    position: absolute;*/
+    /*left: 328px;
+    top: 57px;
+    position: relative;*/
+    position: absolute;
+    /*left: 87px;*/
+    left: 75px;
+    top: 311px;
+    z-index: 1;
+}
+
+
+.value_rajasthan {
+    /*left: 51px;
+    top: 140px;*/
+    /*left: 48px;
+    top: 138px;
+    position: relative;*/
+    position: absolute;
+    left: 20px;
+    top: 175px;
+    /*z-index:0;*/
+}
+
+.value_rajasthan_state {
+    position: absolute;
+    left: 162px;
+    top: 311px;
+    z-index: 1;
+}
+
+.value_uttar_pradesh {
+    /*left: 450px;*/
+    /*left: 439px;
+    top: 66px;
+    position: relative;*/
+    position: absolute;
+    left: 449px;
+    top: 125px;
+    /*z-index:0;*/
+}
+
+.value_uttar_pradesh_state {
+    /*left: 667px;
+    top: 783px;
+    position: absolute;*/
+    /*left: 246px;
+    top: 85px;
+    position: relative;*/
+    position: absolute;
+    left: 75px;
+    top: 333px;
+    z-index: 0;
+}
+
+
+.value_maharashtra {
+    position: absolute;
+    left: 104px;
+    top: 480px;
+}
+
+.value_maharashtra_state {
+    position: absolute;
+    left: 222px;
+    top: 506px;
+    z-index: 0;
+}
+
+.value_himachal_pradesh {
+    position: absolute;
+    left: 411px;
+    top: 33px;
+}
+
+.value_himachal_pradesh_state {
+    position: absolute;
+    left: 77px;
+    top: 147px;
+    z-index: 0;
+    width: 125px;
+    text-align: left;
+}
+
+
+.value_andhra_pradesh {
+    position: absolute;
+    left: 77px;
+    top: 580px;
+}
+
+.value_andhra_pradesh_state {
+    position: absolute;
+    left: 77px;
+    top: 606px;
+    z-index: 0;
+    width: 125px;
+    text-align: left;
+}
+
+
+.value_pondy {
+    /*left: 177px;*/
+    /*left: 101px;*/
+    /*left: 79px;
+    top: 421px;
+    position: relative;*/
+    position: absolute;
+    left: 439px;
+    top: 595px;
+    /*z-index:0;*/
+}
+
+.value_pondy_state {
+    /* left: 100px; */
+    /* top: 409px; */
+    /* top: 338px; */
+    /*left: 671px;
+    top: 1098px;
+    position: absolute;*/
+    /*left: 61px;
+    top: 408px;
+    position: relative;*/
+    position: absolute;
+    /*left: 181px;*/
+    left: 616px;
+    top: 667px;
+    z-index: 0;
+}
+
+.value_andaman_state_en {
+    position: absolute;
+    left: 778px;
+    top: 652px;
+    z-index: 0;
+    line-height: 16px;
+}
+
+.value_andaman_state_hi {
+    position: absolute;
+    left: 778px;
+    top: 652px;
+    z-index: 0;
+    line-height: 20px;
+}
+
+.value_lakshadweep_state_en {
+    position: absolute;
+    left: 300px;
+    top: 690px;
+    z-index: 0;
+}
+
+.value_lakshadweep_state_hi {
+    position: absolute;
+    left: 316px;
+    top: 690px;
+    z-index: 0;
+}
+
+.value_Telangana {
+    /*left: -358px;*/
+    /*left: -426px;
+    top: 336px;
+    position: relative;*/
+    position: absolute;
+    left: 54px;
+    top: 417px;
+}
+
+.value_Telangana_state {
+    /*left: -457px;
+    top: 322px;
+    position: relative;*/
+    position: absolute;
+    /*left: 118px;*/
+    left: 77px;
+    top: 628px;
+    z-index: 0;
+}
+
+
+.value_Assam {
+    /*left: 150px;*/
+    /*left: 40px;
+    top: 16px;
+    position: relative;*/
+    position: absolute;
+    left: 627px;
+    top: 35px;
+}
+
+.value_Assam_state {
+    /*left: 44px;
+    top: 2px;
+    position: relative;*/
+    position: absolute;
+    left: 946px;
+    top: 224px;
+    z-index: 0;
+}
+
+
+.value_Chhattisgarh {
+    position: absolute;
+    left: 702px;
+    top: 453px;
+    width: 100px;
+    text-align: left;
+}
+
+.value_Chhattisgarh_state {
+    /*left: 550px;
+    top: 192px;
+    position: relative;*/
+    position: absolute;
+    /*left: 555px;
+    top: 333px;*/
+    left: 678px;
+    top: 481px;
+    z-index: 0;
+}
+
+
+.value_madhyapradesh {
+    position: absolute;
+    left: 113px;
+    top: 395px;
+}
+
+.value_madhyapradesh_state {
+    position: absolute;
+    left: 111px;
+    top: 421px;
+    z-index: 0;
+    width: 120px;
+    text-align: left;
+}
+
+
+.value_MH_Mumbai {
+    /*left: 4px;*/
+    /*left: -40px;*/
+    /*left: -71px;*/
+    /*top: 80px;*/
+    /*left: -37px;*/
+    /*top: 97px;*/
+    /*top: 108px;*/
+    /*top: 94px;*/
+    /*left: -17px;
+    top: 115px;
+    position: relative;*/
+    position: absolute;
+    left: 63px;
+    top: 117px;
+    /*z-index:0;*/
+}
+
+.value_MH_Biwandi {
+    /*left: -169px;*/
+    /*top: 0px;*/
+    /*left: -77px;*/
+    /*top: 37px;*/
+    /*left: -120px;
+    top: 57px;
+    position: relative;*/
+    position: absolute;
+    left: 72px;
+    top: 58px;
+}
+
+.value_MH_Washi {
+    /*left: 259px;*/
+    /*left: 224px;
+    top: 198px;*/
+    /*left: 313px;*/
+    /*top: 227px;*/
+    /*left: 260px;
+    top: 247px;
+    position: relative;*/
+    position: absolute;
+    left: 561px;
+    top: 264px;
+}
+
+.value_MH_FullMumbai {
+    /*left: 4px;
+    top: 159px;*/
+    /*top: 189px;*/
+    /*top: 154px;*/
+    /*left: 63px;
+    top: 175px;
+    position: relative;*/
+    position: absolute;
+    left: 67px;
+    top: 176px;
+}
+
+.value_MH_Ratnagiri {
+    /*left: -296px;*/
+    /*left: -323px;
+    top: 312px;*/
+    /*left: -237px;*/
+    /*left: -287px;
+    top: 342px;*/
+    /*left: -263px;
+    top: 364px;
+    position: relative;*/
+    position: absolute;
+    left: 92px;
+    top: 359px;
+    /*z-index:0;*/
+}
+
+.value_MH_Sindhudurg {
+    /*left: 197px;*/
+    /*left: 50px;*/
+    /*left: -145px;*/
+    /*left: -177px;
+    top: 364px;*/
+    /*left: -75px;*/
+    /*top: 394px;*/
+    /*left: -118px;
+    top: 415px;
+    position: relative;*/
+    position: absolute;
+    left: 113px;
+    top: 411px;
+    /*z-index:0;*/
+}
+
+.value_MH_Nagpur {
+    /*left: 365px;*/
+    /*left: 157px;*/
+    /*left: 115px;
+    top: 35px;*/
+    /*left: 219px;*/
+    /*left: 182px;*/
+    /*left: 248px;*/
+    /*top: 64px;*/
+    /*left: 148px;
+    top: 86px;
+    position: relative;*/
+    position: absolute;
+    left: 780px;
+    top: 18px;
+    /*z-index:0;*/
+}
+
+.value_MH_Wardha {
+    /*left: 23px;
+    top: 108px;*/
+    /*left: 160px;*/
+    /*left: 65px;
+    top: 105px;*/
+    /* left: 136px; */
+    /* top: 121px; */
+    /*left: 56px;
+    top: 145px;
+    position: relative;*/
+    position: absolute;
+    left: 765px;
+    top: 107px;
+    /*    z-index: 0;*/
+}
+
+.value_MH_Kalyan {
+    /*left: -712px;*/
+    /*left: 289px;*/
+    /*left: 360px;*/
+    /*top: 226px;*/
+    /*top: 604px;*/
+    /*left: 950px;
+    top: 635px;*/
+    /*left: -690px;*/
+    /*left: -718px;*/
+    /*top: 256px;*/
+    /*left: -700px;
+    top: 219px;*/
+    /*left: -696px;
+    top: 239px;
+    position: relative;*/
+    position: absolute;
+    left: 67px;
+    top: 230px;
+}
+
+.value_MH_Gadchiroli {
+    position: absolute;
+    left: 784px;
+    top: 135px;
+}
+
+.value_MH_Aurangabad {
+    position: absolute;
+    left: 209px;
+    top: 17px;
+}
+
+.value_MH_Gondia {
+    position: absolute;
+    left: 767px;
+    top: 50px;
+}
+
+.value_MH_Bhandara {
+    position: absolute;
+    left: 779px;
+    top: 79px;
+}
+
+.value_MH_Amravati {
+    /*left: -300px;*/
+    /*left: -392px;
+    top: -9px;*/
+    /*left: 291px;
+    top: -47px;*/
+    /*left: -467px;
+    top: -8px;*/
+    /*left: 465px;
+    top: -25px;
+    position: relative;*/
+    position: absolute;
+    left: 624px;
+    top: 0px;
+}
+
+.value_MH_Chandrapur {
+    /*left: 57px;*/
+    /*left: -57px;
+    top: 194px;*/
+    /*left: 757px;
+    top: 159px;*/
+    /*left: -6px;
+    top: 192px;*/
+    /*top: 154px;*/
+    /*top: 138px;*/
+    /*left: 1px;
+    top: 187px;*/
+    /*left: 750px;
+    top: 172px;
+    position: relative;*/
+    position: absolute;
+    left: 797px;
+    top: 172px;
+}
+
+.value_MH_PuneUrban {
+    /*left: 64px;*/
+    /*top: 244px;*/
+    /*left: -93px;
+    top: 264px;
+    position: relative;*/
+    position: absolute;
+    left: 87px;
+    /*left: 81px;*/
+    top: 268px;
+}
+
+.value_MH_PuneRural {
+    position: absolute;
+    left: 86px;
+    top: 293px;
+}
+
+.value_MH_Jalgaon {
+    /*left: -66px;
+    top: -25px;
+    position: relative;*/
+    position: absolute;
+    left: 435px;
+    top: 8px;
+}
+
+.value_AP_Guntur {
+    /*left: 150px;*/
+    /*left: 130px;
+    top: 189px;
+    position: relative;*/
+    position: absolute;
+    left: 202px;
+    top: 192px;
+    /*z-index:0;*/
+}
+
+.value_AP_Guntur_state {
+    position: absolute;
+    left: 156px;
+    top: 192px;
+}
+
+.value_AP_Anantpur {
+    /*left: 298px;*/
+    /*left: 233px;
+    top: 351px;
+    position: relative;*/
+    position: absolute;
+    left: 483px;
+    top: 354px;
+    /*z-index:0;*/
+}
+
+.value_AP_Anantpur_state {
+    position: absolute;
+    /*left: 395px;*/
+    left: 412px;
+    top: 355px;
+}
+
+.value_AP_Shrikakulam {
+    /*left: 270px;*/
+    /*left: 221px;
+    top: 15px;
+    position: relative;*/
+    position: absolute;
+    left: 505px;
+    top: 18px;
+    /*z-index:0;*/
+}
+
+.value_AP_Shrikakulam_state {
+    position: absolute;
+    left: 427px;
+    top: 18px;
+}
+
+.value_AP_Westgodawari {
+    /*left: 360px;*/
+    /*top: 150px;*/
+    /*left: 257px;
+    top: 153px;
+    position: relative;*/
+    z-index: 0;
+    position: absolute;
+    left: 690px;
+    top: 154px;
+}
+
+.value_AP_Westgodawari_state {
+    position: absolute;
+    left: 590px;
+    top: 154px;
+}
+
+
+.value_AP_Eastgodawari {
+    z-index: 0;
+    position: absolute;
+    left: 374px;
+    top: 127px;
+}
+
+.value_AP_Eastgodawari_state {
+    position: absolute;
+    left: 276px;
+    top: 127px;
+}
+
+
+.value_AP_Krishna {
+    /*left: 138px;*/
+    /*left: 85px;
+    top: 226px;
+    position: relative;*/
+    position: absolute;
+    left: 620px;
+    top: 200px;
+    /*z-index:0;*/
+}
+
+.value_AP_Krishna_state {
+    position: absolute;
+    left: 570px;
+    top: 200px;
+}
+
+.value_AP_Vizianagram {
+    /*left: -280px;
+    top: 60px;*/
+    /*left: -317px;
+    top: 62px;
+    position: relative;*/
+    position: absolute;
+    left: 425px;
+    top: 61px;
+}
+
+.value_AP_Vizianagram_state {
+    position: absolute;
+    left: 337px;
+    top: 62px;
+}
+
+.value_AP_Vishakapatnam {
+    /*left: 160px;*/
+    /*left: 115px;
+    top: 95px;
+    position: relative;*/
+    position: absolute;
+    left: 753px;
+    top: 95px;
+}
+
+.value_AP_Vishakapatnam_state {
+    position: absolute;
+    left: 653px;
+    top: 95px;
+}
+
+.value_AP_Chittoor {
+    /*left: 340px;
+    top: 440px;
+    position: relative;*/
+    position: absolute;
+    left: 445px;
+    top: 478px;
+}
+
+.value_AP_Chittoor_state {
+    position: absolute;
+    left: 390px;
+    top: 478px;
+}
+
+.value_AP_Nellore {
+    /*left: 340px;
+    top: 440px;
+    position: relative;*/
+    position: absolute;
+    left: 474px;
+    top: 394px;
+}
+
+.value_AP_Nellore_state {
+    position: absolute;
+    left: 422px;
+    top: 395px;
+}
+
+.value_AP_Kurnool {
+    /*left: 340px;
+    top: 440px;
+    position: relative;*/
+    position: absolute;
+    left: 59px;
+    top: 231px;
+}
+
+.value_AP_Kurnool_state {
+    position: absolute;
+    left: 4px;
+    top: 232px;
+}
+
+.value_AP_Kadappa {
+    /*left: 340px;
+    top: 440px;
+    position: relative;*/
+    position: absolute;
+    left: 474px;
+    top: 435px;
+}
+
+.value_AP_Kadappa_state {
+    position: absolute;
+    left: 414px;
+    top: 436px;
+}
+
+.value_AP_Prakasam {
+    /*left: 395px;
+    top: 260px;
+    position: relative;*/
+    position: absolute;
+    left: 465px;
+    top: 294px;
+}
+
+.value_AP_Prakasam_state {
+    position: absolute;
+    left: 400px;
+    top: 294px;
+}
+
+.value_DL_Delhi {
+    left: 95px;
+    top: 159px;
+    position: relative;
+    z-index: 0;
+}
+
+
+.value_HP_Shimla {
+    /*left: 222px;
+    top: 323px;*/
+    /*left: 221px;
+    top: 342px;*/
+    /*left: 723px;*/
+    /*left: 659px;
+    top: 348px;
+    position: relative;*/
+    position: absolute;
+    left: 635px;
+    top: 348px;
+    /*z-index:0;*/
+}
+
+.value_HP_Bhilaspur {
+    /*left: 25px;
+    top: 285px;*/
+    /*left: -36px;
+    top: 403px;*/
+    /*left: -36px;
+    top: 403px;
+    position: relative;*/
+    position: absolute;
+    left: 215px;
+    top: 288px;
+    /*z-index:0;*/
+}
+
+.value_HP_Kullu {
+    /*left: 524px;
+    top: 120px;*/
+    /*left: 610px;*/
+    /*left: 534px;
+    top: 121px;*/
+    /*z-index:0;*/
+    /*position: relative;
+    left: 500px;
+    top: 102px;*/
+    position: absolute;
+    left: 724px;
+    top: 157px;
+}
+
+.value_HP_Mandi {
+    /*left: -58px;
+    top: 218px;*/
+    /*left: -169px;
+    top: 113px;*/
+    /*left: -279px;
+    top: 113px;
+    position: relative;*/
+    position: absolute;
+    left: 163px;
+    top: 146px;
+    /*z-index:0;*/
+}
+
+.value_HP_Rampur {
+    /*left: 407px;
+    top: 239px;*/
+    /*left: 400px;
+    top: 198px;*/
+    /*left: 459px;*/
+    /*left: 294px;
+    top: 173px;
+    position: relative;*/
+    position: absolute;
+    left: 748px;
+    top: 202px;
+    /*z-index:0;*/
+}
+
+.value_HP_Rohru {
+    /*left: 374px;
+    top: 182px;*/
+    /*left: 330px;
+    top: 277px;*/
+    /*left: 382px;*/
+    /*left: 200px;
+    top: 259px;
+    position: relative;*/
+    position: absolute;
+    left: 745px;
+    top: 260px;
+    /*z-index:0;*/
+}
+
+.value_HP_Solan {
+    /*left: 182px;
+    top: 370px;*/
+    /*left: 151px;
+    top: 348px;*/
+    /*left: 185px;*/
+    /*left: 0px;*/
+    /*left: -55px;*/
+    /*left: -29px;
+    top: 414px;
+    position: relative;*/
+    position: absolute;
+    left: 282px;
+    top: 351px;
+    /*z-index:0;*/
+}
+
+.value_HP_Una {
+    /*left: -453px;
+    top: 225px;*/
+    /*left: -420px;
+    top: 323px;*/
+    /*left: -603px;
+    top: 323px;
+    position: relative;*/
+    position: absolute;
+    left: 191px;
+    top: 250px;
+    /*z-index:0;*/
+}
+
+
+.value_HP_Dalhausie {
+    /*left: -453px;
+    top: 225px;*/
+    /*left: -453px;
+    top: 10px;*/
+    /*left: 78px;
+    top: -27px;
+    position: relative;*/
+    position: absolute;
+    left: 190px;
+    top: 76px;
+    /*z-index:0;*/
+}
+
+.value_HP_Kangra {
+    /*left: -453px;
+    top: 183px;*/
+    /*left: 18px;
+    top: 148px;
+    position: relative;*/
+    position: absolute;
+    left: 165px;
+    top: 182px;
+    /*z-index:0;*/
+}
+
+.value_HP_Hamirpur {
+    /*left: -602px;
+    top: 248px;*/
+    /*left: -134px;
+    top: 210px;
+    position: relative;*/
+    position: absolute;
+    left: 185px;
+    top: 216px;
+    /*z-index:0;*/
+}
+
+
+.value_HP_Nahan {
+    /*left: 380px;
+    top: 340px;
+    position: relative;*/
+    position: absolute;
+    left: 616px;
+    top: 405px;
+}
+
+.value_PU_Pon {
+    left: 95px;
+    top: 159px;
+    position: relative;
+    /*z-index:0;*/
+}
+
+.value_RJ_Ajmer {
+    /*left: 558px;*/
+    /*left: 489px;*/
+    /*left: 597px;
+    top: 256px;*/
+    /*left: 600px;*/
+    /*left: 485px;*/
+    /*left: 385px;*/
+    /*left: 348px;
+    top: 255px;*/
+    /*top: 220px;*/
+    /*left: 196px;
+    top: 454px;
+    position: relative;*/
+    position: absolute;
+    left: 740px;
+    top: 374px;
+}
+
+/*.value_RJ {
+    left: 0px;
+    top: 0px;
+    position: relative;
+}*/
+
+/*Trupti-2015/10/27*/
+
+
+.value_RJ_Bhilwara {
+    /*left: -291px;
+    top: 373px;*/
+    /*left: 382px;
+    top: 371px;*/
+    /*left: 93px;
+    top: 831px;
+    position: relative;*/
+    position: absolute;
+    left: 678px;
+    top: 601px;
+}
+
+.value_RJ_Nagaur {
+    /*left: 274px;
+    top: -7px;*/
+    /*left: 130px;*/
+    /*left: 107px;
+    top: -10px;*/
+    /*left: -230px;
+    top: 52px;*/
+    /*left: -386px;
+    top: 78px;
+    position: relative;*/
+    position: absolute;
+    /*left: 315px;*/
+    left: 308px;
+    top: 102px;
+}
+
+.value_RJ_Udaipur {
+    /*left: -368px;
+    top: 430px;*/
+    /*left: -511px;
+    top: 430px;*/
+    /*left: -385px;
+    top: 592px;*/
+    /*left: 183px;
+    top: 724px;
+    position: relative;*/
+    position: absolute;
+    left: 246px;
+    top: 613px;
+}
+
+.value_RJ_Banswara {
+    /*left: 104px;
+    top: 826px;
+    position: relative;*/
+    position: absolute;
+    left: 300px;
+    top: 664px;
+}
+
+.value_RJ_Dungerpur {
+    /*left: -94px;
+    top: 781px;
+    position: relative;*/
+    position: absolute;
+    left: 260px;
+    top: 626px;
+}
+
+.value_RJ_Jhunjhunu {
+    /*left: 387px;
+    top: 33px;
+    position: relative;*/
+    position: absolute;
+    left: 622px;
+    top: 64px;
+}
+
+.value_RJ_Rajsmand {
+    /*left: -265px;
+    top: 674px;
+    position: relative;*/
+    position: absolute;
+    left: 230px;
+    top: 578px;
+}
+
+.value_RJ_Sikar {
+    /*left: 200px;
+    top: 87px;
+    position: relative;*/
+    position: absolute;
+    left: 610px;
+    top: 100px;
+}
+
+/*Trupti-2015/10/27*/
+
+
+.value_RJ_Kota {
+    /*left: 464px;*/
+    /*left: 460px;
+    top: 351px;*/
+    /*left: 500px;
+    top: 330px;*/
+    /*left: 500px;
+    top: 330px;*/
+    /*left: 57px;
+    top: 448px;*/
+    /*left: -157px;*/
+    /*left: -346px;
+    top: 475px;*/
+    /*left: -413px;
+    top: 438px;*/
+    /*left: 283px;
+    top: 401px;*/
+    /*left: 283px;
+    top: 401px;*/
+    left: 254px;
+    top: 600px;
+    position: relative;
+    z-index: 0;
+}
+
+.value_RJ_Bundi {
+    /*top: 276px;
+    left: -343px;*/
+    /*top: 273px;
+    left: -717px;*/
+    /*top: 238px;*/
+    /*left: -270px;*/
+    /*left: -377px;*/
+    /*top: 347px;*/
+    /* left: -270px; */
+    /*left: -370px;*/
+    /*top: 349px;
+    left: -467px;
+    position: relative;*/
+    position: absolute;
+    left: 95px;
+    top: 363px;
+}
+
+.value_RJ_Baran {
+    /*top: 341px;
+    left: -335px;*/
+    /*top: 341px;
+    left: -377px;*/
+    /*top: 424px;
+    left: 700px;*/
+    /*top: 422px;*/
+    /*left: 292px;*/
+    /*left: 190px;*/
+    /*top: 585px;
+    left: 92px;
+    position: relative;*/
+    position: absolute;
+    left: 740px;
+    top: 515px;
+}
+
+.value_RJ_Jhalawar {
+    /*top: 509px;
+    left: -120px;*/
+    /*top: 508px;
+    left: -181px;*/
+    /*top: 484px;
+    left: 310px;*/
+    /*top: 484px;
+    left: -205px;*/
+    /*top: 447px;
+    left: -205px;*/
+    /*top: 483px;
+    left: -238px;*/
+    /*top: 646px;
+    left: -10px;*/
+    /*top: 602px;
+    left: 699px;
+    position: relative;*/
+    position: absolute;
+    left: 754px;
+    top: 559px;
+    z-index: 0;
+}
+
+.value_RJ_Jaipur {
+    /*left: 608px;*/
+    /*left: 681px;
+    top: 183px;*/
+    /*left: 693px;
+    top: 131px;*/
+    /*left: 690px;
+    top: 210px;
+    position: relative;*/
+    position: absolute;
+    left: 738px;
+    top: 171px;
+    /*z-index:0;*/
+}
+
+
+/*Trupti-2015/10/27*/
+
+.value_RJ_Alwar {
+    /*left: 612px;*/
+    /*top: 57px;*/
+    /*left: 598px;
+    top: 156px;
+    position: relative;*/
+    position: absolute;
+    left: 665px;
+    top: 135px;
+    z-index: 0;
+}
+
+.value_RJ_Bharatpur {
+    /*left: 587px;*/
+    /*left: 549px;
+    top: 193px;*/
+    /*left: 497px;
+    top: 328px;
+    position: relative;*/
+    position: absolute;
+    left: 764px;
+    top: 249px;
+    z-index: 0;
+}
+
+
+.value_RJ_Dausa {
+    /*left: 497px;*/
+    /*left: 431px;
+    top: 270px;
+    position: relative;*/
+    position: absolute;
+    left: 728px;
+    top: 214px;
+    z-index: 0;
+}
+
+.value_RJ_Karauli {
+    /*left: 379px;
+    top: 388px;
+    position: relative;*/
+    position: absolute;
+    left: 759px;
+    top: 296px;
+    z-index: 0;
+}
+
+.value_RJ_Sawaimadhopur {
+    /*left: 524px;*/
+    /*left: 484px;*/
+    /*left: 433px;
+    top: 317px;*/
+    /*left: 291px;
+    top: 514px;
+    position: relative;*/
+    position: absolute;
+    left: 773px;
+    top: 418px;
+    z-index: 0;
+}
+
+/*Trupti-2015/10/27*/
+
+
+.value_RJ_Jodhpur {
+    /*left: -274px;*/
+    /*top: 217px;*/
+    /*left: -235px;*/
+    /*left: -522px;
+    top: 168px;*/
+    /*left: -455px;*/
+    /* top: 217px; */
+    /* left: -235px; */
+    /*left: -688px;
+    top: 109px;*/
+    /*left: 19px;
+    top: 71px;*/
+    /*left: -682px;
+    top: 106px;*/
+    /*left: -647px;*/
+    /*top: 229px;*/
+    /*top: 230px;*/
+    /*left: -432px;
+    top: 204px;
+    position: relative;*/
+    position: absolute;
+    left: 107px;
+    top: 257px;
+    /*z-index:0;*/
+}
+
+
+/*Trupti-2015/10/27*/
+
+
+.value_RJ_Barmer {
+    /*left: 95px;
+    top: 393px;*/
+    /*left: -532px;
+    top: 446px;
+    position: relative;*/
+    position: absolute;
+    left: 102px;
+    top: 398px;
+    /*z-index: 0;*/
+}
+
+.value_RJ_Bikaner {
+    /*left: 123px;*/
+    /*left: 16px;*/
+    /*left: 126px;
+    top: 13px;*/
+    /*left: 146px;
+    top: 134px;*/
+    /*left: -566px;
+    top: 145px;
+    position: relative;*/
+    position: absolute;
+    left: 226px;
+    top: 216px;
+    z-index: 0;
+}
+
+.value_RJ_Churu {
+    /*left: 80px;
+    top: -55px;
+    position: relative;*/
+    position: absolute;
+    left: 375px;
+    top: 52px;
+    z-index: 0;
+}
+
+.value_RJ_Jalore {
+    /*left: -273px;
+    top: 463px;
+    position: relative;*/
+    position: absolute;
+    left: 125px;
+    top: 454px;
+    z-index: 0;
+}
+
+.value_RJ_Hanumangarh {
+    /*left: 190px;
+    top: -57px;
+    position: relative;*/
+    position: absolute;
+    left: 604px;
+    top: 8px;
+    z-index: 0;
+}
+
+.value_RJ_Jaisalmer {
+    /*left: -556px;
+    top: 191px;*/
+    /*left: -58px;*/
+    /*left: -157px;*/
+    /*left: -58px;
+    top: 153px;*/
+    /*left: -58px;
+    top: 153px;*/
+    /*left: -41px;
+    top: 276px;*/
+    /*left: -692px;
+    top: 287px;*/
+    /*left: 31px;
+    top: 247px;
+    position: relative;*/
+    position: absolute;
+    left: 66px;
+    top: 306px;
+    z-index: 0;
+}
+
+.value_RJ_Pali {
+    /*left: -546px;
+    top: 324px;*/
+    /*left: -54px;*/
+    /*left: -154px;*/
+    /*top: 286px;*/
+    /*left: -93px;*/
+    /* left: -154px; */
+    /*top: 471px;*/
+    /*left: 20px;
+    top: 529px;
+    position: relative;*/
+    position: absolute;
+    left: 159px;
+    top: 495px;
+    z-index: 0;
+}
+
+.value_RJ_Sirohi {
+    /*left: -56px;
+    top: 593px;
+    position: relative;*/
+    position: absolute;
+    left: 181px;
+    top: 535px;
+    z-index: 0;
+}
+
+.value_RJ_Sriganganagar {
+    /*left: -23px;*/
+    /*left: -123px;*/
+    /*left: 33px;
+    top: -44px;*/
+    /*left: -9px;
+    top: 76px;*/
+    /*left: 7px;
+    top: 54px;
+    position: relative;*/
+    position: absolute;
+    left: 260px;
+    top: 149px;
+    z-index: 0;
+}
+
+/*Trupti-2015/10/27*/
+
+
+.value_RJ_Tonk {
+    /*top: 450px;
+    left: -299px;*/
+    /*top: 328px;
+    left: 45px;*/
+    /*left: 606px;*/
+    /*left: 145px;*/
+    /*left: 45px;*/
+    /*left: 645px;*/
+    /*left: 5px;*/
+    /*left: 210px;*/
+    /*left: 350px;
+    top: 354px;*/
+    /*left: 288px;
+    top: 519px;
+    position: relative;*/
+    position: absolute;
+    left: 735px;
+    top: 463px;
+}
+
+
+.value_RJ_Pratapgarh {
+    /*left: 250px;
+    top: 790px;
+    position: relative;*/
+    position: absolute;
+    left: 647px;
+    top: 670px;
+}
+
+.value_RJ_Chittorgarh {
+    /*left: 453px;
+    top: 790px;
+    position: relative;*/
+    position: absolute;
+    left: 695px;
+    top: 635px;
+}
+
+.value_RJ_Dholpur {
+    position: absolute;
+    left: 784px;
+    top: 329px;
+}
+
+
+.value_UP_Varanasi {
+    /*left: 630px;*/
+    /*left: 631px;
+    top: 344px;*/
+    /*left: 601px;
+    top: 335px;*/
+    /*left: 573px;
+    top: 352px;*/
+    /*left: 592px;
+    top: 425px;*/
+    /*left: 592px;
+    top: 425px;*/
+    /*left: 695px;
+    top: 447px;
+    position: relative;*/
+    /*left: 562px;
+    top: 525px;*/
+    /*left: 664px;
+    top: 448px;*/
+    left: 681px;
+    top: 481px;
+    position: absolute;
+    /*z-index:0;*/
+}
+
+.value_UP_Kanpur {
+    /*left: -12px;*/
+    /*left: -43px;*/
+    /*left: -18px;*/
+    /*top: 256px;*/
+    /*left: -69px;*/
+    /*left: -84px;
+    top: 208px;*/
+    /*left: -80px;*/
+    /*top: 220px;*/
+    /*left: -72px;
+    top: 250px;
+    position: relative;*/
+    /*z-index:0;*/
+    position: absolute;
+    top: 284px;
+    left: 137px;
+    /*top: 270px;
+    left: 47px;*/
+}
+
+.value_UP_Lucknow {
+    /*left: 442px;*/
+    /*left: 354px;*/
+    /*left: 383px;*/
+    /*top: 191px;*/
+    /*left: 374px;*/
+    /*top: 175px;*/
+    /*left: 336px;
+    top: 205px;
+    position: relative;*/
+    position: absolute;
+    left: 68px;
+    top: 221px;
+    /*left: 491px;
+    top: 178px;*/
+    /*z-index:0;*/
+}
+
+.value_UP_Bahraich {
+    /*left: 197px;
+    top: 129px;*/
+    /*left: 225px;*/
+    /*left: 163px;
+    top: -10px;*/
+    /*left: 239px;
+    top: 114px;
+    position: relative;*/
+    /*z-index:0;*/
+    /*left: 239px;
+    top: 114px;
+    position: relative;*/
+    position: absolute;
+    /*left: 665px;
+    top: 82px;*/
+    left: 380px;
+    top: 56px;
+    /*left: 471px;
+    top: 125px;*/
+}
+
+.value_UP_Allahabad {
+    /*left: -144px;
+    top: 404px;*/
+    /*left: -50px;*/
+    /*left: -75px;*/
+    /*top: 421px;*/
+    /*left: -47px;
+    top: 452px;
+    position: relative;*/
+    position: absolute;
+    left: 319px;
+    top: 464px;
+    /*left: 318px;
+    top: 459px;*/
+    /*z-index:0;*/
+}
+
+.value_UP_Hardoi {
+    /*left: -476px;
+    top: 190px;*/
+    /*left: -415px;*/
+    /*left: -472px;*/
+    /*top: 142px;*/
+    /*top: 101px;*/
+    /*left: -443px;
+    top: 131px;
+    position: relative;*/
+    position: absolute;
+    top: 194px;
+    left: 55px;
+    /*top: 150px;
+    left: 43px;*/
+}
+
+.value_UP_Fatehpur {
+    /*left: -480px;*/
+    /*left: -455px;*/
+    /*left: -500px;*/
+    /*left: -530px;
+    top: 363px;*/
+    /*left: -450px;*/
+    /*left: -570px;
+    top: 272px;*/
+    /*left: -564px;*/
+    /*top: 279px;*/
+    /*left: -545px;*/
+    /*position: relative;
+    top: 309px;
+    left: -518px;*/
+    position: absolute;
+    top: 312px;
+    left: 138px;
+    /*top: 327px;
+    left: 140px;*/
+}
+
+.value_UP_Bareilly {
+    /*left: -236px;*/
+    /*left: -282px;
+    top: 70px;*/
+    /*left: -244px;
+    top: 18px;*/
+    /*left: 344px;
+    top: -19px;*/
+    /*left: -504px;*/
+    /*left: -645px;
+    top: 73px;*/
+    /*left: 2px;
+    top: 36px;*/
+    /*left: -634px;
+    top: 70px;*/
+    /*left: -631px;*/
+    /*top: 43px;*/
+    /*left: -596px;
+    top: 75px;
+    position: relative;
+    display: inline-block;*/
+    position: absolute;
+    top: 84px;
+    left: 54px;
+    /*top: 94px;
+    left: 41px;*/
+    /*color: #003658;*/
+}
+
+
+.value_UP_Pratapgarh {
+    /*left: 19px;
+    top: 278px;*/
+    /*left: 632px;*/
+    /*left: 657px;
+    top: 240px;*/
+    /*left: 625px;
+    top: 243px;*/
+    /*left: 516px;
+    top: 241px;*/
+    /*left: 28px;
+    top: 279px;*/
+    /*left: 528px;*/
+    /*top: 241px;*/
+    /*left: 650px;
+    top: 271px;
+    position: relative;
+    display: inline-block;*/
+    position: absolute;
+    top: 440px;
+    left: 338px;
+    /*top: 329px;
+    left: 55px;*/
+    /*left: 734px;
+    top: 289px;*/
+    /*left: 659px;
+    top: 355px;*/
+}
+
+.value_UP_Pilibhit {
+    /*left: 425px;
+    top: 42px;*/
+    /*left: 281px;
+    top: 39px;*/
+    /*left: -657px;
+    top: -9px;*/
+    /*left: -57px;*/
+    /*left: -165px;*/
+    /*left: -77px;
+    top: -47px;*/
+    /*left: -31px;*/
+    /*left: 59px;
+    top: -24px;
+    position: relative;*/
+    position: absolute;
+    top: 30px;
+    left: 53px;
+    /*top: 21px;
+    left: 207px;*/
+}
+
+.value_UP_Basti {
+    /*left: 647px;*/
+    /*left: 600px;*/
+    /*left: 413px;
+    top: 202px;*/
+    /*left: 391px;*/
+    /*left: 488px;*/
+    /*left: 539px;
+    top: 171px;*/
+    /*left: 525px;
+    top: 201px;
+    position: relative;*/
+    position: absolute;
+    left: 697px;
+    top: 147px;
+    /*left: 655px;
+    top: 162px;*/
+}
+
+.value_UP_Ghazipur {
+    /*left: 618px;*/
+    /*left: 565px;*/
+    /*left: 365px;
+    top: 288px;*/
+    /*left: 683px;*/
+    /*left: 301px;*/
+    /*left: 390px;*/
+    /*top: 329px;*/
+    /*left: 442px;
+    top: 336px;
+    position: relative;*/
+    position: absolute;
+    left: 709px;
+    top: 377px;
+    /*left: 685px;
+    top: 371px;*/
+}
+
+.value_UP_Jaunpur {
+    /*left: 108px;*/
+    /*left: 55px;*/
+    /*left: -132px;
+    top: 422px;*/
+    /*left: 53px;
+    top: 271px;*/
+    /*left: 4px;*/
+    /*left: -346px;
+    top: 272px;*/
+    /*left: -230px;
+    top: 272px;*/
+    /*left: -197px;*/
+    /*top: 272px;*/
+    /*left: -117px;
+    top: 302px;
+    position: relative;*/
+    position: absolute;
+    left: 673px;
+    top: 511px;
+    /*left: 653px;
+    top: 477px;*/
+    /*top: 356px;
+    left: 29px;*/
+}
+
+.value_UP_Kausambi {
+    /*left: -113px;*/
+    /*left: -532px;
+    top: 343px;*/
+    /*left: -405px;*/
+    /*top: 343px;*/
+    /*left: -325px;
+    top: 373px;
+    position: relative;*/
+    position: absolute;
+    top: 416px;
+    left: 113px;
+    /*top: 328px;
+    left: 130px;*/
+    /*top: 413px;
+    left: 96px;*/
+}
+
+.value_UP_Unnao {
+    /*left: -484px;*/
+    /*top: 125px;*/
+    /*left: -410px;
+    top: 155px;
+    position: relative;*/
+    position: absolute;
+    top: 249px;
+    left: 59px;
+    /*top: 211px;
+    left: 47px;*/
+}
+
+.value_UP_Bhadohi {
+    /*left: 0px;
+    top: 459px;*/
+    /* top: 444px; */
+    /*left: 36px;
+    top: 468px;
+    position: relative;*/
+    position: absolute;
+    left: 338px;
+    top: 488px;
+    /*left: 577px;
+    top: 581px;*/
+}
+
+.value_UP_Khalilabad {
+    position: absolute;
+    left: 719px;
+    top: 197px;
+}
+
+.value_UP_Siddharthnagar {
+    position: absolute;
+    left: 743px;
+    top: 122px;
+    /*left: 727px;
+    top: 134px;*/
+}
+
+.value_UP_Badaun {
+    position: absolute;
+    left: 57px;
+    top: 140px;
+}
+
+.value_UP_Deoria {
+    position: absolute;
+    left: 728px;
+    top: 276px;
+}
+
+.value_UP_Azamgarh {
+    position: absolute;
+    left: 715px;
+    top: 406px;
+    /*left: 684px;
+    top: 397px;*/
+}
+
+.value_UP_Mau {
+    position: absolute;
+    left: 699px;
+    top: 352px;
+    /*left: 679px;
+    top: 343px;*/
+}
+
+.value_UP_Barabanki {
+    position: absolute;
+    left: 645px;
+    top: -6px;
+    /*left: 704px;
+    top: 290px;*/
+}
+
+.value_UP_Sultanpur {
+    position: absolute;
+    left: 121px;
+    top: 390px;
+}
+
+.value_UP_Maharajganj {
+    position: absolute;
+    left: 713px;
+    top: 171px;
+}
+
+.value_UP_Ballia {
+    position: absolute;
+    left: 709px;
+    top: 328px;
+    /*left: 704px;
+    top: 317px;*/
+}
+
+.value_UP_Ambedkarnagar {
+    position: absolute;
+    left: 733px;
+    top: 301px;
+    /*left: 704px;
+    top: 317px;*/
+}
+
+.value_UP_Gonda {
+    position: absolute;
+    left: 646px;
+    top: 44px;
+    /*left: 704px;
+    top: 317px;*/
+}
+
+.value_UP_Kushinagar {
+    position: absolute;
+    left: 706px;
+    top: 224px;
+    /*left: 704px;
+    top: 317px;*/
+}
+
+.value_UP_Raebareily {
+    position: absolute;
+    left: 122px;
+    top: 338px;
+    /*left: 704px;
+    top: 317px;*/
+}
+
+.value_UP_Gola {
+    position: absolute;
+    left: 58px;
+    top: 2px;
+    /*left: 704px;
+    top: 317px;*/
+}
+
+.value_UP_Lakhimpur {
+    position: absolute;
+    left: 75px;
+    top: 56px;
+    /*left: 704px;
+    top: 317px;*/
+}
+
+.value_UP_Shravasti {
+    position: absolute;
+    left: 645px;
+    top: 19px;
+    /*left: 704px;
+    top: 317px;*/
+}
+
+.value_UP_Tanda {
+    position: absolute;
+    left: 687px;
+    top: 431px;
+    /*left: 704px;
+    top: 317px;*/
+}
+
+.value_UP_Balrampur {
+    position: absolute;
+    left: 687px;
+    top: 71px;
+    /*left: 704px;
+    top: 317px;*/
+}
+
+.value_UP_Amethi {
+    position: absolute;
+    left: 118px;
+    top: 363px;
+    /*left: 704px;
+    top: 317px;*/
+}
+
+.value_UP_Chandauli {
+    /*left: -81px;*/
+    /*left: 20px;
+    top: 525px;
+    position: relative;*/
+    position: absolute;
+    left: 691px;
+    top: 455px;
+    /*left: 677px;
+    top: 423px;*/
+    /*left: 610px;
+    top: 468px;*/
+}
+
+
+.value_UP_Shahjahanpur {
+    /*left: 470px;
+    top: -25px;
+    position: relative;*/
+    position: absolute;
+    /*left: 561px;
+    top: 29px;*/
+    left: 90px;
+    top: 113px;
+    /*left: 420px;
+    top: 12px;*/
+}
+
+.value_UP_Sitapur {
+    position: absolute;
+    position: absolute;
+    /*left: 585px;
+    top: 54px;*/
+    left: 53px;
+    top: 166px;
+    /*left: 431px;
+    top: 71px;*/
+}
+
+.value_UP_Faizabad {
+    position: absolute;
+    /*left: 668px;
+    top: 108px;*/
+    left: 693px;
+    top: 95px;
+    /*left: 645px;
+    top: 209px;*/
+}
+
+.value_UP_Gorakhpur {
+    position: absolute;
+    left: 730px;
+    top: 249px;
+    /*left: 640px;
+    top: 302px;*/
+}
+
+.value_UP_Mirzapur {
+    position: absolute;
+    left: 357px;
+    top: 511px;
+    /*left: 335px;
+    top: 519px;*/
+}
+
+
+.value_TLG_Telangana {
+    /*left: 103px;
+    top: 204px;
+    position: relative;*/
+    left: 95px;
+    top: 202px;
+    position: absolute;
+    /*z-index:0;*/
+}
+
+.value_TLG_Telangana_state {
+    /*left: 80px;
+    top: 229px;*/
+    left: 38px;
+    top: 203px;
+    position: absolute;
+}
+
+.value_ASM_Assam {
+    /*left: 560px;
+    top: 235px;*/
+    /*left: 574px;
+    top: 237px;*/
+    left: 610px;
+    top: 239px;
+    position: absolute;
+}
+
+.value_ASM_Assam_state {
+    /*left: 223px;
+    top: -293px;
+    position: relative;*/
+    left: 560px;
+    top: 240px;
+    position: absolute;
+}
+/*Sadhana:only-child 5th Jan,2015*/
+.value_ASA_Assam {
+    /*left: 560px;
+    top: 235px;*/
+    /*left: 574px;
+    top: 237px;*/
+    left: 610px;
+    top: 267px;
+    position: absolute;
+}
+
+.value_ASA_Assam_state {
+    /*left: 223px;
+    top: -293px;
+    position: relative;*/
+    left: 560px;
+    top: 268px;
+    position: absolute;
+}
+
+.value_CTG_Chhattisgarh {
+    /*left: 540px;
+    top: 340px;
+    position: relative;*/
+    /*left: 540px;
+    top: 340px;*/
+    left: 638px;
+    top: 227px;
+    position: absolute;
+}
+
+.value_CTG_Chhattisgarh_state {
+    /*left: 572px;
+    top: 363px;*/
+    left: 579px;
+    top: 228px;
+    position: absolute;
+}
+
+
+.value_MPD_MadhyaPradesh {
+    /*left: -299px;
+    top: 211px;
+    position: relative;*/
+    position: absolute;
+    left: 98px;
+    top: 213px;
+}
+
+.value_MPD_MadhyaPradesh_state {
+    /*left: -357px;
+    top: 233px;
+    position: relative;*/
+    position: absolute;
+    left: 41px;
+    top: 213px;
+}
+
+.value_OIA_Odisha {
+    left: 758px;
+    top: 190px;
+    position: absolute;
+}
+
+.value_OIA_Odisha_state {
+    left: 698px;
+    top: 190px;
+    position: absolute;
+}
+
+
+
+/*trupti 08 september 2015 : added this for new map changes*/
+.value_MH_Nagpur_state {
+    /*left: 997px;
+    top: 437px;
+    position: absolute;*/
+    /*left: 487px;*/
+    /*left: 330px;
+    top: 24px;*/
+    /*top: 51px;*/
+    /*top: 18px;*/
+    /*top: 34px;
+    left: 419px;
+    position: relative;*/
+    position: absolute;
+    left: 727px;
+    top: 19px;
+    z-index: 0;
+}
+
+.value_MH_Wardha_state {
+    /*left: 259px;
+    top: 100px;*/
+    /*top: 109px;*/
+    /*top: 78px;*/
+    /*left: 344px;
+    top: 98px;
+    position: relative;*/
+    position: absolute;
+    left: 709px;
+    top: 108px;
+    z-index: 0;
+}
+
+.value_MH_Biwandi_state {
+    /*left: 5px;*/
+    /*left: -107px;
+    top: -9px;*/
+    /*left: -94px;*/
+    /*top: 19px;*/
+    /*top: -12px;*/
+    /*top: -13px;*/
+    /*left: -42px;
+    top: 8px;
+    position: relative;*/
+    position: absolute;
+    left: 11px;
+    top: 58px;
+}
+
+.value_MH_Washi_state {
+    /*left: 337px;
+    top: 185px;*/
+    /*top: 213px;*/
+    /*top: 180px;*/
+    /*left: 413px;
+    top: 198px;
+    position: relative;*/
+    position: absolute;
+    left: 521px;
+    top: 264px;
+}
+
+.value_MH_FullMumbai_state {
+    /*left: 5px;
+    top: 148px;*/
+    /*left: 63px;*/
+    /*top: 176px;*/
+    /*top: 145px;*/
+    /*top: 107px;*/
+    /*top: 125px;*/
+    /* top: 189px; */
+    /* top: 175px; */
+    /*position: relative;
+    left: 67px;
+    top: 123px;*/
+    position: absolute;
+    left: 14px;
+    top: 176px;
+}
+
+
+.value_MH_Mumbai_state {
+    /*left: 352px;
+    top: 560px;
+    position: absolute;top: 148px;*/
+    /*left: 5px;*/
+    /*left: -57px;
+    top: 68px;*/
+    /*left: -37px;
+    top: 97px;*/
+    /*top: 96px;*/
+    /*top: 65px;*/
+    /*top: 46px;*/
+    /*top: 110px;*/
+    /*left: 15px;
+    top: 65px;
+    position: relative;*/
+    position: absolute;
+    left: 16px;
+    top: 117px;
+    z-index: 0;
+}
+
+.value_MH_Ratnagiri_state {
+    /*left: 378px;
+    top: 716px;
+    position: absolute;*/
+    /*left: -53px;*/
+    /*left: -210px;
+    top: 304px;*/
+    /*top: 330px;*/
+    /*top: 299px;*/
+    /*left: -134px;
+    top: 315px;
+    position: relative;*/
+    position: absolute;
+    left: 29px;
+    top: 360px;
+    z-index: 0;
+}
+
+.value_MH_Sindhudurg_state {
+    /*left: 197px;*/
+    /*left: 526px;
+    top: 766px;
+    position: absolute;*/
+    /*left: 144px;*/
+    /*left: -8px;
+    top: 353px;*/
+    /*top: 382px;*/
+    /*top: 351px;*/
+    /*left: 75px;
+    top: 366px;
+    position: relative;*/
+    position: absolute;
+    left: 35px;
+    top: 412px;
+    z-index: 0;
+}
+
+.value_MH_Kalyan_state {
+    /*left: -477px;
+    top: 219px;*/
+    /*top: 247px;*/
+    /*top: 216px;*/
+    /*top: 202px;*/
+    /*top: 172px;*/
+    /*left: -416px;
+    top: 190px;
+    position: relative;*/
+    position: absolute;
+    left: 21px;
+    top: 229px;
+    z-index: 0;
+}
+
+.value_MH_Aurangabad_state {
+    position: absolute;
+    left: 127px;
+    top: 18px;
+}
+
+.value_MH_Gondia_state {
+    position: absolute;
+    left: 713px;
+    top: 51px;
+}
+
+.value_MH_Bhandara_state {
+    position: absolute;
+    left: 713px;
+    top: 80px;
+}
+
+.value_MH_Gadchiroli_state {
+    position: absolute;
+    left: 716px;
+    top: 136px;
+    z-index: 0;
+}
+
+.value_MH_Amravati_state {
+    /*left: -220px;
+    top: -57px;*/
+    /*left: -170px;
+    top: -23px;*/
+    /*left: -170px;
+    top: -56px;*/
+    /* top: -22px; */
+    /*left: 53px;
+    top: -39px;
+    position: relative;*/
+    position: absolute;
+    left: 562px;
+    top: 1px;
+}
+
+.value_MH_Chandrapur_state {
+    /*top: 181px;*/
+    /*top: 141px;*/
+    /*top: 125px;*/
+    /*left: 157px;
+    top: 159px;
+    position: relative;*/
+    position: absolute;
+    left: 719px;
+    top: 173px;
+}
+
+.value_MH_PuneUrban_state {
+    /*top: 233px;*/
+    /*left: -619px;
+    top: 250px;
+    position: relative;*/
+    position: absolute;
+    left: 9px;
+    top: 269px;
+}
+
+.value_MH_PuneRural_state {
+    position: absolute;
+    left: 9px;
+    top: 294px;
+}
+
+.value_MH_Jalgaon_state {
+    /*left: -540px;
+    top: -39px;
+    position: relative;*/
+    position: absolute;
+    left: 382px;
+    top: 9px;
+}
+
+.value_RJ_Ajmer_state {
+    /*left: 1019px;
+    top: 658px;
+    position: absolute;*/
+    /*left: 698px;
+    top: 245px;*/
+    /*left: 705px;
+    top: 246px;*/
+    /*left: 362px;*/
+    /*left: 466px;*/
+    /*top: 209px;*/
+    /*top: 176px;*/
+    /*left: 362px;
+    top: 337px;
+    position: relative;*/
+    position: absolute;
+    left: 700px;
+    top: 375px;
+    z-index: 0;
+}
+
+/*Trupti-2015/10/27*/
+
+.value_RJ_Bhilwara_state {
+    /*left: -415px;*/
+    /*left: 307px;*/
+    /*top: 324px;*/
+    /*top: 290px;*/
+    /*left: 296px;
+    top: 709px;
+    position: relative;*/
+    position: absolute;
+    left: 621px;
+    top: 601px;
+    z-index: 0;
+}
+
+.value_RJ_Nagaur_state {
+    /*left: 107px;
+    top: -57px;*/
+    /*left: 211px;
+    top: -57px;*/
+    /*left: 419px;
+    top: 52px;*/
+    /*left: 210px;*/
+    /*top: -57px;*/
+    /*top: -92px;*/
+    /*left: -176px;
+    top: 17px;*/
+    /*left: -205px;
+    top: -45px;
+    position: relative;*/
+    position: absolute;
+    left: 260px;
+    top: 104px;
+    z-index: 0;
+}
+
+.value_RJ_Udaipur_state {
+    /*left: -535px;
+    top: 381px;*/
+    /*left: -427px;*/
+    /*top: 381px;*/
+    /*top: 347px;*/
+    /*left: -225px;
+    top: 542px;*/
+    /*left: -373px;
+    top: 639px;
+    position: relative;*/
+    position: absolute;
+    left: 193px;
+    top: 614px;
+    z-index: 0;
+}
+
+
+.value_RJ_Banswara_state {
+    /*left: -424px;
+    top: 739px;
+    position: relative;*/
+    position: absolute;
+    left: 235px;
+    top: 664px;
+}
+
+.value_RJ_Dungerpur_state {
+    /*left: -600px;
+    top: 698px;
+    position: relative;*/
+    position: absolute;
+    left: 191px;
+    top: 626px;
+}
+
+.value_RJ_Jhunjhunu_state {
+    /*left: 670px;
+    top: -86px;
+    position: relative;*/
+    position: absolute;
+    left: 555px;
+    top: 65px;
+}
+
+.value_RJ_Rajsmand_state {
+    /*left: 0px;
+    top: 552px;
+    position: relative;*/
+    position: absolute;
+    left: 165px;
+    top: 578px;
+}
+
+.value_RJ_Sikar_state {
+    /*top: -30px;
+    left: 481px;
+    position: relative;*/
+    position: absolute;
+    left: 577px;
+    top: 101px;
+}
+
+/*Trupti-2015/10/27*/
+
+.value_RJ_Kota_state {
+    /*left: 993px;
+    top: 755px;
+    position: absolute;*/
+    /*left: 634px;
+    top: 340px;*/
+    /*left: 152px;
+    top: 438px;*/
+    /*left: -348px;*/
+    /*left: -238px;*/
+    /*top: 430px;*/
+    /*top: 396px;*/
+    /*left: 507px;
+    top: 616px;
+    position: relative;*/
+    position: absolute;
+    left: 621px;
+    top: 601px;
+    z-index: 0;
+}
+
+.value_RJ_Bundi_state {
+    /*top: 264px;
+    left: -167px;*/
+    /*top: 276px;
+    left: -364px;*/
+    /*top: 263px;
+    left: -164px;*/
+    /*top: 188px;
+    left: -318px;*/
+    /*top: 190px;*/
+    /*top: 155px;
+    left: -69px;*/
+    /*left: -79px;
+    top: 227px;
+    position: relative;*/
+    position: absolute;
+    left: 55px;
+    top: 364px;
+}
+
+.value_RJ_Baran_state {
+    /*top: 329px;
+    left: -151px;*/
+    /*top: 373px;
+    left: 320px;*/
+    /*top: 373px;*/
+    /*top: 343px;
+    left: 573px;*/
+    /*top: 464px;
+    left: 598px;*/
+    /*top: 458px;
+    left: 602px;
+    position: relative;*/
+    position: absolute;
+    left: 700px;
+    top: 516px;
+}
+
+.value_RJ_Jhalawar_state {
+    /*top: 497px;
+    left: 83px;*/
+    /*top: 497px;
+    left: 83px;*/
+    /*top: 435px;*/
+    /*top: 400px;
+    left: 181px;*/
+    /*top: 520px;
+    left: 534px;
+    position: relative;*/
+    position: absolute;
+    left: 694px;
+    top: 559px;
+    z-index: 0;
+}
+
+.value_RJ_Jaipur_state {
+    /*left: 996px;
+    top: 585px;
+    position: absolute;*/
+    /*left: 721px;
+    top: 172px;*/
+    /*left: 753px;
+    top: 121px;*/
+    /*left: 753px;
+    /*top: 83px;
+    top: 50px;*/
+    /*left: 750px;
+    top: 88px;
+    position: relative;*/
+    position: absolute;
+    left: 698px;
+    top: 172px;
+    z-index: 0;
+}
+
+/*Trupti-2015/10/27*/
+
+.value_RJ_Alwar_state {
+    /*left: 670px;*/
+    /*top: 6px;*/
+    /*top: -30px;*/
+    /*left: 704px;
+    top: 34px;
+    position: relative;*/
+    position: absolute;
+    left: 626px;
+    top: 136px;
+    z-index: 0;
+}
+
+.value_RJ_Bharatpur_state {
+    /*top: 147px;*/
+    /*top: 112px;*/
+    /*left: 632px;
+    top: 211px;
+    position: relative;*/
+    position: absolute;
+    left: 700px;
+    top: 250px;
+    z-index: 0;
+}
+
+
+.value_RJ_Dausa_state {
+    /*left: 632px;
+    top: 152px;*/
+    /*left: 583px;
+    top: 153px;
+    position: relative;*/
+    position: absolute;
+    left: 685px;
+    top: 215px;
+    z-index: 0;
+}
+
+.value_RJ_Karauli_state {
+    /*left: 531px;
+    top: 269px;
+    position: relative;*/
+    position: absolute;
+    left: 713px;
+    top: 297px;
+    z-index: 0;
+}
+
+.value_RJ_Sawaimadhopur_state {
+    /*left: 412px;*/
+    /*left: 513px;
+    top: 231px;*/
+    /*top: 266px;*/
+    /*left: 410px;
+    top: 397px;
+    position: relative;*/
+    position: absolute;
+    left: 668px;
+    top: 419px;
+    z-index: 0;
+}
+
+/*Trupti-2015/10/27*/
+
+.value_RJ_Jodhpur_state {
+    /*left: 289px;
+    top: 620px;
+    position: absolute;*/
+    /*left: -103px;
+    top: 207px;*/
+    /*left: -101px;
+    top: 158px;*/
+    /*left: -630px;*/
+    /*left: -522px;*/
+    /*top: 60px;*/
+    /*top: 25px;*/
+    /*left: -609px;
+    top: 195px;*/
+    /*left: -208px;
+    top: 90px;
+    position: relative;*/
+    position: absolute;
+    left: 53px;
+    top: 258px;
+    z-index: 0;
+}
+
+
+/*Trupti-2015/10/27*/
+
+
+.value_RJ_Barmer_state {
+    /*left: -532px;
+    top: 446px;*/
+    /*left: -271px;
+    top: 321px;
+    position: relative;*/
+    position: absolute;
+    left: 52px;
+    top: 398px;
+    z-index: 0;
+}
+
+.value_RJ_Bikaner_state {
+    /*left: -482px;*/
+    /*top: 3px;*/
+    /*top: -33px;*/
+    /*left: -625px;
+    top: 137px;*/
+    /*left: -279px;
+    top: 23px;
+    position: relative;*/
+    position: absolute;
+    left: 177px;
+    top: 217px;
+    z-index: 0;
+}
+
+.value_RJ_Churu_state {
+    /*left: -316px;
+    top: -144px;
+    position: relative;*/
+    position: absolute;
+    left: 334px;
+    top: 54px;
+}
+
+
+.value_RJ_Jalore_state {
+    /*left: -659px;
+    top: 382px;
+    position: relative;*/
+    position: absolute;
+    left: 83px;
+    top: 455px;
+    z-index: 0;
+}
+
+.value_RJ_Hanumangarh_state {
+    /*left: 520px;
+    top: -180px;
+    position: relative;*/
+    position: absolute;
+    left: 513px;
+    top: 9px;
+}
+
+
+.value_RJ_Jaisalmer_state {
+    /*left: -86px;
+    top: 104px;*/
+    /*left: -86px;
+    top: 104px;*/
+    /*left: -640px;*/
+    /*top: 142px;*/
+    /*top: 109px;*/
+    /*left: -628px;
+    top: 262px;*/
+    /*left: -381px;
+    top: 168px;
+    position: relative;*/
+    position: absolute;
+    left: 3px;
+    top: 307px;
+    z-index: 0;
+}
+
+
+.value_RJ_Pali_state {
+    /*left: -638px;*/
+    /*top: 275px;*/
+    /*top: 240px;*/
+    /*left: -697px;
+    top: 460px;*/
+    /*left: -449px;
+    top: 440px;
+    position: relative;*/
+    position: absolute;
+    left: 131px;
+    top: 496px;
+    z-index: 0;
+}
+
+.value_RJ_Sirohi_state {
+    /*top: 383px;*/
+    /*left: -481px;
+    top: 501px;
+    position: relative;*/
+    position: absolute;
+    left: 141px;
+    top: 536px;
+    z-index: 0;
+}
+
+.value_RJ_Sriganganagar_state {
+    /*left: -480px;
+    top: -5px;*/
+    /*left: 194px;*/
+    /*top: -95px;*/
+    /*top: -128px;*/
+    /*left: 77px;
+    top: 40px;*/
+    /*left: -385px;
+    top: -37px;
+    position: relative;*/
+    position: absolute;
+    left: 184px;
+    top: 150px;
+    z-index: 0;
+}
+
+/*Trupti-2015/10/27*/
+
+.value_RJ_Tonk_state {
+    /*left: 381px;
+    top: 318px;*/
+    /*top: 450px;
+    left: -299px;*/
+    /*left: 381px;
+    top: 318px;*/
+    /*left: 262px;*/
+    /*left: 513px;*/
+    /*top: 305px;*/
+    /*top: 270px;*/
+    /*left: 491px;
+    top: 396px;
+    position: relative;*/
+    position: absolute;
+    left: 700px;
+    top: 464px;
+}
+
+.value_RJ_Pratapgarh_state {
+    /*left: 26px;
+    top: 700px;
+    position: relative;*/
+    position: absolute;
+    left: 576px;
+    top: 670px;
+}
+
+.value_RJ_Chittorgarh_state {
+    /*left: 215px;
+    top: 700px;
+    position: relative;*/
+    position: absolute;
+    left: 621px;
+    top: 635px;
+}
+
+.value_RJ_Dholpur_state {
+    position: absolute;
+    left: 731px;
+    top: 330px;
+}
+
+
+.value_UP_Varanasi_state {
+    /*left: 935px;
+    top: 736px;
+    position: absolute;*/
+    /*left: 634px;
+    top: 324px;*/
+    /*left: 668px;
+    top: 297px;*/
+    /*left: 612px;
+    top: 303px;*/
+    /*left: 573px;
+    top: 352px;*/
+    /*left: 600px;
+    top: 378px;*/
+    /*top: 375px;*/
+    /*left: 735px;
+    top: 399px;
+    position: relative;*/
+    position: absolute;
+    left: 622px;
+    top: 482px;
+    /*left: 606px;
+    top: 449px;*/
+    z-index: 0;
+}
+
+.value_UP_Kanpur_state {
+    /*left: 357px;
+    top: 658px;
+    position: absolute;*/
+    /*left: -3px;
+    top: 247px;*/
+    /*left: 28px;*/
+    /*left: 8px;
+    top: 211px;*/
+    /*top: 160px;*/
+    /*top: 171px;*/
+    /*left: -39px;
+    top: 203px;
+    position: relative;*/
+    z-index: 0;
+    position: absolute;
+    top: 285px;
+    left: 86px;
+    /*top: 294px;
+    left: 47px;*/
+}
+
+.value_UP_Lucknow_state {
+    /*left: 895px;
+    top: 592px;
+    position: absolute;*/
+    /*left: 476px;
+    top: 179px;*/
+    /*left: 510px;
+    top: 142px;*/
+    /*left: 482px;
+    top: 144px;*/
+    /*left: 432px;*/
+    /*top: 126px;*/
+    /*left: 458px;
+    top: 158px;
+    position: relative;*/
+    z-index: 0;
+    position: absolute;
+    left: 4px;
+    top: 222px;
+}
+
+.value_UP_Bahraich_state {
+    /*left: 800px;
+    top: 531px;
+    position: absolute;*/
+    /*left: 312px;
+    top: 119px;*/
+    /*left: 347px;
+    top: 81px;*/
+    /*left: 321px;
+    top: 83px;*/
+    /*left: 313px;
+    top: -56px;*/
+    /*left: 344px;
+    top: -58px;*/
+    /*left: 391px;
+    top: 69px;
+    position: relative;*/
+    z-index: 0;
+    position: absolute;
+    left: 320px;
+    top: 57px;
+    /*left: 605px;
+    top: 83px;*/
+}
+
+.value_UP_Allahabad_state {
+    /*left: -10px;
+    top: 395px;*/
+    /*left: 24px;*/
+    /*left: 4px;
+    top: 358px;*/
+    /*left: 29px;*/
+    /*top: 374px;*/
+    /*left: -50px;
+    top: 421px;*/
+    /*left: 67px;
+    top: 403px;
+    position: relative;*/
+    position: absolute;
+    left: 251px;
+    top: 465px;
+    /*left: 318px;
+    top: 483px;*/
+    z-index: 0;
+}
+
+.value_UP_Hardoi_state {
+    /*left: -320px;
+    top: 182px;*/
+    /*left: -300px;*/
+    /*left: -320px;
+    top: 145px;*/
+    /*top: 94px;*/
+    /*top: 51px;*/
+    /*left: -411px;
+    top: 142px;*/
+    /*left: -300px;
+    top: 85px;
+    position: relative;*/
+    position: absolute;
+    top: 195px;
+    left: 6px;
+    /*top: 174px;
+    left: 43px;*/
+}
+
+
+.value_UP_Fatehpur_state {
+    /*left: -319px;
+    top: 354px;*/
+    /*left: -287px;*/
+    /*left: -303px;
+    top: 317px;*/
+    /*left: -368px;*/
+    /*top: 224px;*/
+    /*top: 228px;*/
+    /*left: -348px;
+    top: 260px;
+    position: relative;*/
+    z-index: 1;
+    position: absolute;
+    top: 313px;
+    left: 76px;
+    /*top: 352px;
+    left: 140px;*/
+}
+
+.value_UP_Bareilly_state {
+    /*left: -64px;
+    top: 61px;*/
+    /*left: -29px;
+    top: 24px;*/
+    /*left: -56px;
+    top: -29px;*/
+    /*top: 25px;*/
+    /*top: -4px;*/
+    /*left: -417px;
+    top: 28px;
+    position: relative;*/
+    position: absolute;
+    top: 85px;
+    left: 4px;
+    /*top: 118px;
+    left: 43px;*/
+}
+
+.value_UP_Pratapgarh_state {
+    /*left: 158px;*/
+    /*top: 231px;*/
+    /*left: 133px;
+    top: 232px;*/
+    /*top: 230px;*/
+    /*left: 171px;
+    top: 263px;
+    position: relative;*/
+    z-index: 0;
+    position: absolute;
+    top: 441px;
+    left: 263px;
+    /*left: 661px;
+    top: 290px;*/
+    /*left: 677px;
+    top: 381px;*/
+}
+
+.value_UP_Pilibhit_state {
+    /*left: -81px;
+    top: 32px;*/
+    /*left: -558px;*/
+    /*top: -53px;*/
+    /*top: -57px;*/
+    /*left: -521px;
+    top: -37px;
+    position: relative;*/
+    position: absolute;
+    top: 31px;
+    left: 4px;
+    /*top: 45px;
+    left: 207px;*/
+}
+
+.value_UP_Basti_state {
+    /*left: 90px;
+    top: 191px;*/
+    /*left: 90px;*/
+    /*top: 158px;*/
+    /*left: 136px;
+    top: 200px;
+    position: relative;*/
+    z-index: 0;
+    position: absolute;
+    left: 657px;
+    top: 148px;
+    /*left: 619px;
+    top: 163px;*/
+}
+
+.value_UP_Unnao_state {
+    /*top: 73px;*/
+    /*left: -56px;
+    top: 106px;
+    position: relative;*/
+    position: absolute;
+    top: 250px;
+    left: 14px;
+    /*top: 235px;
+    left: 49px;*/
+}
+
+.value_UP_Bhadohi_state {
+    /*left: 471px;
+    top: 409px;*/
+    /* top: 394px; */
+    /*left: 534px;
+    top: 418px;
+    position: relative;*/
+    position: absolute;
+    left: 280px;
+    top: 489px;
+    /*left: 601px;
+    top: 605px;*/
+}
+
+.value_UP_Khalilabad_state {
+    position: absolute;
+    left: 646px;
+    top: 198px;
+}
+
+.value_UP_Siddharthnagar_state {
+    position: absolute;
+    left: 636px;
+    top: 123px;
+    /*left: 622px;
+    top: 135px;*/
+}
+
+.value_UP_Badaun_state {
+    position: absolute;
+    left: 4px;
+    top: 141px;
+}
+
+.value_UP_Deoria_state {
+    position: absolute;
+    left: 680px;
+    top: 277px;
+}
+
+.value_UP_Azamgarh_state {
+    position: absolute;
+    left: 647px;
+    top: 407px;
+    /*left: 614px;
+    top: 398px;*/
+}
+
+.value_UP_Mau_state {
+    position: absolute;
+    left: 663px;
+    top: 353px;
+    /*left: 645px;
+    top: 344px;*/
+}
+
+.value_UP_Barabanki_state {
+    position: absolute;
+    /*left: 670px;
+    top: 291px;*/
+    left: 577px;
+    top: -5px;
+}
+
+.value_UP_Sultanpur_state {
+    position: absolute;
+    left: 54px;
+    top: 391px;
+}
+
+.value_UP_Maharajganj_state {
+    position: absolute;
+    left: 632px;
+    top: 172px;
+}
+
+.value_UP_Ballia_state {
+    position: absolute;
+    left: 667px;
+    top: 329px;
+    /*left: 665px;
+    top: 318px;*/
+}
+
+.value_UP_Ambedkarnagar_state {
+    position: absolute;
+    left: 623px;
+    top: 302px;
+}
+
+.value_UP_Gonda_state {
+    position: absolute;
+    left: 595px;
+    top: 45px;
+}
+
+.value_UP_Kushinagar_state {
+    position: absolute;
+    left: 631px;
+    top: 225px;
+}
+
+.value_UP_Raebareily_state {
+    position: absolute;
+    left: 51px;
+    top: 339px;
+}
+
+.value_UP_Gola_state {
+    position: absolute;
+    left: 21px;
+    top: 3px;
+}
+
+.value_UP_Lakhimpur_state {
+    position: absolute;
+    left: 5px;
+    top: 57px;
+}
+
+.value_UP_Shravasti_state {
+    position: absolute;
+    left: 579px;
+    top: 20px;
+}
+
+.value_UP_Tanda_state {
+    position: absolute;
+    left: 642px;
+    top: 432px;
+}
+
+.value_UP_Balrampur_state {
+    position: absolute;
+    left: 616px;
+    top: 72px;
+}
+
+.value_UP_Amethi_state {
+    position: absolute;
+    left: 66px;
+    top: 364px;
+}
+
+.value_UP_Chandauli_state {
+    position: absolute;
+    left: 623px;
+    top: 456px;
+    /*left: 622px;
+    top: 492px;*/
+}
+
+
+.value_UP_Ghazipur_state {
+    /*left: 26px;
+    top: 274px;*/
+    /*left: 26px;*/
+    /*top: 317px;*/
+    /*left: 70px;
+    top: 324px;
+    position: relative;*/
+    z-index: 0;
+    position: absolute;
+    left: 647px;
+    top: 378px;
+    /*left: 624px;
+    top: 372px;*/
+    /*left: 638px;
+    top: 434px;*/
+}
+
+.value_UP_Jaunpur_state {
+    /*left: 245px;
+    top: 373px;*/
+    /*left: 109px;
+    top: 221px;*/
+    /*top: 257px;*/
+    /*left: -585px;
+    top: 286px;
+    position: relative;*/
+    z-index: 0;
+    position: absolute;
+    left: 618px;
+    top: 512px;
+    /*left: 599px;
+    top: 478px;*/
+    /*top: 380px;
+    left: 23px;*/
+}
+
+.value_UP_Kausambi_state {
+    /*left: -57px;
+    top: 293px;*/
+    /*top: 292px;*/
+    /*left: 23px;
+    top: 325px;
+    position: relative;*/
+    z-index: 1;
+    position: absolute;
+    top: 417px;
+    left: 39px;
+    /*top: 329px;
+    left: 55px;*/
+    /*top: 438px;
+    left: 95px;*/
+}
+
+.value_UP_Shahjahanpur_state {
+    /*left: 190px;
+    top: -73px;
+    position: relative;*/
+    position: absolute;
+    /*left: 473px;
+    top: 30px;*/
+    left: 3px;
+    top: 114px;
+}
+
+.value_UP_Sitapur_state {
+    position: absolute;
+    /*left: 536px;
+    top: 55px;*/
+    left: 4px;
+    top: 167px;
+    /*left: 463px;
+    top: 95px;*/
+}
+
+.value_UP_Faizabad_state {
+    z-index: 0;
+    position: absolute;
+    /*left: 607px;
+    top: 109px;*/
+    left: 629px;
+    top: 96px;
+    /*left: 677px;
+    top: 234px;*/
+}
+
+
+.value_UP_Gorakhpur_state {
+    z-index: 0;
+    position: absolute;
+    left: 657px;
+    top: 250px;
+    /*left: 665px;
+    top: 327px;*/
+}
+
+.value_UP_Mirzapur_state {
+    position: absolute;
+    left: 298px;
+    top: 512px;
+    /*left: 334px;
+    top: 543px;*/
+    z-index: 0;
+}
+
+
+
+
+.value_HP_Shimla_state {
+    /*left: 493px;
+    top: 734px;
+    position: absolute;*/
+    /*left: 221px;
+    top: 332px;*/
+    /*top: 334px;*/
+    /*left: 732px;
+    top: 298px;
+    position: relative;*/
+    position: absolute;
+    left: 589px;
+    top: 348px;
+    z-index: 0;
+}
+
+.value_HP_Bhilaspur_state {
+    /*left: 994px;
+    top: 707px;
+    position: absolute;*/
+    /*left: 62px;
+    top: 274px;*/
+    /*left: -37px;
+    top: 392px;*/
+    /*left: -34px;
+    top: 354px;
+    position: relative;*/
+    position: absolute;
+    left: 159px;
+    top: 288px;
+    z-index: 0;
+}
+
+.value_HP_Kullu_state {
+    /*position: absolute;
+    left: 968px;
+    top: 521px;*/
+    /*left: 587px;
+    top: 110px;*/
+    /*left: 587px;
+    top: 110px;*/
+    /*left: 968px;
+    top: 521px;*/
+    /*position: relative;
+    left: 641px;
+    top: 54px;*/
+    z-index: 0;
+    position: absolute;
+    left: 684px;
+    top: 157px;
+}
+
+.value_HP_Mandi_state {
+    /*left: 407px;
+    top: 617px;
+    position: absolute;*/
+    /*left: -136px;
+    top: 141px;*/
+    /*left: -136px;
+    top: 100px;*/
+    /*left: -136px;
+    top: 64px;
+    position: relative;*/
+    position: absolute;
+    left: 119px;
+    top: 146px;
+    z-index: 0;
+}
+
+.value_HP_Rampur_state {
+    /*left: 973px;
+    top: 642px;
+    position: absolute;*/
+    /*left: 973px;
+    top: 642px;*/
+    /*left: 536px;
+    top: 189px;*/
+    /*top: 160px;*/
+    /*position: relative;
+    left: 507px;
+    top: 123px;*/
+    position: absolute;
+    left: 693px;
+    top: 202px;
+    z-index: 0;
+}
+
+.value_HP_Rohru_state {
+    /*left: 1005px;
+    top: 581px;
+    position: absolute;*/
+    /*left: 480px;
+    top: 268px;*/
+    /*top: 245px;*/
+    /*left: 469px;
+    top: 209px;
+    position: relative;*/
+    position: absolute;
+    left: 701px;
+    top: 260px;
+    z-index: 0;
+}
+
+.value_HP_Solan_state {
+    /*left: 900px;
+    top: 770px;
+    position: absolute;*/
+    /*left: 150px;
+    top: 349px;*/
+    /*left: 320px;
+    top: 340px;*/
+    /*left: 328px;*/
+    /*top: 401px;*/
+    /*left: 292px;
+    top: 365px;
+    position: relative;*/
+    position: absolute;
+    left: 242px;
+    top: 351px;
+    z-index: 0;
+}
+
+.value_HP_Una_state {
+    /*left: 304px;
+    top: 668px;
+    position: absolute;*/
+    /*left: 304px;
+    top: 668px;*/
+    /*left: -288px;
+    top: 215px;*/
+    /*top: 311px;*/
+    /*left: -273px;
+    top: 276px;
+    position: relative;*/
+    position: absolute;
+    left: 161px;
+    top: 250px;
+    z-index: 0;
+}
+
+.value_HP_Dalhausie_state {
+    /*left: -302px;
+    top: -37px;
+    position: relative;*/
+    position: absolute;
+    left: 123px;
+    top: 76px;
+    /*z-index:0;*/
+}
+
+.value_HP_Kangra_state {
+    /*top: 169px;*/
+    /*left: -345px;
+    top: 134px;
+    position: relative;*/
+    position: absolute;
+    left: 116px;
+    top: 182px;
+    /*z-index:0;*/
+}
+
+.value_HP_Hamirpur_state {
+    /*top: 234px;*/
+    /*top: 199px;
+    left: -486px;
+    position: relative;*/
+    position: absolute;
+    left: 124px;
+    top: 216px;
+    /*z-index:0;*/
+}
+
+.value_HP_Nahan_state {
+    /*left: 97px;
+    top: 325px;
+    position: relative;*/
+    position: absolute;
+    left: 572px;
+    top: 405px;
+}
+
+
+.in-jk {
+    fill: #ffa800;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width:1px;
+
+}
+.in-jk:hover {
+    fill: #ffe968;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    cursor:pointer;
+}
+
+.in-an {
+    fill: #eeeeed;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+}
+.in-an:hover {
+    fill: #ffe968;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    cursor:pointer;
+}
+
+.in-ap {
+    fill: #988cc8;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+}
+.in-ap:hover {
+    fill: #ffe968;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    cursor:pointer;
+}
+
+.in-te {
+    fill: #a79bdb;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+}
+.in-te:hover {
+    fill: #ffe968;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    cursor:pointer;
+}
+
+.in-wb {
+    fill: #fe7b3b;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+}
+.in-wb:hover {
+    fill: #ffe968;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    cursor:pointer;
+}
+
+.in-ld {
+    fill: #eeeeed;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+}
+.in-ld:hover {
+    fill: #ffe968;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    cursor:pointer;
+}
+
+.in-py {
+    fill: #b4a9e6;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+}
+.in-py:hover {
+    fill:#ffe968;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    cursor:pointer;
+}
+
+.in-mz {
+    fill: #70ddfd;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+}
+.in-mz:hover {
+    fill: #ffe968;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    cursor:pointer;
+}
+
+.in-as {
+    fill: #01b6ec;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+}
+.in-as:hover {
+    fill: #ffe968;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    cursor:pointer;
+}
+
+.in-pb {
+    fill: #fdc559;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+}
+.in-pb:hover {
+    fill: #ffe968;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    cursor:pointer;
+}
+
+.in-ga {
+    fill: #fdb5b5;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+}
+.in-ga:hover {
+    fill: #ffe968;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    cursor:pointer;
+}
+
+.in-2984 /*gujrat*/ {
+    fill: #fd7979;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+}
+.in-2984:hover /*gujrat*/ {
+    fill: #ffe968;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    cursor:pointer;
+}
+
+.in-hr {
+    fill: #fbd07e;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+}
+.in-hr:hover {
+    fill:  #ffe968;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    cursor:pointer;
+}
+
+.in-nl {
+    fill: #1bc9fd;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+}
+.in-nl:hover {
+    fill: #ffe968;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    cursor:pointer;
+}
+
+.in-mn {
+    fill: #48d5ff;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+}
+.in-mn:hover {
+    fill: #ffe968;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    cursor:pointer;
+}
+
+.in-tr {
+    fill: #84e2fe;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+}
+.in-tr:hover {
+    fill: #ffe968;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    cursor:pointer;
+}
+
+.in-mp {
+    fill: #fd8989;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+}
+.in-mp:hover {
+    fill: #ffe968;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    cursor:pointer;
+}
+
+.in-ct {
+    fill: #fdafaf;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+}
+.in-ct:hover {
+    fill: #ffe968;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    cursor:pointer;
+}
+
+.in-ar {
+    fill: #02abde;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+}
+.in-ar:hover {
+    fill: #ffe968;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    cursor:pointer;
+}
+
+.in-ml {
+    fill: #00c4ff;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+}
+.in-ml:hover {
+    fill: #ffe968;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    cursor:pointer;
+}
+
+.in-kl {
+    fill: #6f668f;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+}
+.in-kl:hover {
+    fill: #ffe968;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    cursor:pointer;
+}
+
+.in-tn {
+    fill: #8378aa;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+}
+.in-tn:hover {
+    fill: #ffe968;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    cursor:pointer;
+}
+
+.in-ka {
+    fill: #8b80b5;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+}
+.in-ka:hover {
+    fill: #ffe968;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    cursor:pointer;
+}
+
+.in-mh {
+    fill: #fe9c9c;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+}
+.in-mh:hover {
+    fill: #ffe968;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    cursor:pointer;
+}
+
+.in-or {
+    fill: #ff691f;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+}
+.in-or:hover {
+    fill: #ffe968;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    cursor:pointer;
+}
+
+.in-dn {
+    fill: #fbc86d;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+}
+.in-dn:hover {
+    fill: #ffe968;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    cursor:pointer;
+}
+
+.in-dl {
+    fill: #fce9c3;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+}
+.in-dl:hover {
+    fill: #ffe968;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    cursor:pointer;
+}
+
+.in-hp {
+    fill: #fdaf19;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+}
+.in-hp:hover {
+    fill:#ffe968;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    cursor:pointer;
+}
+
+.in-rj {
+    fill: #fddb99;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+}
+.in-rj:hover {
+    fill: #ffe968;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    cursor:pointer;
+}
+
+.in-up {
+    fill: #fbe0ab;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+}
+.in-up:hover {
+    fill: #ffe968;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    cursor:pointer;
+}
+
+.in-ut {
+    fill: #fdba39;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+}
+.in-ut:hover {
+    fill: #ffe968;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    cursor:pointer;
+}
+
+.in-jh {
+    fill: #fd5f11;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+}
+.in-jh:hover {
+    fill:#ffe968;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    cursor:pointer;
+}
+
+.in-ch {
+    fill: #fde5bc;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+}
+.in-ch:hover {
+    fill:  #ffe968;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    cursor:pointer;
+}
+
+.in-br {
+    fill: #ff5400;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+}
+.in-br:hover {
+    fill: #ffe968;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    cursor:pointer;
+}
+
+.in-sk {
+    fill: #fd8e57;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+}
+.in-sk:hover {
+    fill:#ffe968;
+    fill-opacity: 1;
+    stroke: #939598;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+    cursor:pointer;
+}
+
+
+#MadhyaPradesh_map {
+    height: 392px;
+    background-image: url(../img/arrows/madhya-pradesh-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#ArunachalPradesh_map {
+    height: 392px;
+    background-image: url(../img/arrows/arunachal-pradesh-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Assam_map {
+    height: 392px;
+    background-image: url(../img/arrows/assam-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Bihar_map {
+    height: 392px;
+    background-image: url(../img/arrows/bihar-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Chandigarh_map {
+    height: 392px;
+    background-image: url(../img/arrows/chandigarh-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Chhattisgarh_map {
+    height: 392px;
+    background-image: url(../img/arrows/chhattisgarh-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#DadarNagarHaveli_map {
+    height: 392px;
+    background-image: url(../img/arrows/dadra-&-nagar-haveli-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#DamanDiu_map {
+    height: 392px;
+    background-image: url(../img/arrows/daman-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Delhi_map {
+    height: 392px;
+    background-image: url(../img/arrows/delhi-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Goa_map {
+    height: 392px;
+    background-image: url(../img/arrows/goa-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Gujarat_map {
+    height: 392px;
+    background-image: url(../img/arrows/gujarat-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Haryana_map {
+    height: 392px;
+    background-image: url(../img/arrows/haryana-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#HimachalPradesh_map {
+    height: 392px;
+    background-image: url(../img/arrows/himachal-pradesh-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#JammuKashmir_map {
+    height: 392px;
+    background-image: url(../img/arrows/jammu-kashmir-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Jharkhand_map {
+    height: 392px;
+    background-image: url(../img/arrows/jharkhand-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Karnataka_map {
+    height: 392px;
+    background-image: url(../img/arrows/karnataka-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Kerala_map {
+    height: 392px;
+    background-image: url(../img/arrows/kerala-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Maharastra_map {
+    height: 392px;
+    background-image: url(../img/arrows/maharashtra-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+#Manipur_map {
+    height: 392px;
+    background-image: url(../img/arrows/manipur-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Meghalaya_map {
+    height: 392px;
+    background-image: url(../img/arrows/meghalaya-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Mizoram_map {
+    height: 392px;
+    background-image: url(../img/arrows/mizoram-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Nagaland_map {
+    height: 392px;
+    background-image: url(../img/arrows/nagaland-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Orissa_map {
+    height: 392px;
+    background-image: url(../img/arrows/odisha-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Pondicherry_map {
+    height: 392px;
+    background-image: url(../img/arrows/puducherry-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Punjab_map {
+    height: 392px;
+    background-image: url(../img/arrows/punjab-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Rajasthan_map {
+    height: 392px;
+    background-image: url(../img/arrows/rajasthan-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Sikkim_map {
+    height: 392px;
+    background-image: url(../img/arrows/sikkim-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#TamilNadu_map {
+    height: 392px;
+    background-image: url(../img/arrows/tamilnadu-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#Telangana_map {
+    height: 392px;
+    background-image: url(../img/arrows/telangana-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Tripura_map {
+    height: 392px;
+    background-image: url(../img/arrows/tripura-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#UttarPradesh_map {
+    height: 392px;
+    background-image: url(../img/arrows/uttar-pradesh-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Uttarakhand_map {
+    height: 392px;
+    background-image: url(../img/arrows/uttarakhand-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#WestBengal_map {
+    height: 392px;
+    background-image: url(../img/arrows/west-bengal-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#AndraPradesh_map {
+    height: 392px;
+    background-image: url(../img/arrows/andhra-pradesh-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*a {
+    color: #003658;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #0189b7;
+    }*/
+
+h1 {
+    font-family: Calibri, Agency FB, 'Raleway', sans-serif, Aparajita_cxb;
+    font-size: 45px !important;
+    font-weight: normal;
+    /*line-height: 50px;*/
+    /*padding-bottom: 0px;*/
+    padding-top: 0;
+}
+
+#map_img_india {
+    width: 750px;
+    height: 660px;
+    background-image: url(../img/arrows/india-map.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#map_img_mpd {
+    width: 880px;
+    height: 480px;
+    background-image: url(../img/arrows/madhya-pradesh-map.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+@font-face {
+    font-family: 'Agency FB';
+    src: url(../fonts/AGENCYR.eot);
+    src: url(../fonts/AGENCYR.eot?#iefix) format('embedded-opentype'),url(../fonts/AGENCYR.TTF) format('truetype');
+}
+
+@font-face {
+    font-family: 'Digital-7';
+    src: url(../fonts/digital-7.regular.eot);
+    src: url(../fonts/digital-7.regular.eot?#iefix) format('embedded-opentype'),url(../fonts/digital-7.regular.ttf) format('truetype');
+}
+
+.orange_en {
+    color: #ff7f00;
+    font-family: 'Bookman Old Style', Aparajita_cxb; /*, Aparajita*/
+}
+
+.orange_hi {
+    color: #ff7f00;
+    font-family: 'Bookman Old Style', Aparajita_cxb; /*, Aparajita*/
+    font-size: 56px;
+}
+
+.small-header_en {
+    color: #555;
+    font-size: 15px;
+    font-family: 'Bookman Old Style', Aparajita_cxb; /*, Aparajita*/
+    margin: 0;
+    padding: 0;
+}
+
+.small-header_hi {
+    color: #555;
+    font-size: 19px;
+    font-family: 'Bookman Old Style', Aparajita_cxb; /*, Aparajita*/
+    margin: 0;
+    padding: 0;
+}
+
+.white {
+    color: #fff;
+}
+
+.green_en {
+    color: #3cd82d;
+    font-family: 'Bookman Old Style', Aparajita_cxb; /*, Aparajita*/
+    text-transform:uppercase;
+}
+
+.green_hi {
+    color: #3cd82d;
+    font-family: 'Bookman Old Style', Aparajita_cxb; /*, Aparajita*/
+    font-size: 56px;
+}
+
+.digital_font {
+    font-family: Digital-7, Aparajita_cxb;
+    /*font-family:  'Anaheim', sans-serif;*/
+    font-size: 140px;
+    /*color: #fff;*/
+    text-decoration: none;
+}
+
+.total_distributed_text {
+    font-size: 27px;
+    text-align: right;
+    padding-right: 30px;
+    /*padding-bottom: 30px;*/
+}
+
+.date_time {
+    font-size: 41px;
+    text-transform: uppercase;
+    padding-bottom: 0px;
+}
+
+.map_numbers {
+    font-family: 'Anaheim', sans-serif, Aparajita_cxb;
+    /*font-size: 25px;*/
+    font-size: 12px;
+    /*color: #003658;*/
+    color: #000 !important;
+}
+
+.map_numbers_Unit_en {
+    font-family: 'Anaheim', sans-serif, Aparajita_cxb;
+    font-size: 12px;
+    color: #000 !important;
+}
+
+.map_numbers_Unit_hi {
+    font-family: 'Anaheim', sans-serif, Aparajita_cxb;
+    font-size: 17px;
+    color: #000 !important;
+}
+
+.map_numbers_states {
+    font-family: 'Anaheim', sans-serif, Aparajita_cxb;
+    /*font-size: 25px;*/
+    font-size: 19px;
+    color: #003658;
+    z-index: 0;
+    /*border: 1px solid red;*/
+    /*display: inline-block;*/
+}
+
+div .red-border span {
+    border: 1px solid red;
+}
+
+.bulb_img {
+    background-image: url(../img/arrows/bulb.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-bottom: 50px;
+}
+
+
+.blue_bg {
+    height: 68px;
+    background-image: url(../img/arrows/blue_bg.png);
+    background-repeat: repeat-x;
+    background-position: left center;
+}
+
+.back-button {
+    background-image: url(../img/arrows/back_arrow.png);
+    background-repeat: no-repeat;
+    padding-left: 150px;
+    left: 30px;
+    width: 53px;
+    height: 23px;
+}
+
+.back-button:hover {
+    background-image: url(../img/arrows/back_arrow_hover.png);
+    background-repeat: no-repeat;
+    padding-left: 150px;
+}
+
+.location-kiosk {
+    width: 425px;
+    padding: 15px 15px 15px 15px;
+    /* padding: 20px 10px; */
+    /*margin: 35px;*/
+    /*margin-left: 80px;
+    margin-bottom: 20px;
+    margin-top: 20px;*/
+}
+
+
+.location-kiosk .title {
+    background-color: #01B5F1;
+    color: #fff;
+    padding: 5px 20px;
+    font-size: 22px;
+}
+
+.location-kiosk .address {
+    height: 120px;
+    background-color: #e5f9ff;
+    color: #333;
+    padding: 5px 20px;
+    font-size: 18px;
+    text-align: justify;
+    height: 120px;
+    line-height: 27px;
+}
+
+.column1 {
+    /*padding-left: 100px;*/
+}
+
+.location_table_td_title {
+    /*background-color: #01B5F1;*/
+    background-color: #003658;
+    color: #fff;
+    padding: 5px 20px;
+    font-size: 22px;
+    width: 18px;
+}
+
+.location_table_td_area {
+    background-color: #e5f9ff;
+    color: #333;
+    padding: 5px 20px;
+    font-size: 18px;
+    text-align: justify;
+    /*height: 120px;*/
+    line-height: 27px;
+    width: 750px;
+    border-bottom: 1px solid #ccc;
+    text-transform: uppercase;
+}
+
+table .institution-entries {
+    background-color: #e5f9ff;
+}
+
+table .institution-entries tr {
+    border: 1px solid #ccc;
+}
+
+.institution_table_td_name {
+    /*background-color: #01B5F1;*/
+    /*background-color: #003658;*/
+    background-color: #e5f9ff;
+    /*color: #fff;*/
+    color: #333;
+    padding: 5px 20px;
+    font-size: 22px;
+    /*width: 18px;*/
+    width: 500px;
+    line-height: 27px;
+    border: 1px solid #ccc;
+}
+
+.institution_table_td_bulbs {
+    background-color: #e5f9ff;
+    color: #333;
+    padding: 5px 20px;
+    font-size: 18px;
+    text-align: justify;
+    /*height: 120px;*/
+    line-height: 27px;
+    /*width: 750px;*/
+    width: 280px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.factor_lbl {
+    height: 30px;
+    /*color: #ccc;*/
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.delp_lbl {
+    font-size: 20.5px;
+    height: 30px;
+    color: #ccc;
+    /*font-size: 16px;*/
+    line-height: 30px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+
+.factor_val {
+    height: 30px;
+    /*color: #ccc;*/
+    /*font-size: 27px;*/
+    font-size: 20px;
+    line-height: 30px;
+    display: inline-block;
+}
+
+.state-value {
+    /*font-size: 22px;*/
+    background-image: url(../img/arrows/right-arrow.png);
+    background-repeat: no-repeat;
+    z-index: 10;
+    background-position: right center;
+    /*padding-right: 22px;*/
+    padding-right: 21px;
+}
+
+.state-value:hover {
+    background-image: url(../img/arrows/right-arrow-hover.png);
+}
+
+.state-names_en {
+    font-size: 14px;
+    font-weight: normal;
+    color: #000 !important;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.state-names_hi {
+    font-size: 18px;
+    font-weight: normal;
+    color: #000 !important;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.state-names-non-clickable_en {
+    font-size: 14px;
+    font-weight: normal;
+    color: #000 !important;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.state-names-non-clickable_hi {
+    font-size: 18px;
+    font-weight: normal;
+    color: #000 !important;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.footer {
+    /*font-size: 15px;*/
+    font-size: 18px;
+    color: #333;
+    /*font-family: 'Raleway', sans-serif !important;*/
+    font-weight: normal;
+    z-index: 0;
+    /*padding-top: 40px;
+    padding-bottom: 20px;*/ /*Hide By Rucha On 15th March 2016*/
+    padding-bottom: 30px;
+    padding-top: 15px; /*added By Rucha On 16th March 2016*/
+}
+
+.footer-top-border {
+    border-top: 1px solid #cdcfd0;
+}
+
+.footer-bottom-border {
+    border-bottom: 1px solid #fff;
+}
+
+.state-names-state_en {
+    font-size: 16px;
+    color: #555;
+    font-weight: normal;
+    z-index: 0;
+    padding-bottom: 25px;
+}
+
+
+.state-names-state_hi {
+    font-size: 19px;
+    color: #555;
+    font-weight: normal;
+    z-index: 0;
+    padding-bottom: 25px;
+}
+
+.state-names:hover {
+    color: darkorange !important;
+}
+
+.locations-sub-headings {
+    line-height: 45px;
+    text-align: center;
+    color: #191919;
+}
+
+.customer-care {
+    /*line-height: 45px;*/
+    text-align: center;
+}
+
+.customer-care p {
+    font-size: 18px;
+    line-height: 23px;
+    color: #ccc;
+}
+
+.customer-care p span {
+    text-transform: uppercase;
+}
+
+a.tooltips {
+    position: relative;
+    display: inline;
+}
+
+a.tooltips div {
+    position: absolute;
+    width: 140px;
+    color: #FFFFFF;
+    background: #000000;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    visibility: hidden;
+    border-radius: 6px;
+}
+
+a.tooltips div:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -8px;
+    width: 0;
+    height: 0;
+    border-top: 8px solid #000000;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+}
+
+a:hover.tooltips div {
+    visibility: visible;
+    opacity: 0.8;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -76px;
+    z-index: 999;
+}
+
+
+[data-tooltip] {
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+
+/* Hide the tooltip content by default */
+[data-tooltip]:before,
+[data-tooltip]:after {
+    visibility: hidden;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Position tooltip above the element */
+[data-tooltip]:before {
+    position: absolute;
+    bottom: 90%;
+    left: -120%;
+    margin-bottom: 5px;
+    margin-left: -80px;
+    padding: 7px;
+    width: 400px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #000;
+    background-color: hsla(0, 0%, 20%, 0.9);
+    color: #fff;
+    content: attr(data-tooltip);
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.2;
+}
+
+/* Triangle hack to make tooltip look like a speech bubble */
+[data-tooltip]:after {
+    position: absolute;
+    bottom: 90%;
+    left: 50%;
+    margin-left: -5px;
+    width: 0;
+    border-top: 5px solid #000;
+    border-top: 5px solid hsla(0, 0%, 20%, 0.9);
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    content: " ";
+    font-size: 0;
+    line-height: 0;
+}
+
+/* Show tooltip content on hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+    visibility: visible;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+}
+
+.tooltip-font {
+    font-family: Calibri, Aparajita_cxb;
+}
+
+/*Sadhana:Changed on 17th Feb,16::after But not in used*/
+.digital-font {
+    font-family: 'Anaheim', sans-serif, Aparajita_cxb;
+}
+
+
+.scrollToTop {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    text-align: center;
+    /*background: whiteSmoke;*/
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    position: fixed;
+    top: 550px;
+    right: 0px;
+    display: none;
+    /*background-color:#0189b7;*/
+    background-image: url('../img/arrows/top-arrow1.png');
+    background-repeat: no-repeat;
+    /*no-repeat 0px 20px;*/
+}
+
+.scrollToTop:hover {
+    text-decoration: none;
+}
+
+.inline {
+    display: inline-block;
+}
+
+
+/*.color_box {
+    border-color:#e5f9ff;
+    width:40px;
+    height:20px;
+}
+
+.distribution_scheme {
+    color:#dcddde;
+    font-family: 'Raleway';
+    font-weight:normal;
+    font-size:15px;
+}
+.footer_line {
+    font-size:16px;
+    font-family: 'Raleway';
+
+    color:#dcddde;
+}
+.footer_line_count {
+    font-size:21px;
+    color:#dcddde;
+    font-family:  'Anaheim', sans-serif;
+    /*font-weight:bold;*/
+/*}
+.delp_distribution {
+    width: 40px;
+    height: 20px;
+    background-color: #006cb0;
+    border: 1px solid #e5f9ff;
+}
+.institutional_distribution {
+    width: 40px;
+    height: 20px;
+    background-color: #ffb62a;
+    border: 1px solid #e5f9ff;
+}*/
+
+
+.blue-box {
+    background-color: #006cb0;
+    border: 1px solid #e5f9ff;
+}
+
+.yellow-box {
+    background-color: #ffb62a;
+    border: 1px solid #e5f9ff;
+}
+
+.colorbox-info {
+    font-family: 'Raleway', Aparajita_cxb;
+    font-weight: normal;
+    font-size: 15px;
+    color: #dcddde;
+    line-height: 20px;
+}
+
+.sold-text {
+    color: #dcddde;
+    font-size: 16px;
+    font-family: 'Raleway', Aparajita_cxb;
+}
+
+.footer-digital-font {
+    font-family: 'Anaheim', sans-serif, Aparajita_cxb;
+    font-size: 14px;
+    color: #dcddde;
+}
+
+.container_values {
+    width: 750px;
+    height: 660px;
+    position: relative;
+    /*top: -660px;*/
+    left: -50px;
+}
+
+.arrow-N1 {
+    position: absolute;
+    left: 73px;
+    top: 117px;
+    z-index: 2;
+    background-image: url(../img/arrows/arrowN1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrow-N3 {
+    position: absolute;
+    left: 229px;
+    top: 210px;
+    z-index: 2;
+    background-image: url(../img/arrows/arrowN3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrow-N2 {
+    position: absolute;
+    left: 71px;
+    top: 303px;
+    z-index: 2;
+    background-image: url(../img/arrows/arrowN2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrow-W1 {
+    position: absolute;
+    left: 105px;
+    top: 416px;
+    z-index: 2;
+    background-image: url(../img/arrows/arrowW1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrow-W2 {
+    position: absolute;
+    left: 100px;
+    top: 501px;
+    z-index: 2;
+    background-image: url(../img/arrows/arrowW2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrow-S1 {
+    position: absolute;
+    left: 72px;
+    top: 601px;
+    z-index: 2;
+    background-image: url(../img/arrows/arrowS1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrow-S2 {
+    position: absolute;
+    /*left: 207px;*/
+    left: 445px;
+    top: 661px;
+    z-index: 2;
+    /*background-image: url(../img/arrows/arrowS2.png);*/
+    background-image: url(../img/arrows/chhattisgarh.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrow-E1 {
+    position: absolute;
+    left: 475px;
+    top: 73px;
+    z-index: 2;
+    background-image: url(../img/arrows/arrowE1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrow-Sikkim1 {
+    position: absolute;
+    left: 596px;
+    top: 178px;
+    z-index: 2;
+    background-image: url(../img/arrows/sikkim1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrow-Sikkim2 {
+    position: absolute;
+    left: 603px;
+    top: 178px;
+    z-index: 2;
+    background-image: url(../img/arrows/sikkim2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrow-A2 {
+    position: absolute;
+    left: 598px;
+    top: 123px;
+    z-index: 2;
+    background-image: url(../img/arrows/arrowA2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrow-Assam1 {
+    position: absolute;
+    left: 758px;
+    top: 222px;
+    z-index: 2;
+    background-image: url(../img/arrows/assam1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrow-Assam2 {
+    position: absolute;
+    left: 765px;
+    top: 223px;
+    z-index: 2;
+    background-image: url(../img/arrows/assam2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrow-A1 {
+    position: absolute;
+    left: 566px;
+    top: 272px;
+    z-index: 2;
+    background-image: url(../img/arrows/arrowA1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrow-E2 {
+    position: absolute;
+    left: 460px;
+    top: 334px;
+    z-index: 2;
+    background-image: url(../img/arrows/arrowE2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrow-W3 {
+    position: absolute;
+    left: 415px;
+    top: 315px;
+    z-index: 2;
+    background-image: url(../img/arrows/arrowW3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrow-Tripura1 {
+    position: absolute;
+    left: 752px;
+    top: 391px;
+    z-index: 2;
+    background-image: url(../img/arrows/tripura.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrow-chhattisgarh1 {
+    position: absolute;
+    left: 512px;
+    top: 474px;
+    z-index: 2;
+    background-image: url(../img/arrows/chhattisgarh.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrow-odisha1 {
+    position: absolute;
+    /*left: 744px;
+    top: 517px;*/
+    left: 565px;
+    top: 488px;
+    z-index: 2;
+    background-image: url(../img/arrows/odisha.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.LanguageTranslateText_en {
+    border: 1px solid #000;
+    border-top: none;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    font-size: 18px !important;
+    color: #fff;
+    background-color: #000;
+    padding: 0px 16px;
+    padding-right: 30px;
+    opacity: 0.6;
+    cursor: pointer;
+    /*transform: rotate(90deg);
+	transform-origin: left bottom 0;*/
+    text-align: center;
+    position: fixed;
+    top: 40px;
+    right: -70px;
+    z-index: 3;
+    text-decoration: none;
+    line-height: 35px;
+}
+
+.LanguageTranslateText_en:hover {
+    color: #fff;
+    opacity: 1;
+    right: 0px;
+    text-decoration: none;
+}
+
+.LanguageTranslateText_hi {
+    border: 1px solid #000;
+    border-top: none;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    font-size: 14px !important;
+    color: #fff;
+    background-color: #000;
+    padding: 0px 16px;
+    padding-right: 30px;
+    opacity: 0.6;
+    cursor: pointer;
+    /*transform: rotate(90deg);
+	transform-origin: left bottom 0;*/
+    text-align: center;
+    position: fixed;
+    top: 40px;
+    right: -70px;
+    z-index: 3;
+    text-decoration: none;
+    line-height: 35px;
+}
+
+.LanguageTranslateText_hi:hover {
+    color: #fff;
+    opacity: 1;
+    right: 0px;
+    text-decoration: none;
+}
+
+.statenames_en {
+    position: relative;
+    z-index: 2;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+.statenames_hi {
+    position: relative;
+    z-index: 2;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+.JAK-statename {
+    left: 0;
+    top: 176px;
+}
+
+.HP-statename {
+    left: 0;
+    top: 176px;
+}
+
+.PNB-statename {
+    left: 10px;
+    top: 186px;
+}
+
+.UTK-statename {
+    left: 0;
+    top: 176px;
+}
+
+.HRN-statename {
+    left: 21px;
+    top: 186px;
+}
+
+.DL-statename {
+    left: 10px;
+    top: 180px;
+}
+
+.RJ-statename {
+    left: 0;
+    top: 178px;
+}
+
+.UP-statename {
+    left: 0;
+    top: 194px;
+}
+
+.BHR-statename {
+    left: 0;
+    top: 188px;
+}
+
+.BGL-statename {
+    left: -4px;
+    top: 257px;
+}
+
+.JHK-statename {
+    left: -24px;
+    top: 176px;
+}
+
+.MPD-statename {
+    left: 0;
+    top: 198px;
+}
+
+.CTG-statename {
+    left: -14px;
+    top: 160px;
+}
+
+.GJT-statename {
+    left: 4px;
+    top: 156px;
+}
+
+.ODI-statename {
+    left: 0px;
+    top: 168px;
+}
+
+.MHA-statename {
+    left: -60px;
+    top: 158px;
+}
+
+.TLG-statename {
+    left: -14px;
+    top: 178px;
+}
+
+.AP-statename {
+    left: -102px;
+    top: 232px;
+}
+
+.KRT-statename {
+    left: -32px;
+    top: 188px;
+}
+
+.TND-statename {
+    left: 1px;
+    top: 177px;
+}
+
+.KRL-statename {
+    left: 40px;
+    top: 214px;
+}
+
+.PU-statename {
+    left: 22px;
+    top: 162px;
+}
+
+.SKM-statename {
+    left: 0;
+    top: 177px;
+}
+
+.ACP-statename {
+    left: 21px;
+    top: 167px;
+}
+
+.ASM-statename {
+    left: 8px;
+    top: 160px;
+}
+
+.MGA-statename {
+    left: 0;
+    top: 182px;
+}
+
+.NGD-statename {
+    left: 40px;
+    top: 177px;
+}
+
+.MIP-statename {
+    left: 0;
+    top: 180px;
+}
+
+.MZM-statename {
+    left: 6px;
+    top: 176px;
+}
+
+.TPA-statename {
+    left: -19px;
+    top: 177px;
+}
+
+.CHG-statename {
+    left: 10px;
+    top: 188px;
+}
+
+.GOA-statename {
+    left: 32px;
+    top: 178px;
+}
+
+.disclaimer_en {
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 18px;
+    color: #000;
+}
+
+.disclaimer_hi {
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 21px;
+    color: #000;
+}

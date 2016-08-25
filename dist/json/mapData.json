@@ -1,0 +1,12 @@
+{"mapdata":[{"id":1,"name":"Uttarakhand","location":"30.0668,79.0193"},
+  {"id":2,"name":"Maharashtra","location":"19.7515,75.7139"},
+  {"id":3,"name":"West Bengal","location":"22.9868,87.8550"},
+  {"id":4,"name":"Andhra Pradesh","location":"15.9129,79.7400"},
+  {"id":5,"name":"Gujarat","location":"22.2587,71.1924"},
+  {"id":5,"name":"Madhya Pradesh","location":"22.9734,78.6569"},
+  {"id":5,"name":"Himachal Pradesh","location":"31.1048,77.1734"},
+  {"id":5,"name":"Rajasthan","location":"27.0238,74.2179"},
+  {"id":5,"name":"Uttar Pradesh","location":"26.8467,80.9462"},
+  {"id":5,"name":"Karnataka","location":"26.8467,80.9462"},
+  {"id":5,"name":"Punjab","location":"31.1471,75.3412"}],
+  "mapfunction":""}

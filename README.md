@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Introduction
 ============
 
@@ -121,3 +122,8 @@ Donations
 Donations are **greatly appreciated!**
 
 [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif "AdminLTE Presentation")](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=629XCUSXBHCBC "Donate")
+=======
+# power
+
+National Power Portal is a portal to see the electricity supply demand and various related information in all over India. 
+>>>>>>> 58710b112f234f1e3b4db11cfe07fc99a4f9f7a4

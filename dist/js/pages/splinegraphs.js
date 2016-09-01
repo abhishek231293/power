@@ -21,7 +21,7 @@ function createInstalledCapacityInfoGraph($container) {
         title: {
             text: ''
         },
-        colors: ["#F3D5CE", "#90ee7e", "#f45b5b", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+        colors: ["#000000", "#90ee7e", "#f45b5b", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
         xAxis: {
             type: 'datetime',
             tickPixelInterval: 80
@@ -98,7 +98,7 @@ function cumulativeGeneration($containerId) {
         title: {
             text: ''
         },
-        colors: ["#F5F5AC", "#90ee7e", "#f45b5b", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+        colors: ["#000000", "#90ee7e", "#f45b5b", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
         xAxis: {
             type: 'datetime',
             tickPixelInterval: 80
@@ -175,7 +175,7 @@ function transportationCapacity($containerId){
         title: {
             text: ''
         },
-        colors: ["#BDF1DE", "#90ee7e", "#f45b5b", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+        colors: ["#000000", "#90ee7e", "#f45b5b", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
         xAxis: {
             type: 'datetime',
             tickPixelInterval: 80
@@ -252,7 +252,7 @@ function transmissionCapacity($containerId) {
         title: {
             text: ''
         },
-        colors: ["#E08C93", "#90ee7e", "#f45b5b", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+        colors: ["#000000", "#90ee7e", "#f45b5b", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
         xAxis: {
             type: 'datetime',
             tickPixelInterval: 80
@@ -317,7 +317,7 @@ function  noRecord($containerId) {
         title: {
             text: 'No Record Found'
         },
-        colors: ["#E08C93", "#90ee7e", "#f45b5b", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+        colors: ["#000000", "#90ee7e", "#f45b5b", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
         xAxis: {
             type: 'datetime',
             tickPixelInterval: 80

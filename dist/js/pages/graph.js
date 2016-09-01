@@ -409,3 +409,74 @@ function createGraph($container) {
         }]
     });
 }
+
+
+function createBarChart($container) {
+    $($container).highcharts({
+        chart: {
+            backgroundColor: null,
+            animation: Highcharts.svg, // don't animate in old IE
+            marginRight: 10,
+            type: 'column'
+        },
+        plotOptions: {
+            column: {
+                colorByPoint: true
+            }
+        },
+        colors: ['#64BFE1','#b9c338','#F5696B', '#448A99', '#256F33', '#F6A341'],
+        title: {
+            text: ''
+        },
+        subtitle: {
+            text: ''
+        },
+            xAxis: {
+                type: 'category',
+                tickPixelInterval: 80
+            },
+        yAxis: {
+            labels: {
+                enabled: false
+            },
+            min: 0,
+            title: {
+                text: ''
+            }
+        },
+        exporting: {
+            enabled: false
+        },
+        legend: {
+            enabled: false
+        },
+        tooltip: {
+            pointFormat: 'Capacity: <b>{point.y:.1f} (MW)</b>'
+        },
+
+        credits : {
+            enabled : false
+        },
+        series: [{
+
+            name: ['IC','MC','CUM','PSC','UC','CO'],
+            data: [
+                ['IC', 2980.97],
+                ['MC', 2595.62],
+                ['CUM', 5293.93],
+                ['PSC', 9791.40],
+                ['UC', 1709.00],
+                ['CO', 1902.73]
+            ],
+            dataLabels: {
+                enabled: true,
+                rotation: -90,
+                color: '#FFFFFF',
+                align: 'right',
+                format: '{point.y:.1f}', // one decimal
+                y: -10, // 10 pixels down from the top
+
+            }
+        }]
+    });
+}

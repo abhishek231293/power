@@ -1,9 +1,9 @@
 <div class="row">
     <div class="col-lg-2 col-md-4 col-sm-12">
-        <div class="ibox float-e-margins">
+        <div id="installTabs" class="glowOut ibox float-e-margins">
             <!--            <a class="ajax cboxElement" href="#colorbox-result">-->
             <a href="#" onclick="showInstallCapacityGraphs('install_capacity');">
-                <div class="ibox-title" style="background-color: #00B050; color: #fff;">
+                <div class="ibox-title info-title-1" style="color: #fff;">
                     Installed Capacity
                 </div>
             </a>
@@ -24,9 +24,9 @@
     </div>
 
     <div class="col-lg-2 col-md-4 col-sm-12">
-        <div class="ibox float-e-margins">
+        <div id="dailyTabs" class="glowOut ibox float-e-margins">
             <a href="#" onclick="showDailyGenerationGraphs('daily-generation');">
-                <div class="ibox-title" style="background-color: #00B0F0; color: #fff;">
+                <div class="ibox-title info-title-2" style="color: #fff;">
                     Daily Generation
                 </div>
             </a>
@@ -43,9 +43,9 @@
         </div>
     </div>
     <div class="col-lg-2 col-md-4 col-sm-12">
-        <div class="ibox float-e-margins">
+        <div id="transTabs" class="glowOut ibox float-e-margins">
             <a href="#" onclick="showTransCapacityGraphs('trans-capacity');">
-                <div class="ibox-title" style="padding: 0px; background-color: #7030A0; color: #fff;">
+                <div class="ibox-title info-title-3" style="padding: 0px; color: #fff;">
                     Transmission / Transformation Capacity
                 </div>
             </a>
@@ -68,9 +68,9 @@
         </div>
     </div>
     <div class="col-lg-2 col-md-4 col-sm-12">
-        <div class="ibox float-e-margins">
+        <div id="urbanTabs"  class="glowOut ibox float-e-margins">
             <a href="#" onclick="showUrbanDistributionGraphs('urban-distribution');">
-                <div class="ibox-title" style="background-color: #002060; color: #fff;">
+                <div class="ibox-title info-title-4" style=" color: #fff;">
                     Urban Distribution
                 </div>
             </a>
@@ -86,9 +86,9 @@
         </div>
     </div>
     <div class="col-lg-2 col-md-4 col-sm-12">
-        <div class="ibox float-e-margins">
+        <div id="ruralTabs"  class="glowOut ibox float-e-margins">
             <a href="#" onclick="showRuralDistributionGraphs('rural-distribution');">
-                <div class="ibox-title" style="background-color: #FF851B; color: #fff;">
+                <div class="ibox-title info-title-5" style=" color: #fff;">
                     Rural Distribution
                 </div>
             </a>
@@ -107,9 +107,9 @@
         </div>
     </div>
     <div class="col-lg-2 col-md-4 col-sm-12">
-        <div class="ibox float-e-margins">
+        <div id="fundTabs" class="glowOut ibox float-e-margins">
             <a href="#" onclick="showFundingGraphs('funding');">
-                <div class="ibox-title" style="padding: 2px; background-color: #385723; color: #fff;">
+                <div class="ibox-title info-title-6" style="padding: 2px; color: #fff;">
                     Funding Under IPDS/DDUGIY
                 </div>
             </a>

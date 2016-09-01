@@ -8,25 +8,16 @@ $("#logo").mouseleave(function(){
 });
 
 function showIntitalInfo(){
-
+    $("#map_title").html('Geographical Information of National Power');
     changeInfoGraphs();
 
     $.ajax({
         type: "get",
-        url: "view/powerMap_initial.php"
-    }).done(function( result ) {
-        $("#map-container").html(result);
-        $(".powerMap").show();
-        mapCounterMapEffect();
-    });
-
-    $.ajax({
-        type: "get",
-        data:{'tab':'initial'},
+        data:{'section':'initial'},
         url: "view/maps_with_tabs.php"
     }).done(function( result ) {
         $("#map-container").html(result);
-        loadIndiaMap();
+        loadInitialIndiaMap();
         $("#map-container-v1").attr('style','height:450px');
     });
 
@@ -39,7 +30,6 @@ function showIntitalInfo(){
         $("#title1").html('Max Frequency');
         $("#title2").html('Max Demand');
         $("#title3").html('Shortage during max demand');
-        $("#transmissionCapacity").hide();
 
         $("#installedCapacity").attr('class','installedCapacity cboxElement');
         $("#cumulativeGeneration").attr('class','cumulativeGeneration cboxElement');
@@ -51,6 +41,15 @@ function showIntitalInfo(){
 }
 
 function showInstallCapacityGraphs($graphSection){
+
+    $("#installTabs").attr('class','glow ibox float-e-margins');
+    $("#dailyTabs").attr('class','glowOut ibox float-e-margins');
+    $("#transTabs").attr('class','glowOut ibox float-e-margins');
+    $("#urbanTabs").attr('class','glowOut ibox float-e-margins');
+    $("#ruralTabs").attr('class','glowOut ibox float-e-margins');
+    $("#fundTabs").attr('class','glowOut ibox float-e-margins');
+
+    $("#map_title").html('Geographical Information of Installed Capacity');
     $.ajax({
         type: "get",
         url: "view/install_capacity_graphs.php"
@@ -64,11 +63,12 @@ function showInstallCapacityGraphs($graphSection){
 
     $.ajax({
         type: "get",
-        url: "view/powerMap.php"
+        data:{'section':'install'},
+        url: "view/maps_with_tabs.php"
     }).done(function( result ) {
         $("#map-container").html(result);
-        $(".powerMap").show();
-        mapCounterMapEffect();
+        loadInstallIndiaMap();
+        $("#map-container-v1").attr('style','height:450px');
     });
 
     $.ajax({
@@ -96,6 +96,14 @@ function showInstallCapacityGraphs($graphSection){
 
 function showDailyGenerationGraphs($graphSection){
 
+    $("#installTabs").attr('class','glowOut ibox float-e-margins');
+    $("#dailyTabs").attr('class','glow ibox float-e-margins');
+    $("#transTabs").attr('class','glowOut ibox float-e-margins');
+    $("#urbanTabs").attr('class','glowOut ibox float-e-margins');
+    $("#ruralTabs").attr('class','glowOut ibox float-e-margins');
+    $("#fundTabs").attr('class','glowOut ibox float-e-margins');
+
+    $("#map_title").html('Geographical Information of Daily Generation');
     $.ajax({
         type: "get",
         url: "view/daily_generation_graphs.php"
@@ -109,11 +117,12 @@ function showDailyGenerationGraphs($graphSection){
 
     $.ajax({
         type: "get",
-        url: "view/powerMap_v1.php"
+        data:{'section':'daily'},
+        url: "view/maps_with_tabs.php"
     }).done(function( result ) {
         $("#map-container").html(result);
-        $(".powerMap").show();
-        mapCounterMapEffect();
+        loadDailyIndiaMap();
+        $("#map-container-v1").attr('style','height:450px');
     });
 
     $.ajax({
@@ -137,6 +146,16 @@ function showDailyGenerationGraphs($graphSection){
 }
 
 function showTransCapacityGraphs() {
+
+    $("#installTabs").attr('class','glowOut ibox float-e-margins');
+    $("#dailyTabs").attr('class','glowOut ibox float-e-margins');
+    $("#transTabs").attr('class','glow ibox float-e-margins');
+    $("#urbanTabs").attr('class','glowOut ibox float-e-margins');
+    $("#ruralTabs").attr('class','glowOut ibox float-e-margins');
+    $("#fundTabs").attr('class','glowOut ibox float-e-margins');
+
+    $("#map_title").html('Geographical Information of Transmission/Transformation Capacity');
+
     $.ajax({
         type: "get",
         url: "view/trans_capacity_graphs.php"
@@ -153,6 +172,7 @@ function showTransCapacityGraphs() {
 
     $.ajax({
         type: "get",
+        data:{'section':'trans'},
         url: "view/maps_with_tabs.php"
     }).done(function( result ) {
         $("#map-container").html(result);
@@ -169,30 +189,26 @@ function showTransCapacityGraphs() {
         $("#title1").html('Growth in T&D lines');
         $("#title2").html('Transmission Line Length (CKM)');
         $("#title3").html('Transformation Capacity (MVA)');
-        $("#transmissionCapacity").hide();
         $("#installedCapacity").attr('class','installedCapacity cboxElement');
         $("#cumulativeGeneration").attr('class','cumulativeGeneration cboxElement');
         $("#transportationCapacity").attr('class','transportationCapacity cboxElement');
         $("#transmissionCapacity").attr('class','');
         mapCounterEffect();
     });
-    
-}
 
-function loadIndiaMap(){
-    $.ajax({
-        type: "get",
-        url: "view/svgMap.php"
-    }).done(function( result ) {
-        $("#map-container-v1").html(result);
-        $(".powerMap").show();
-        mapCounterMapEffect();
-        $("#map-container-v1").attr('style','');
-    });
 }
-
 
 function showUrbanDistributionGraphs(){
+
+    $("#installTabs").attr('class','glowOut ibox float-e-margins');
+    $("#dailyTabs").attr('class','glowOut ibox float-e-margins');
+    $("#transTabs").attr('class','glowOut ibox float-e-margins');
+    $("#urbanTabs").attr('class','glow ibox float-e-margins');
+    $("#ruralTabs").attr('class','glowOut ibox float-e-margins');
+    $("#fundTabs").attr('class','glowOut ibox float-e-margins');
+
+    $("#map_title").html('Geographical Information of Urban Distribution');
+
     $.ajax({
         type: "get",
         url: "view/urban_distribution_graphs.php"
@@ -207,11 +223,12 @@ function showUrbanDistributionGraphs(){
 
     $.ajax({
         type: "get",
-        url: "view/google_map.php"
+        data:{'section':'urban'},
+        url: "view/maps_with_tabs.php"
     }).done(function( result ) {
         $("#map-container").html(result);
-        loadMap();
-        $(".powerMap").hide();
+        loadDailyIndiaMap();
+        $("#map-container-v1").attr('style','height:450px');
     });
 
     $.ajax({
@@ -223,18 +240,27 @@ function showUrbanDistributionGraphs(){
         $("#title1").html('AT&C loss');
         $("#title2").html('Bill Efficiency');
         $("#title3").html('Coll Efficiency');
-        $("#title4").html('No Title');
+        $("#title4").html('RES');
 
         $("#installedCapacity").attr('class','baseLine cboxElement');
         $("#cumulativeGeneration").attr('class','connection cboxElement');
         $("#transportationCapacity").attr('class','complaints cboxElement');
-        $("#transmissionCapacity").attr('class','');
+        $("#transmissionCapacity").attr('class','RES');
         mapCounterEffect();
         switchMapInfoGraphs();
     });
 }
 
 function showRuralDistributionGraphs(){
+
+    $("#installTabs").attr('class','glowOut ibox float-e-margins');
+    $("#dailyTabs").attr('class','glowOut ibox float-e-margins');
+    $("#transTabs").attr('class','glowOut ibox float-e-margins');
+    $("#urbanTabs").attr('class','glowOut ibox float-e-margins');
+    $("#ruralTabs").attr('class','glow ibox float-e-margins');
+    $("#fundTabs").attr('class','glowOut ibox float-e-margins');
+
+    $("#map_title").html('Geographical Information of Rural Distribution');
     $.ajax({
         type: "get",
         url: "view/rural_distribution_graphs.php"
@@ -251,12 +277,12 @@ function showRuralDistributionGraphs(){
 
     $.ajax({
         type: "get",
-        url: "view/powerMap_v1.php"
+        data:{'section':'rural'},
+        url: "view/maps_with_tabs.php"
     }).done(function( result ) {
         $("#map-container").html(result);
-        createSVGMap();
-        $(".powerMap").show();
-        mapCounterMapEffect();
+        loadRuralIndiaMap();
+        $("#map-container-v1").attr('style','height:450px');
     });
 
     $.ajax({
@@ -279,6 +305,15 @@ function showRuralDistributionGraphs(){
 }
 
 function showFundingGraphs(){
+
+    $("#installTabs").attr('class','glowOut ibox float-e-margins');
+    $("#dailyTabs").attr('class','glowOut ibox float-e-margins');
+    $("#transTabs").attr('class','glowOut ibox float-e-margins');
+    $("#urbanTabs").attr('class','glowOut ibox float-e-margins');
+    $("#ruralTabs").attr('class','glowOut ibox float-e-margins');
+    $("#fundTabs").attr('class','glow ibox float-e-margins');
+
+    $("#map_title").html('Geographical Information of Funding Under IPDS/DDUGIY');
     $.ajax({
         type: "get",
         url: "view/funding_graphs.php"
@@ -293,12 +328,12 @@ function showFundingGraphs(){
 
     $.ajax({
         type: "get",
-        url: "view/powerMap_v1.php"
+        data:{'section':'fund'},
+        url: "view/maps_with_tabs.php"
     }).done(function( result ) {
         $("#map-container").html(result);
-        createSVGMap();
-        $(".powerMap").show();
-        mapCounterMapEffect();
+        loadFundIndiaMap();
+        $("#map-container-v1").attr('style','height:450px');
     });
 
     $.ajax({
@@ -317,6 +352,83 @@ function showFundingGraphs(){
         $("#transportationCapacity").attr('class','transportationCapacity cboxElement');
         $("#transmissionCapacity").attr('class','transmissionCapacity cboxElement');
         mapCounterEffect();
+    });
+}
+
+
+function loadIndiaMap(){
+    $.ajax({
+        type: "get",
+        url: "view/svgMap.php"
+    }).done(function( result ) {
+        $("#map-container-v1").html(result);
+        $(".powerMap").show();
+        mapCounterMapEffect();
+        $("#map-container-v1").attr('style','');
+    });
+}
+
+function loadInitialIndiaMap(){
+
+    $.ajax({
+        type: "get",
+        url: "view/powerMap_initial.php"
+    }).done(function( result ) {
+        console.log(result);
+        $("#map-container-v1").html(result);
+        $(".powerMap").show();
+        mapCounterMapEffect();
+        $("#map-container-v1").attr('style','');
+    });
+}
+
+function loadInstallIndiaMap(){
+
+    $.ajax({
+        type: "get",
+        url: "view/powerMap.php"
+    }).done(function( result ) {
+        $("#map-container-v1").html(result);
+        $(".powerMap").show();
+        mapCounterMapEffect();
+        $("#map-container-v1").attr('style','');
+    });
+
+}
+
+function loadDailyIndiaMap(){
+    $.ajax({
+        type: "get",
+        url: "view/powerMap_v1.php"
+    }).done(function( result ) {
+        $("#map-container-v1").html(result);
+        $(".powerMap").show();
+        mapCounterMapEffect();
+        $("#map-container-v1").attr('style','');
+    });
+}
+
+function loadRuralIndiaMap(){
+    $.ajax({
+        type: "get",
+        url: "view/powerMap_v1.php"
+    }).done(function( result ) {
+        $("#map-container-v1").html(result);
+        $(".powerMap").show();
+        mapCounterMapEffect();
+        $("#map-container-v1").attr('style','');
+    });
+}
+
+function loadFundIndiaMap(){
+    $.ajax({
+        type: "get",
+        url: "view/powerMap_v1.php"
+    }).done(function( result ) {
+        $("#map-container-v1").html(result);
+        $(".powerMap").show();
+        mapCounterMapEffect();
+        $("#map-container-v1").attr('style','');
     });
 }
 
@@ -392,29 +504,41 @@ $(document).ready(function () {
 function changeInfoGraphs($type){
     if($type == 'trans'){
 
-        // createInstalledCapacityInfoGraph("#installed_capacity");
-        // cumulativeGeneration("#cumulative_capacity");
-        // transportationCapacity("#transportation_capacity");
-        // noRecord("#transmission_capacity");
+        createInstalledCapacityInfoGraph("#installed_capacity");
+        cumulativeGeneration("#cumulative_capacity");
+        transportationCapacity("#transportation_capacity");
+        transmissionCapacity("#transmission_capacity");
+        transmissionCapacity("#rightTitle5");
+        createBarChart("#leftTitle1");
+        createBarChart("#leftTitle2");
+        createBarChart("#leftTitle3");
+        createBarChart("#leftTitle4");
+        createBarChart("#leftTitle5");
     }else{
-        // createInstalledCapacityInfoGraph("#installed_capacity");
-        // cumulativeGeneration("#cumulative_capacity");
-        // transportationCapacity("#transportation_capacity");
-        // transmissionCapacity("#transmission_capacity");
+        createInstalledCapacityInfoGraph("#installed_capacity");
+        cumulativeGeneration("#cumulative_capacity");
+        transportationCapacity("#transportation_capacity");
+        transmissionCapacity("#transmission_capacity");
+        transmissionCapacity("#rightTitle5");
+        transmissionCapacity("#leftTitle1");
+        transmissionCapacity("#leftTitle2");
+        transmissionCapacity("#leftTitle3");
+        transmissionCapacity("#leftTitle4");
+        transmissionCapacity("#leftTitle5");
     }
 
 }
 
 function switchMapInfoGraphs(){
     $(".baseLine").colorbox({width: 680, height: 550, html:true,inline:true,onOpen: function ($var) {
-        // console.log('here');
-        // $.ajax({
-        //     type: "get",
-        //     data: {container_id:'graph_loader',title:"AT&C loss reduced from baseline",callback: "baseLine"},
-        //     url: "view/popup-graph.php"
-        // }).done(function( result ) {
-        //     $(".box-result").html(result);
-        // });
+// console.log('here');
+// $.ajax({
+//     type: "get",
+//     data: {container_id:'graph_loader',title:"AT&C loss reduced from baseline",callback: "baseLine"},
+//     url: "view/popup-graph.php"
+// }).done(function( result ) {
+//     $(".box-result").html(result);
+// });
 
         $.ajax({
             type: "get",
@@ -427,13 +551,13 @@ function switchMapInfoGraphs(){
 
     $(".connection").colorbox({width: 680, height: 550, html:true,inline:true,onOpen: function ($var) {
         console.log($var);
-        // $.ajax({
-        //     type: "get",
-        //     data: {container_id:'graph_loader',title:"Connection Released in SERC",callback: "connection"},
-        //     url: "view/popup-graph.php"
-        // }).done(function( result ) {
-        //     $(".box-result").html(result);
-        // });
+// $.ajax({
+//     type: "get",
+//     data: {container_id:'graph_loader',title:"Connection Released in SERC",callback: "connection"},
+//     url: "view/popup-graph.php"
+// }).done(function( result ) {
+//     $(".box-result").html(result);
+// });
         $.ajax({
             type: "get",
             data: {container_id:'graph_loader',title:"States where Connection Released in SERC",callback: "cumulativeGeneration"},
@@ -445,13 +569,13 @@ function switchMapInfoGraphs(){
 
     $(".complaints").colorbox({width: 680, height: 550, html:true,inline:true,onOpen: function ($var) {
         console.log($var);
-        // $.ajax({
-        //     type: "get",
-        //     data: {container_id:'graph_loader',title:"Complaints Redressed in SERC",callback: "complaints"},
-        //     url: "view/popup-graph.php"
-        // }).done(function( result ) {
-        //     $(".box-result").html(result);
-        // });
+// $.ajax({
+//     type: "get",
+//     data: {container_id:'graph_loader',title:"Complaints Redressed in SERC",callback: "complaints"},
+//     url: "view/popup-graph.php"
+// }).done(function( result ) {
+//     $(".box-result").html(result);
+// });
         $.ajax({
             type: "get",
             data: {container_id:'graph_loader',title:"States where Complaints Redressed in SERC",callback: "transportationCapacity"},
@@ -463,13 +587,13 @@ function switchMapInfoGraphs(){
 
     $(".interruption").colorbox({width: 680, height: 550, html:true,inline:true,onOpen: function ($var) {
         console.log($var);
-        // $.ajax({
-        //     type: "get",
-        //     data: {container_id:'graph_loader',title:"No. of Interruptions",callback: "interruption"},
-        //     url: "view/popup-graph.php"
-        // }).done(function( result ) {
-        //     $(".box-result").html(result);
-        // });
+// $.ajax({
+//     type: "get",
+//     data: {container_id:'graph_loader',title:"No. of Interruptions",callback: "interruption"},
+//     url: "view/popup-graph.php"
+// }).done(function( result ) {
+//     $(".box-result").html(result);
+// });
         $.ajax({
             type: "get",
             data: {container_id:'graph_loader',title:"No. of Interruptions",callback: "transmissionCapacity"},

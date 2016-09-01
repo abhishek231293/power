@@ -59,7 +59,7 @@
                     <div class="row">
                         <div class="chart">
                             <div id="daily_generation_graph2">
-                                <img style="height: 400px; width: 404px;" src="../dist/img/no_data_found_b.png">
+                                <img style="height: 400px; width: 404px;" src="./dist/img/no_data_found_b.png">
                             </div>
                         </div>
                     </div>
@@ -99,7 +99,7 @@
                     <div class="row">
                         <div class="chart">
                             <div id="daily_generation_graph3">
-                                <img style="height: 400px; width: 404px;" src="../dist/img/no_data_found.png">
+                                <img style="height: 400px; width: 404px;" src="./dist/img/no_data_found.png">
                             </div>
                         </div>
                     </div>
@@ -138,7 +138,7 @@
                     <div class="row">
                         <div class="chart">
                             <div id="daily_generation_graph5">
-                                <img style="height: 400px; width: 404px;" src="../dist/img/no_data_found.png">
+                                <img style="height: 400px; width: 404px;" src="./dist/img/no_data_found.png">
                             </div>
                         </div>
                     </div>
@@ -177,7 +177,7 @@
                     <div class="row">
                         <div class="chart">
                             <div id="daily_generation_graph6">
-                                <img style="height: 400px; width: 404px;" src="../dist/img/no_data_found.png">
+                                <img style="height: 400px; width: 404px;" src="./dist/img/no_data_found.png">
                             </div>
                         </div>
                     </div>

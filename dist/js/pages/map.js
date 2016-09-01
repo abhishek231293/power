@@ -2,6 +2,8 @@ var myCenter = new google.maps.LatLng(20.5937,78.9629);
 var geocoder = new google.maps.Geocoder();
 
 function loadMap() {
+    $(".powerMap").hide();
+    $("#map-container-v1").attr('style','height:530px');
     $.getJSON("dist/json/IT_Town.json", function (data) {
 
         var items = [];
@@ -28,11 +30,12 @@ function loadMap() {
 
             });
         });
-        initializes(items,description);
+
+        initializesUrban(items,description);
     });
 }
 
-function initializes($locations,$description)
+function initializesUrban($locations,$description)
 {
 
     var mapProp = {
@@ -41,7 +44,7 @@ function initializes($locations,$description)
         mapTypeId:google.maps.MapTypeId.ROADMAP
     };
     var prev_infowindow =false;
-    var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    var map = new google.maps.Map(document.getElementById("map-container-v1"),mapProp);
     var marker= {};
     var markers  = [];
     var icon = {

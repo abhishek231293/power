@@ -18,7 +18,7 @@
                     <div class="row">
                         <div class="chart">
                             <div id="urban_distribution_graph1" style="width: 100%; height: 400px">
-                                <img style="height: 400px; width: 404px;" src="../dist/img/no_data_found.png">
+
                             </div>
                         </div>
                     </div>
@@ -59,7 +59,7 @@
                     <div class="row">
                         <div class="chart">
                             <div id="urban_distribution_graph2">
-                                <img style="height: 400px; width: 404px;" src="../dist/img/no_data_found.png">
+
                             </div>
                         </div>
                     </div>
@@ -99,7 +99,7 @@
                     <div class="row">
                         <div class="chart">
                             <div id="urban_distribution_graph3">
-                                <img style="height: 400px; width: 404px;" src="../dist/img/no_data_found.png">
+
                             </div>
                         </div>
                     </div>

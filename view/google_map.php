@@ -1,4 +1,4 @@
-<div class="chart tab-pane" id="revenue-chart" style="position: relative; height: 450px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+<div class="chart tab-pane" id="revenue-chart" style="position: relative; height: 580px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
 
     <!--<div id="googleMapFilters" style="padding:5px;">
         <form class="form-inline" role="form" method="post">
@@ -48,5 +48,5 @@
             </div>
         </form>
     </div>-->
-    <div id="googleMap" class="col-md-12" style="margin-left: 2%; height: 440px;"></div>
+    <div id="googleMap" class="col-md-12" style="margin-left: 2%; height: 570px;"></div>
 </div>

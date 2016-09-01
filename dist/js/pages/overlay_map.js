@@ -2,7 +2,7 @@ var myCenter = new google.maps.LatLng(20.5937,78.9629);
 
 function loadOverlayMap() {
     $(".powerMap").hide();
-    $("#map-container-v1").attr('style','height:450px');
+    $("#map-container-v1").attr('style','height:530px');
     $.getJSON("dist/json/Power_Station.json", function (data) {
 
         var items = [];
@@ -13,11 +13,8 @@ function loadOverlayMap() {
                     $.each(detail, function (index1, detail1) {
                         if(index1 == 'coordinates'){
                             items.push(detail1[0] + ',' + detail1[1]);
-
                         }
-
                     });
-
                 }
                 if(index == 'properties'){
                     $.each(detail, function (index1, detail1) {
@@ -93,11 +90,51 @@ function initialize($locations,$description)
     var markerCluster = new MarkerClusterer(map, markers, options);
     var layers = [];
 
+    layers [0] = new google.maps.KmlLayer("https://raw.githubusercontent.com/abhishek231293/kmlFile/master/NR1.kmz",{
+        preserveViewport: false,
+        map: map
+    });
+
     layers [1] = new google.maps.KmlLayer("https://raw.githubusercontent.com/abhishek231293/kmlFile/master/LineER1.kmz",{
         preserveViewport: false,
         map: map
     });
     layers [2] = new google.maps.KmlLayer("https://raw.githubusercontent.com/abhishek231293/kmlFile/master/lineER2.kmz",{
+        preserveViewport: false,
+        map: map
+    });
+
+    layers [3] = new google.maps.KmlLayer("https://raw.githubusercontent.com/abhishek231293/kmlFile/master/NR2.kmz",{
+        preserveViewport: false,
+        map: map
+    });
+
+    layers [4] = new google.maps.KmlLayer("https://raw.githubusercontent.com/abhishek231293/kmlFile/master/SR1.kmz",{
+        preserveViewport: false,
+        map: map
+    });
+
+    layers [5] = new google.maps.KmlLayer("https://raw.githubusercontent.com/abhishek231293/kmlFile/master/SR2.kmz",{
+        preserveViewport: false,
+        map: map
+    });
+
+    layers [6] = new google.maps.KmlLayer("https://raw.githubusercontent.com/abhishek231293/kmlFile/master/WR1.kmz",{
+        preserveViewport: false,
+        map: map
+    });
+
+    layers [7] = new google.maps.KmlLayer("https://raw.githubusercontent.com/abhishek231293/kmlFile/master/WR2.kmz",{
+        preserveViewport: false,
+        map: map
+    });
+
+    layers [8] = new google.maps.KmlLayer("https://raw.githubusercontent.com/abhishek231293/kmlFile/master/WR2 - Copy.kmz",{
+        preserveViewport: false,
+        map: map
+    });
+
+    layers [9] = new google.maps.KmlLayer("https://raw.githubusercontent.com/abhishek231293/kmlFile/master/LineNER.kml",{
         preserveViewport: false,
         map: map
     });

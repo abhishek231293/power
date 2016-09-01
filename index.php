@@ -6,13 +6,15 @@
     <title>NPP | Portal</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <!-- Bootstrap 3.3.6 -->
+
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 
+    <link rel="stylesheet" href="dist/css/materialDesign.css">
     <!-- Theme style -->
     <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
     <!-- AdminLTE Skins. Choose a skin from the css/skins
@@ -23,6 +25,7 @@
 
     <link rel="stylesheet" href="dist/css/colorbox.css">
     <link rel="stylesheet" href="dist/css/indiaMap.css">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -81,6 +84,7 @@
 
     <div class="content-wrapper">
         <section class="content">
+
                 <video id="animationImage" style='display: none; width:105%; margin-left: -3%; border: 0px; 'autoplay loop border="0">
                     <source src="dist/video/header1.mp4" type="video/mp4" />
                 </video>
@@ -94,6 +98,35 @@
         </section>
     </div>
 
+    <div class="scrollToTop fixed-action-btn" style="bottom: 45px; right: 24px;">
+        <a href="#graph_content" class="btn-floating btn-large red">
+            <i class="fa fa-line-chart" aria-hidden="true"></i>
+        </a>
+        <ul>
+            <li>
+                <a class="btn-floating btn-large red">
+                    <i class="fa fa-line-chart" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a class="btn-floating btn-large yellow">
+                    <i class="fa fa-line-chart" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a class="btn-floating btn-large green">
+                    <i class="fa fa-line-chart" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a class="btn-floating btn-large blue">
+                    <i class="fa fa-line-chart" aria-hidden="true"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+<!--    <a href="#" class="scrollToTop">Graphs</a>-->
     <footer class="main-footer">
         Copyright &copy; 2016-2017 NPP. All rights reserved.
             <a class="pull-right" href="#" >
@@ -152,6 +185,7 @@
 <script src="dist/js/pages/map.js"></script>
 <script src="dist/js/pages/map_v1.js"></script>
 <script src="dist/js/pages/overlay_map.js"></script>
+<script src="dist/js/pages/commonGoogleMap.js"></script>
 <script src="dist/js/pages/cluster.js"></script>
 <script src="dist/js/pages/counter.js"></script>
 <script src="dist/js/popModal.js"></script>
@@ -159,9 +193,31 @@
 <script type="text/javascript" src="dist/js/pages/ammap.js"></script>
 <script type="text/javascript" src="dist/js/pages/indiaLow.js"></script>
 <script src="dist/js/pages/svgMap.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
 <script>
     counterEffect();
     showIntitalInfo();
+    $(document).ready(function(){
+        $('.scrollToTop').fadeIn();
+
+        //Check to see if the window is top if not then display button
+        $(window).scroll(function(){
+            console.log($(this).scrollTop());
+            if ($(this).scrollTop() > 450) {
+                $('.scrollToTop').fadeOut();
+            } else {
+                $('.scrollToTop').fadeIn();
+
+            }
+        });
+
+        //Click event to scroll to top
+//        $('.scrollToTop').click(function(){
+//            $('html, body').animate({scrollTop : 0},400);
+//            return false;
+//        });
+
+    });
 </script>
 
 

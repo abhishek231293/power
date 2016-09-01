@@ -155,7 +155,7 @@
 
             <a xlink:href="#" id="southernId" onclick="loadTransmissionAndSubstationData(this.id,'zone','Southern')">
                 <g id="g-data-southern-region">
-                    <rect id="rect-title-southern-region" opacity="0.99" height="30" width="301" y="679.27" x="303.28" fill="#eeff00"></rect>
+                    <rect id="rect-title-southern-region" opacity="0.99" height="30" width="301" y="679.27" x="303.28" fill="#385723"></rect>
                     <text id="text-title-southern-region" y="697.73065" x="395.28275">Southern Region</text>
                     <g id="g8553" transform="translate(20)">
                         <rect id="rect6282-2-1-7-5" height="70" width="100" y="709.27" x="485.28" fill="#fff"></rect>
@@ -376,7 +376,7 @@
 
             <a xlink:href="#" id="westernId" onclick="loadTransmissionAndSubstationData(this.id,'zone','Western')">
                 <g id="g-data-western-region" transform="translate(-64.196 -518)">
-                    <rect id="rect-title-western-region" opacity="0.99" height="30" width="302" y="679.27" x="-153.72" fill="#00FFFF"></rect>
+                    <rect id="rect-title-western-region" opacity="0.99" height="30" width="302" y="679.27" x="-153.72" fill="#002060"></rect>
                     <text id="text-title-western-region" y="697.73059" x="-58.351654">Western Region</text>
                     <rect id="rect6282-9-3-9" height="70" width="100" y="709.27" x="-52.724" fill="#fff"></rect>
                     <g id="g4888-1-29-3-9" class="rd_icon_tower" transform="matrix(0.75 0 0 0.75 -317.06 535.57)">

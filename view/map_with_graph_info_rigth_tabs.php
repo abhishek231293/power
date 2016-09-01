@@ -44,7 +44,7 @@
     </a>
 
     <!-- /.info-box -->
-    <a id="transmissionCapacity1" class="transmissionCapacity cboxElement" href="#info-box">
+    <a id="transmissionCapacity1" class="transmissionCapacity1 cboxElement" href="#info-box">
         <div class="info-box custom-bg-pink">
             <div class="info-box-content">
                 <span style="font-weight: 700" class="info-box-text" id="title5">AT&C loss</span>

@@ -22,8 +22,8 @@
         <div class="row">
             <div class="col-md-12 col-sm-12">
                 <ul class="nav nav-tabs pull-left ui-sortable-handle">
-                    <li class="active" onclick="loadInstallIndiaMap()"><a href="#sales-chart" data-toggle="tab" aria-expanded="true">Map 1</a></li>
-                    <li class="" onclick="loadGoogleMap()"><a href="#revenue-chart" data-toggle="tab" aria-expanded="false">Map 2</a></li>
+                    <li class="active" onclick="loadInstallIndiaMap()"><a href="#sales-chart" data-toggle="tab" aria-expanded="true">Overview</a></li>
+                    <li class="" onclick="loadGoogleMap()"><a href="#revenue-chart" data-toggle="tab" aria-expanded="false">Map</a></li>
                 </ul>
             </div>
             <div class="col-sm-12">
@@ -40,8 +40,8 @@
         <div class="row">
             <div class="col-md-12 col-sm-12">
                 <ul class="nav nav-tabs pull-left ui-sortable-handle">
-                    <li class="active" onclick="loadDailyIndiaMap()"><a href="#sales-chart" data-toggle="tab" aria-expanded="true">Map 1</a></li>
-                    <li class="" onclick="loadGoogleMap()"><a href="#revenue-chart" data-toggle="tab" aria-expanded="false">Map 2</a></li>
+                    <li class="active" onclick="loadDailyIndiaMap()"><a href="#sales-chart" data-toggle="tab" aria-expanded="true">Overview</a></li>
+                    <li class="" onclick="loadGoogleMap()"><a href="#revenue-chart" data-toggle="tab" aria-expanded="false">Map</a></li>
                 </ul>
             </div>
             <div class="col-sm-12">
@@ -58,8 +58,8 @@
         <div class="row">
             <div class="col-md-12 col-sm-12">
                 <ul class="nav nav-tabs pull-left ui-sortable-handle">
-                    <li class="active" onclick="loadDailyIndiaMap()"><a href="#sales-chart" data-toggle="tab" aria-expanded="true">Map 1</a></li>
-                    <li class="" onclick="loadMap()"><a href="#revenue-chart" data-toggle="tab" aria-expanded="false">Map 2</a></li>
+                    <li class="active" onclick="loadDailyIndiaMap()"><a href="#sales-chart" data-toggle="tab" aria-expanded="true">Overview</a></li>
+                    <li class="" onclick="loadMap()"><a href="#revenue-chart" data-toggle="tab" aria-expanded="false">Map</a></li>
                 </ul>
             </div>
             <div class="col-sm-12">
@@ -76,8 +76,8 @@
         <div class="row">
             <div class="col-md-12 col-sm-12">
                 <ul class="nav nav-tabs pull-left ui-sortable-handle">
-                    <li class="active" onclick="loadRuralIndiaMap()"><a href="#sales-chart" data-toggle="tab" aria-expanded="true">Map 1</a></li>
-                    <li class="" onclick="loadGoogleMap()"><a href="#revenue-chart" data-toggle="tab" aria-expanded="false">Map 2</a></li>
+                    <li class="active" onclick="loadRuralIndiaMap()"><a href="#sales-chart" data-toggle="tab" aria-expanded="true">Overview</a></li>
+                    <li class="" onclick="loadGoogleMap()"><a href="#revenue-chart" data-toggle="tab" aria-expanded="false">Map</a></li>
                 </ul>
             </div>
             <div class="col-sm-12">
@@ -94,8 +94,8 @@
         <div class="row">
             <div class="col-md-12 col-sm-12">
                 <ul class="nav nav-tabs pull-left ui-sortable-handle">
-                    <li class="active" onclick="loadFundIndiaMap()"><a href="#sales-chart" data-toggle="tab" aria-expanded="true">Map 1</a></li>
-                    <li class="" onclick="loadGoogleMap()"><a href="#revenue-chart" data-toggle="tab" aria-expanded="false">Map 2</a></li>
+                    <li class="active" onclick="loadFundIndiaMap()"><a href="#sales-chart" data-toggle="tab" aria-expanded="true">Overview</a></li>
+                    <li class="" onclick="loadGoogleMap()"><a href="#revenue-chart" data-toggle="tab" aria-expanded="false">Map</a></li>
                 </ul>
             </div>
             <div class="col-sm-12">
@@ -111,8 +111,8 @@
     <div class="row">
         <div class="col-md-12 col-sm-12">
             <ul class="nav nav-tabs pull-left ui-sortable-handle">
-                <li class="active" onclick="loadInitialIndiaMap()"><a href="#sales-chart" data-toggle="tab" aria-expanded="true">Map 1</a></li>
-                <li class="" onclick="loadGoogleMap()"><a href="#revenue-chart" data-toggle="tab" aria-expanded="false">Map 2</a></li>
+                <li class="active" onclick="loadInitialIndiaMap()"><a href="#sales-chart" data-toggle="tab" aria-expanded="true">Overview</a></li>
+                <li class="" onclick="loadGoogleMap()"><a href="#revenue-chart" data-toggle="tab" aria-expanded="false">Map</a></li>
             </ul>
         </div>
         <div class="col-sm-12">

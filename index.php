@@ -171,6 +171,7 @@
 <script src="https://code.highcharts.com/highcharts-3d.js"></script>
 <script src="https://code.highcharts.com/modules/exporting.js"></script>
 <script src="dist/js/pages/graph.js"></script>
+<script src="dist/js/pages/popup.js"></script>
 <script src="dist/js/pages/installed_capacity_graph.js"></script>
 <script src="dist/js/pages/daily_capacity_graph.js"></script>
 <script src="dist/js/pages/trans_capacity_graph.js"></script>
@@ -190,6 +191,7 @@
 <script src="dist/js/pages/counter.js"></script>
 <script src="dist/js/popModal.js"></script>
 <script src="dist/js/pages/script.js"></script>
+
 <script type="text/javascript" src="dist/js/pages/ammap.js"></script>
 <script type="text/javascript" src="dist/js/pages/indiaLow.js"></script>
 <script src="dist/js/pages/svgMap.js"></script>
@@ -202,7 +204,7 @@
 
         //Check to see if the window is top if not then display button
         $(window).scroll(function(){
-            console.log($(this).scrollTop());
+
             if ($(this).scrollTop() > 450) {
                 $('.scrollToTop').fadeOut();
             } else {

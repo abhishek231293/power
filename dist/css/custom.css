@@ -15751,43 +15751,43 @@ table.dataTable tr.odd { background-color: #E9E9E9; }
 table.dataTable tr.even { background-color: #FFF; }
 
 .custom-bg-yellow {
-    background: #C02425; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(-90deg, #C02425, #F0CB35); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(-90deg, #C02425, #F0CB35); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(-90deg, #C02425, #F0CB35); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(-90deg, #C02425, #F0CB35); /* Standard syntax */
+    background: #fff; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-90deg, #fff, #fff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-90deg, #fff, #fff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-90deg, #fff, #fff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-90deg, #fff, #fff); /* Standard syntax */
 }
 
 .custom-bg-blue {
-    background: #c2e59c; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(-90deg, #c2e59c, #64b3f4); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(-90deg, #c2e59c, #64b3f4); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(-90deg, #c2e59c, #64b3f4); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(-90deg, #c2e59c, #64b3f4); /* Standard syntax */
+    background: #fff; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-90deg, #fff, #fff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-90deg, #fff, #fff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-90deg, #fff, #fff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-90deg, #fff, #fff); /* Standard syntax */
 }
 
 .custom-bg-green {
-    background: #757519; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(-90deg, #757519, #CCCCB2); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(-90deg, #757519, #CCCCB2); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(-90deg, #757519, #CCCCB2); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(-90deg, #757519, #CCCCB2); /* Standard syntax */
+    background: #fff; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-90deg, #fff, #fff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-90deg, #fff, #fff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-90deg, #fff, #fff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-90deg, #fff, #fff); /* Standard syntax */
 }
 
 .custom-bg-orange {
-    background: #AAAAB2; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(-90deg, #D1913C, #CCCCB2); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(-90deg, #D1913C, #CCCCB2); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(-90deg, #D1913C, #CCCCB2); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(-90deg, #D1913C, #CCCCB2); /* Standard syntax */
+    background: #fff; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-90deg, #fff, #fff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-90deg, #fff, #fff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-90deg, #fff, #fff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-90deg, #fff, #fff); /* Standard syntax */
 }
 
 .custom-bg-pink {
-    background: #ED4264; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(-90deg, #ED4264, #FFEDBC); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(-90deg, #ED4264, #FFEDBC); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(-90deg, #ED4264, #FFEDBC); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(-90deg, #ED4264, #FFEDBC); /* Standard syntax */
+    background: #fff; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-90deg, #fff, #fff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-90deg, #fff, #fff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-90deg, #fff, #fff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-90deg, #fff, #fff); /* Standard syntax */
 }
 
 .info-title-1 {

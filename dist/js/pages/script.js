@@ -11,6 +11,12 @@ function showIntitalInfo(){
     $("#map_title").html('Geographical Information of National Power');
     changeInfoGraphs();
 
+    $("#leftGraph1").attr('class','leftGraph1 cboxElement');
+    $("#leftGraph2").attr('class','leftGraph2 cboxElement');
+    $("#leftGraph3").attr('class','leftGraph3 cboxElement');
+    $("#leftGraph4").attr('class','leftGraph4 cboxElement');
+    $("#leftGraph5").attr('class','leftGraph5 cboxElement');
+
     $.ajax({
         type: "get",
         data:{'section':'initial'},
@@ -31,10 +37,6 @@ function showIntitalInfo(){
         $("#title2").html('Max Demand');
         $("#title3").html('Shortage during max demand');
 
-        $("#installedCapacity").attr('class','installedCapacity cboxElement');
-        $("#cumulativeGeneration").attr('class','cumulativeGeneration cboxElement');
-        $("#transportationCapacity").attr('class','transportationCapacity cboxElement');
-        $("#transmissionCapacity").attr('class','transmissionCapacity cboxElement');
         mapCounterEffect();
     });
 
@@ -49,7 +51,13 @@ function showInstallCapacityGraphs($graphSection){
     $("#ruralTabs").attr('class','glowOut ibox float-e-margins');
     $("#fundTabs").attr('class','glowOut ibox float-e-margins');
 
-    $("#map_title").html('Geographical Information of Installed Capacity');
+    $("#leftGraph1").attr('class','leftGraph1 cboxElement');
+    $("#leftGraph2").attr('class','leftGraph2 cboxElement');
+    $("#leftGraph3").attr('class','leftGraph3 cboxElement');
+    $("#leftGraph4").attr('class','leftGraph4 cboxElement');
+    $("#leftGraph5").attr('class','leftGraph5 cboxElement');
+
+    $("#map_title").html('Installed Capacity');
     $.ajax({
         type: "get",
         url: "view/install_capacity_graphs.php"
@@ -83,10 +91,6 @@ function showInstallCapacityGraphs($graphSection){
         $("#title3").html('Nuclear');
         $("#title4").html('RES');
 
-        $("#installedCapacity").attr('class','installedCapacity cboxElement');
-        $("#cumulativeGeneration").attr('class','cumulativeGeneration cboxElement');
-        $("#transportationCapacity").attr('class','transportationCapacity cboxElement');
-        $("#transmissionCapacity").attr('class','transmissionCapacity cboxElement');
         changeInfoGraphs();
         mapCounterEffect();
     });
@@ -103,7 +107,13 @@ function showDailyGenerationGraphs($graphSection){
     $("#ruralTabs").attr('class','glowOut ibox float-e-margins');
     $("#fundTabs").attr('class','glowOut ibox float-e-margins');
 
-    $("#map_title").html('Geographical Information of Daily Generation');
+    $("#leftGraph1").attr('class','leftGraph1 cboxElement');
+    $("#leftGraph2").attr('class','leftGraph2 cboxElement');
+    $("#leftGraph3").attr('class','leftGraph3 cboxElement');
+    $("#leftGraph4").attr('class','leftGraph4 cboxElement');
+    $("#leftGraph5").attr('class','leftGraph5 cboxElement');
+
+    $("#map_title").html('Daily Generation');
     $.ajax({
         type: "get",
         url: "view/daily_generation_graphs.php"
@@ -137,10 +147,7 @@ function showDailyGenerationGraphs($graphSection){
         $("#title3").html('Nuclear');
         $("#title4").html('RES');
         changeInfoGraphs();
-        $("#installedCapacity").attr('class','installedCapacity cboxElement');
-        $("#cumulativeGeneration").attr('class','cumulativeGeneration cboxElement');
-        $("#transportationCapacity").attr('class','transportationCapacity cboxElement');
-        $("#transmissionCapacity").attr('class','transmissionCapacity cboxElement');
+
         mapCounterEffect();
     });
 }
@@ -154,7 +161,13 @@ function showTransCapacityGraphs() {
     $("#ruralTabs").attr('class','glowOut ibox float-e-margins');
     $("#fundTabs").attr('class','glowOut ibox float-e-margins');
 
-    $("#map_title").html('Geographical Information of Transmission/Transformation Capacity');
+    $("#leftGraph1").attr('class','leftGraph1 cboxElement');
+    $("#leftGraph2").attr('class','leftGraph2 cboxElement');
+    $("#leftGraph3").attr('class','leftGraph3 cboxElement');
+    $("#leftGraph4").attr('class','leftGraph4 cboxElement');
+    $("#leftGraph5").attr('class','leftGraph5 cboxElement');
+
+    $("#map_title").html('Transmission/Transformation Capacity');
 
     $.ajax({
         type: "get",
@@ -189,9 +202,7 @@ function showTransCapacityGraphs() {
         $("#title1").html('Growth in T&D lines');
         $("#title2").html('Transmission Line Length (CKM)');
         $("#title3").html('Transformation Capacity (MVA)');
-        $("#installedCapacity").attr('class','installedCapacity cboxElement');
-        $("#cumulativeGeneration").attr('class','cumulativeGeneration cboxElement');
-        $("#transportationCapacity").attr('class','transportationCapacity cboxElement');
+
         $("#transmissionCapacity").attr('class','');
         mapCounterEffect();
     });
@@ -200,6 +211,8 @@ function showTransCapacityGraphs() {
 
 function showUrbanDistributionGraphs(){
 
+
+
     $("#installTabs").attr('class','glowOut ibox float-e-margins');
     $("#dailyTabs").attr('class','glowOut ibox float-e-margins');
     $("#transTabs").attr('class','glowOut ibox float-e-margins');
@@ -207,7 +220,13 @@ function showUrbanDistributionGraphs(){
     $("#ruralTabs").attr('class','glowOut ibox float-e-margins');
     $("#fundTabs").attr('class','glowOut ibox float-e-margins');
 
-    $("#map_title").html('Geographical Information of Urban Distribution');
+    $("#leftGraph1").attr('class','leftGraph1_urban cboxElement');
+    $("#leftGraph2").attr('class','leftGraph2_urban cboxElement');
+    $("#leftGraph3").attr('class','leftGraph3_urban cboxElement');
+    $("#leftGraph4").attr('class','leftGraph4_urban cboxElement');
+    $("#leftGraph5").attr('class','leftGraph5_urban cboxElement');
+
+    $("#map_title").html('Urban Distribution');
 
     $.ajax({
         type: "get",
@@ -215,10 +234,10 @@ function showUrbanDistributionGraphs(){
     }).done(function( result ) {
         $("#graph_content").html(result);
 
-        urbanDistributionGraphs1();
-        urbanDistributionGraphs2();
-        urbanDistributionGraphs3();
-        changeInfoGraphs('trans');
+        // urbanDistributionGraphs1('#urban_distribution_graph1');
+        // urbanDistributionGraphs2('#urbanDistributionGraphs2');
+        // urbanDistributionGraphs3();
+        changeInfoGraphs('urban');
     });
 
     $.ajax({
@@ -242,12 +261,14 @@ function showUrbanDistributionGraphs(){
         $("#title3").html('Coll Efficiency');
         $("#title4").html('RES');
 
-        $("#installedCapacity").attr('class','baseLine cboxElement');
-        $("#cumulativeGeneration").attr('class','connection cboxElement');
-        $("#transportationCapacity").attr('class','complaints cboxElement');
-        $("#transmissionCapacity").attr('class','RES');
+        $("#leftHead1").html('IT Enabled (go-live) towns');
+        $("#leftHead2").html('Consumer Complaints Redressed');
+        $("#leftHead3").html('Consumer Connection Released');
+        $("#leftHead4").html('No Of Interruption');
+
         mapCounterEffect();
         switchMapInfoGraphs();
+        showGraph();
     });
 }
 
@@ -260,7 +281,13 @@ function showRuralDistributionGraphs(){
     $("#ruralTabs").attr('class','glow ibox float-e-margins');
     $("#fundTabs").attr('class','glowOut ibox float-e-margins');
 
-    $("#map_title").html('Geographical Information of Rural Distribution');
+    $("#leftGraph1").attr('class','leftGraph1 cboxElement');
+    $("#leftGraph2").attr('class','leftGraph2 cboxElement');
+    $("#leftGraph3").attr('class','leftGraph3 cboxElement');
+    $("#leftGraph4").attr('class','leftGraph4 cboxElement');
+    $("#leftGraph5").attr('class','leftGraph5 cboxElement');
+
+    $("#map_title").html('Rural Distribution');
     $.ajax({
         type: "get",
         url: "view/rural_distribution_graphs.php"
@@ -296,10 +323,6 @@ function showRuralDistributionGraphs(){
         $("#title3").html('Growth in Transformation Capacity');
         $("#title4").html('Growth in Transmission Capacity');
 
-        $("#installedCapacity").attr('class','installedCapacity cboxElement');
-        $("#cumulativeGeneration").attr('class','cumulativeGeneration cboxElement');
-        $("#transportationCapacity").attr('class','transportationCapacity cboxElement');
-        $("#transmissionCapacity").attr('class','transmissionCapacity cboxElement');
         mapCounterEffect();
     });
 }
@@ -313,7 +336,13 @@ function showFundingGraphs(){
     $("#ruralTabs").attr('class','glowOut ibox float-e-margins');
     $("#fundTabs").attr('class','glow ibox float-e-margins');
 
-    $("#map_title").html('Geographical Information of Funding Under IPDS/DDUGIY');
+    $("#leftGraph1").attr('class','leftGraph1 cboxElement');
+    $("#leftGraph2").attr('class','leftGraph2 cboxElement');
+    $("#leftGraph3").attr('class','leftGraph3 cboxElement');
+    $("#leftGraph4").attr('class','leftGraph4 cboxElement');
+    $("#leftGraph5").attr('class','leftGraph5 cboxElement');
+
+    $("#map_title").html('Funding Under IPDS/DDUGIY');
     $.ajax({
         type: "get",
         url: "view/funding_graphs.php"
@@ -321,9 +350,7 @@ function showFundingGraphs(){
         $("#graph_content").html(result);
         fundingGraph1();
         fundingGraph2();
-
         changeInfoGraphs();
-
     });
 
     $.ajax({
@@ -347,10 +374,6 @@ function showFundingGraphs(){
         $("#title3").html('Growth in Transformation Capacity');
         $("#title4").html('Growth in Transmission Capacity');
 
-        $("#installedCapacity").attr('class','installedCapacity cboxElement');
-        $("#cumulativeGeneration").attr('class','cumulativeGeneration cboxElement');
-        $("#transportationCapacity").attr('class','transportationCapacity cboxElement');
-        $("#transmissionCapacity").attr('class','transmissionCapacity cboxElement');
         mapCounterEffect();
     });
 }
@@ -443,67 +466,15 @@ function showIndiaMap(){
 }
 
 
-$(document).ready(function () {
-    $(".installedCapacity").colorbox({width: 680, height: 550, html:true,inline:true,onOpen: function ($var) {
-        console.log($var);
-        $.ajax({
-            type: "get",
-            data: {container_id:'graph_loader',title:"Installed Capacity",callback: "createInstalledCapacityInfoGraph"},
-            url: "view/popup-graph.php"
-        }).done(function( result ) {
-            $(".box-result").html(result);
-        });
-    }});
 
-    $(".cumulativeGeneration").colorbox({width: 680, height: 550, html:true,inline:true,onOpen: function ($var) {
-        console.log($var);
-        $.ajax({
-            type: "get",
-            data: {container_id:'graph_loader',title:"Cumulative Generation",callback: "cumulativeGeneration"},
-            url: "view/popup-graph.php"
-        }).done(function( result ) {
-            $(".box-result").html(result);
-        });
-    }});
-
-    $(".transportationCapacity").colorbox({width: 680, height: 550, html:true,inline:true,onOpen: function ($var) {
-        console.log($var);
-        $.ajax({
-            type: "get",
-            data: {container_id:'graph_loader',title:"Growth in Transformation Capacity",callback: "transportationCapacity"},
-            url: "view/popup-graph.php"
-        }).done(function( result ) {
-            $(".box-result").html(result);
-        });
-    }});
-
-    $(".transmissionCapacity").colorbox({width: 680, height: 550, html:true,inline:true,onOpen: function ($var) {
-        console.log($var);
-        $.ajax({
-            type: "get",
-            data: {container_id:'graph_loader',title:"Growth in Transmission Capacity",callback: "transmissionCapacity"},
-            url: "view/popup-graph.php"
-        }).done(function( result ) {
-            $(".box-result").html(result);
-        });
-    }});
-
-    $(".powerMap").colorbox({width: 1030, height: 820, html:true,inline:true,onOpen: function ($var) {
-        $.ajax({
-            type: "get",
-            url: "view/india_map.php"
-        }).done(function( result ) {
-            console.log('her');
-            $(".box-result").html(result);
-            counterEffect();
-        });
-    }});
-
-});
 
 function changeInfoGraphs($type){
     if($type == 'trans'){
-
+        document.getElementById('leftTitle1').style.height = "83px";
+        document.getElementById('leftTitle2').style.height = "83px";
+        document.getElementById('leftTitle3').style.height = "83px";
+        document.getElementById('leftTitle4').style.height = "83px";
+        $("#transmissionCapacityss").show();
         createInstalledCapacityInfoGraph("#installed_capacity");
         cumulativeGeneration("#cumulative_capacity");
         transportationCapacity("#transportation_capacity");
@@ -514,7 +485,33 @@ function changeInfoGraphs($type){
         createBarChart("#leftTitle3");
         createBarChart("#leftTitle4");
         createBarChart("#leftTitle5");
+
+    }else if($type == 'urban'){
+
+        document.getElementById('leftTitle1').style.height = "120px";
+        document.getElementById('leftTitle2').style.height = "120px";
+        document.getElementById('leftTitle3').style.height = "120px";
+        document.getElementById('leftTitle4').style.height = "120px";
+        // Right Side
+        createInstalledCapacityInfoGraph("#installed_capacity");
+        cumulativeGeneration("#cumulative_capacity");
+        transportationCapacity("#transportation_capacity");
+        transmissionCapacity("#transmission_capacity");
+        transmissionCapacity("#rightTitle5");
+
+        urbanDistributionGraphs1('#leftTitle1','goLive');
+        urbanDistributionGraphs2('#leftTitle2','complaint');
+        urbanDistributionGraphs1('#leftTitle3','connection');
+        urbanDistributionGraphs2('#leftTitle4','interuption');
+
+        $("#transmissionCapacityss").hide();
+
     }else{
+        document.getElementById('leftTitle1').style.height = "83px";
+        document.getElementById('leftTitle2').style.height = "83px";
+        document.getElementById('leftTitle3').style.height = "83px";
+        document.getElementById('leftTitle4').style.height = "83px";
+        $("#transmissionCapacityss").show();
         createInstalledCapacityInfoGraph("#installed_capacity");
         cumulativeGeneration("#cumulative_capacity");
         transportationCapacity("#transportation_capacity");

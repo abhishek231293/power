@@ -12,5 +12,5 @@
 </div>
 
 <script>
-    <?php echo $_REQUEST['callback'].'(\'#'.$_REQUEST['container_id'].'\')';?>
+    <?php echo $_REQUEST['callback'].'(\'#'.$_REQUEST['container_id'].'\',"'.$_REQUEST['graph'].'")';?>
 </script>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" />
+</head>
+<body >
+<div class="wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <header>
+                <div style="margin-top: 1%;" class="col-md-offset-5 col-ms-offset-4 col-xs-offset-3">
+                    <img id="image" src="images/power.png" alt="Cinque Terre">
+                </div>
+            </header>
+        </div>
+        <br>
+        <div class="row">
+            <div id="heading2" class="col-md-offset-5 col-ms-offset-5 col-xs-offset-3 col-md-3" style="padding-left: 40px">
+                <img id="image" src="images/p2.png" width="100" height="100" alt="Cinque Terre">
+            </div>
+        </div>
+        <div class="row">
+            <div id="heading2" style="width: 100%; text-align: center">
+                <h3 class="subheading1"><i>Efficient Renewable Reliable Cost-Saving</i></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="vdo">
+                <video  playsinline autoplay muted loop style="width:100%; padding-right:-3%;margin-top: 2%; ">
+                    <source src="videos/header3.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <div class="row top-buffer">
+            <a target="_blank" href="../index.php">
+                <div id="slide1" class="col-md-offset-3 col-md-3">
+                    <div class="mycontent-left" style=" margin-left: 122px">
+                        <i id="map-link"  class="hovicon effect-1 sub-a"><b class="icon-map-marker"></b>
+
+                        </i>
+                    </div>
+                    <span id="map-text" class="data-text" style="padding-top: 1%; padding-bottom: 1%; text-align: center; margin-left: 40%" >Visualise Through Map</span>
+
+                </div>
+            </a>
+            <a href="#">
+                <div id="slide2" class="col-md-3">
+                    <div class="block mycontent-right">
+                        <i id="data-link"  class="hovicon effect-1 sub-a"><b class="icon-table"></b>
+
+                        </i>
+                    </div>
+                    <span id="data-text" style="padding-bottom: 1%; padding-top: 1%;" class="data-text" >Visualise Through Data</span>
+                </div>
+            </a>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+
+    $(function() {
+        $('#map-link').hover(function() {
+            $('#map-text').css('border-bottom', '1px solid grey');
+            $('#map-text').css('border-top', '1px solid grey');
+            $('#map-text').css('color', '#1bada7');
+        }, function() {
+            // on mouseout, reset the background colour
+            $('#map-text').css('border-bottom', '');
+            $('#map-text').css('border-top', '');
+            $('#map-text').css('color', '');
+        });
+    });
+
+    $(function() {
+        $('#data-link').hover(function() {
+            $('#data-text').css('border-bottom', '1px solid grey');
+            $('#data-text').css('border-top', '1px solid grey');
+            $('#data-text').css('color', '#1bada7');
+        }, function() {
+            // on mouseout, reset the background colour
+            $('#data-text').css('border-bottom', '');
+            $('#data-text').css('border-top', '');
+            $('#data-text').css('color', '');
+        });
+    });
+</script>

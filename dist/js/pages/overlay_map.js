@@ -38,7 +38,7 @@ function initialize($locations,$description)
 {
     var mapProp = {
         center:myCenter,
-        zoom:4,
+        zoom:6,
         mapTypeId:google.maps.MapTypeId.ROADMAP
     };
     var prev_infowindow =false;
@@ -87,55 +87,55 @@ function initialize($locations,$description)
         imagePath: 'dist/img/marker/m'
     };
 
-    var markerCluster = new MarkerClusterer(map, markers, options);
+    var markerCluster = new MarkerClusterer(map, markers, options,true);
     var layers = [];
 
-    layers [0] = new google.maps.KmlLayer("https://raw.githubusercontent.com/abhishek231293/kmlFile/master/NR1.kmz",{
-        preserveViewport: false,
+    layers [0] = new google.maps.KmlLayer("https://raw.githubusercontent.com/abhishek231293/kmlFile/master/LineNER.kml",{
+        preserveViewport: true,
         map: map
     });
 
     layers [1] = new google.maps.KmlLayer("https://raw.githubusercontent.com/abhishek231293/kmlFile/master/LineER1.kmz",{
-        preserveViewport: false,
+        preserveViewport: true,
         map: map
     });
     layers [2] = new google.maps.KmlLayer("https://raw.githubusercontent.com/abhishek231293/kmlFile/master/lineER2.kmz",{
-        preserveViewport: false,
+        preserveViewport: true,
         map: map
     });
 
     layers [3] = new google.maps.KmlLayer("https://raw.githubusercontent.com/abhishek231293/kmlFile/master/NR2.kmz",{
-        preserveViewport: false,
+        preserveViewport: true,
         map: map
     });
 
     layers [4] = new google.maps.KmlLayer("https://raw.githubusercontent.com/abhishek231293/kmlFile/master/SR1.kmz",{
-        preserveViewport: false,
+        preserveViewport: true,
         map: map
     });
 
     layers [5] = new google.maps.KmlLayer("https://raw.githubusercontent.com/abhishek231293/kmlFile/master/SR2.kmz",{
-        preserveViewport: false,
+        preserveViewport: true,
         map: map
     });
 
     layers [6] = new google.maps.KmlLayer("https://raw.githubusercontent.com/abhishek231293/kmlFile/master/WR1.kmz",{
-        preserveViewport: false,
+        preserveViewport: true,
         map: map
     });
 
     layers [7] = new google.maps.KmlLayer("https://raw.githubusercontent.com/abhishek231293/kmlFile/master/WR2.kmz",{
-        preserveViewport: false,
+        preserveViewport: true,
         map: map
     });
 
     layers [8] = new google.maps.KmlLayer("https://raw.githubusercontent.com/abhishek231293/kmlFile/master/WR2 - Copy.kmz",{
-        preserveViewport: false,
+        preserveViewport: true,
         map: map
     });
 
-    layers [9] = new google.maps.KmlLayer("https://raw.githubusercontent.com/abhishek231293/kmlFile/master/LineNER.kml",{
-        preserveViewport: false,
+    layers [9] = new google.maps.KmlLayer("https://raw.githubusercontent.com/abhishek231293/kmlFile/master/NR1.kmz",{
+        preserveViewport: true,
         map: map
     });
 }

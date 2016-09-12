@@ -1,6 +1,6 @@
 
 function urbanDistributionGraphs1($containerid,$graph) {
-    console.log('here'+$graph);
+
     if($graph == 'goLive') {
         $data = [{
             name: '',
@@ -15,7 +15,54 @@ function urbanDistributionGraphs1($containerid,$graph) {
                 color: '#B9C338'
             }]
         }];
-    }else{
+    }else if($graph == 'complaint'){
+
+        $data = [{
+            name: '',
+            colorByPoint: true,
+            data: [{
+                name: 'Chandrapur',
+                y: 2,
+                color: '#B5C334'
+            }, {
+                name: 'Palghar',
+                y: 1,
+                color: '#27727B'
+            }, {
+                name: 'Nandurbar',
+                y: 3,
+                color: '#60C0DD'
+            }, {
+                name: 'Jalgaon',
+                y: 7,
+                color: '#F3A43B'
+            }, {
+                name: 'Akola',
+                y: 7,
+                color: '#D7504B'
+            }, {
+                name: 'Washim',
+                y: 9,
+                color: '#DAB'
+            }, {
+                name: 'Amravati',
+                y: 4,
+                color: '#754'
+            }, {
+                name: 'Bhandara',
+                y: 6,
+                color: '#74B'
+            }, {
+                name: 'Yavatmal',
+                y: 5,
+                color: '#A2F'
+            }, {
+                name: 'Parbhani',
+                y: 7,
+                color: '#D3C'
+            }]
+        }];
+    }else if($graph == 'connection'){
         $data = [{
             name: '',
             colorByPoint: true,
@@ -42,8 +89,6 @@ function urbanDistributionGraphs1($containerid,$graph) {
             }]
     }];
     }
-    console.log($data);
-    console.log($containerid);
     $($containerid).highcharts({
         chart: {
             backgroundColor: null,
@@ -96,7 +141,6 @@ function urbanDistributionGraphs1($containerid,$graph) {
 
 
 function urbanDistributionGraphsPopup($containerid,$graph) {
-    console.log('here'+$graph);
     if($graph == 'goLive') {
         $data = [{
             name: '',
@@ -138,8 +182,6 @@ function urbanDistributionGraphsPopup($containerid,$graph) {
             }]
         }];
     }
-    console.log($data);
-    console.log($containerid);
     $($containerid).highcharts({
         chart: {
             animation: Highcharts.svg, // don't animate in old IE
@@ -180,6 +222,9 @@ function urbanDistributionGraphsPopup($containerid,$graph) {
 function urbanDistributionGraphs2($containerId,$graph) {
 
     if($graph == 'complaint'){
+        $max = 100;
+        $title = '% of Towns';
+        $color = ['#B9C039'];
         $data =[{
 
             name: ['Top 10 States'],
@@ -206,7 +251,38 @@ function urbanDistributionGraphs2($containerId,$graph) {
                 x:0// 10 pixels down from the top
             }
         }];
+    }else if($graph == 'connection'){
+        $max = '';
+        $title = '';
+        $color = ['#B5C334','#27727B','#60C0DD','#F3A43B','#D7504B'];
+
+
+        $data =[{
+
+            name: [''],
+            colorByPoint: true,
+            data: [
+                ['greater than 45%', 15],
+                ['35%-45%', 12],
+                ['25%-35%', 13],
+                ['15%-25%', 20],
+                ['less than 15%', 40]
+            ],
+            dataLabels: {
+                enabled: true,
+                rotation: 0,
+                color: '#000',
+                align: 'right',
+                format: '{point.y}', // one decimal
+                y: 20,
+                rotation: -90,
+                x:0// 10 pixels down from the top
+            }
+        }];
     }else{
+
+        $color = ['#B9C039'];
+        $title = '% of Towns';
         $data = [{
 
             name: ['Top 10 Towns'],
@@ -251,7 +327,7 @@ function urbanDistributionGraphs2($containerId,$graph) {
         exporting: {
             enabled: false
         },
-        colors: ['#B9C039'],
+        colors: $color,
         title: {
             text: ''
         },
@@ -271,7 +347,7 @@ function urbanDistributionGraphs2($containerId,$graph) {
             min: 0,
             max:100,
             title: {
-                text: '% of Towns'
+                text: $title
             }
         },
         legend: {
@@ -290,6 +366,8 @@ function urbanDistributionGraphs2($containerId,$graph) {
 
 function urbanDistributionGraphs4($containerId,$graph) {
     if($graph == 'complaint'){
+        $title = '% of Towns';
+        $color = ['#B9C039'];
         $data =[{
             name: ['Top 10 States where AT&C Loss Reduced'],
             data: [
@@ -315,7 +393,35 @@ function urbanDistributionGraphs4($containerId,$graph) {
                 x:0// 10 pixels down from the top
             }
         }];
+    }else if($graph == 'connection'){
+        $max = '';
+        $title = '';
+        $color = ['#B5C334','#27727B','#60C0DD','#F3A43B','#D7504B'];
+        $data =[{
+
+            name: ['Percentage of Connection Released'],
+            colorByPoint: true,
+            data: [
+                ['greater than 45%', 15],
+                ['35%-45%', 12],
+                ['25%-35%', 13],
+                ['15%-25%', 20],
+                ['less than 15%', 40]
+            ],
+            dataLabels: {
+                enabled: true,
+                rotation: 0,
+                color: '#000',
+                align: 'right',
+                format: '{point.y}', // one decimal
+                y: 20,
+                rotation: -90,
+                x:0// 10 pixels down from the top
+            }
+        }];
     }else{
+        $title = '% of Towns';
+        $color = ['#B9C039'];
         $data = [{
             name: ['Top 10 Towns'],
             data: [
@@ -355,7 +461,7 @@ function urbanDistributionGraphs4($containerId,$graph) {
                 colorByPoint: true
             }
         },
-        colors: ['#B9C039'],
+        colors: $color,
         title: {
             text: ''
         },
@@ -375,7 +481,7 @@ function urbanDistributionGraphs4($containerId,$graph) {
             min: 0,
             max:100,
             title: {
-                text: '% of Towns'
+                text: $title
             }
         },
         legend: {

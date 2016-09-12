@@ -1,17 +1,17 @@
-var myCenter = new google.maps.LatLng(20.5937,78.9629);
+var Center = new google.maps.LatLng(20.5937,78.9629);
 
 function loadGoogleMap() {
     $(".powerMap").hide();
     $("#map-container-v1").attr('style','height:530px');
 
-        initializes();
+    initializesGoogleMap();
 }
 
-function initializes()
+function initializesGoogleMap()
 {
     var mapProp = {
-        center:myCenter,
-        zoom:5,
+        center:Center,
+        zoom:6,
         mapTypeId:google.maps.MapTypeId.ROADMAP
     };
     var prev_infowindow =false;

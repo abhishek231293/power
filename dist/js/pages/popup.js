@@ -30,7 +30,7 @@ function showGraph() {
             console.log($var);
             $.ajax({
                 type: "get",
-                data: {container_id: 'graph_loader',graph:'connection', title: "Consumer Connection Released", callback: "urbanDistributionGraphsPopup"},
+                data: {container_id: 'graph_loader',graph:'connection', title: "Consumer Connection Released", callback: "urbanDistributionGraphs4"},
                 url: "view/popup-graph.php"
             }).done(function (result) {
                 $(".box-result").html(result);

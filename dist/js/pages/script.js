@@ -1,13 +1,37 @@
-$("#logo").mouseenter(function(){
-    $("#animationImage").animate({
-        height: 'toggle'
+$(document).ready(function(){
+    $("#compressLeft").click(function(){
+        $("#compressLeft").hide();
+        $("#expandLeft").show();
+        $("#leftTabs").hide(2000);
     });
-});
-$("#logo").mouseleave(function(){
-    $("#animationImage").hide(100);
-});
 
+    $("#expandLeft").click(function(){
+        $("#expandLeft").hide();
+        $("#compressLeft").show();
+        $("#leftTabs").show(2000);
+    });
+
+    $("#compressRight").click(function(){
+        $("#compressRight").hide();
+        $("#expandRight").show();
+        $("#rightTabs").hide(2000);
+    });
+
+    $("#expandRight").click(function(){
+        $("#expandRight").hide();
+        $("#compressRight").show();
+        $("#rightTabs").show(2000);
+    });
+
+});
 function showIntitalInfo(){
+    CurrentTab = 'initial';
+    $("#state").data('stateMap','');
+    $("#discom").data('discomMap','');
+    $("#town").data('townMap','');
+    removeLevel('state');
+    removeLevel('discom');
+    removeLevel('town');
     $("#map_title").html('Geographical Information of National Power');
     changeInfoGraphs();
 
@@ -23,8 +47,9 @@ function showIntitalInfo(){
         url: "view/maps_with_tabs.php"
     }).done(function( result ) {
         $("#map-container").html(result);
-        loadInitialIndiaMap();
-        $("#map-container-v1").attr('style','height:450px');
+        // loadFullMap('all-india',false);
+        loadGoogleMap();
+        $("#map-container-v1").attr('style','min-height:780px');
     });
 
     $.ajax({
@@ -43,7 +68,14 @@ function showIntitalInfo(){
 }
 
 function showInstallCapacityGraphs($graphSection){
-
+    CurrentTab = 'installCapacity';
+    $("#state").data('stateMap','');
+    $("#discom").data('discomMap','');
+    $("#town").data('townMap','');
+    removeLevel('state');
+    removeLevel('discom');
+    removeLevel('town');
+    $("#map-container").html('<img style="width:100%; height: 100%;" src="./dist/img/gifImages/load.gif">');
     $("#installTabs").attr('class','glow ibox float-e-margins');
     $("#dailyTabs").attr('class','glowOut ibox float-e-margins');
     $("#transTabs").attr('class','glowOut ibox float-e-margins');
@@ -75,8 +107,9 @@ function showInstallCapacityGraphs($graphSection){
         url: "view/maps_with_tabs.php"
     }).done(function( result ) {
         $("#map-container").html(result);
-        loadInstallIndiaMap();
-        $("#map-container-v1").attr('style','height:450px');
+        // loadFullMap('all-india',false);
+        loadGoogleMap();
+        $("#map-container-v1").attr('style','min-height:780px');
     });
 
     $.ajax({
@@ -99,7 +132,15 @@ function showInstallCapacityGraphs($graphSection){
 }
 
 function showDailyGenerationGraphs($graphSection){
+    CurrentTab = 'dailyGeneration';
+    $("#state").data('stateMap','');
+    $("#discom").data('discomMap','');
+    $("#town").data('townMap','');
+    removeLevel('state');
+    removeLevel('discom');
+    removeLevel('town');
 
+    $("#map-container").html('<img style="width:100%; height: 100%;" src="./dist/img/gifImages/load.gif">');
     $("#installTabs").attr('class','glowOut ibox float-e-margins');
     $("#dailyTabs").attr('class','glow ibox float-e-margins');
     $("#transTabs").attr('class','glowOut ibox float-e-margins');
@@ -131,8 +172,9 @@ function showDailyGenerationGraphs($graphSection){
         url: "view/maps_with_tabs.php"
     }).done(function( result ) {
         $("#map-container").html(result);
-        loadDailyIndiaMap();
-        $("#map-container-v1").attr('style','height:450px');
+        // loadFullMap('all-india',false);
+        loadGoogleMap();
+        $("#map-container-v1").attr('style','min-height:780px');
     });
 
     $.ajax({
@@ -153,7 +195,15 @@ function showDailyGenerationGraphs($graphSection){
 }
 
 function showTransCapacityGraphs() {
-
+    CurrentTab = 'trans';
+    $("#state").data('stateMap','');
+    $("#discom").data('discomMap','');
+    $("#town").data('townMap','');
+    removeLevel('india');
+    removeLevel('state');
+    removeLevel('discom');
+    removeLevel('town');
+    $("#map-container").html('<img style="width:100%; height: 100%;" src="./dist/img/gifImages/load.gif">');
     $("#installTabs").attr('class','glowOut ibox float-e-margins');
     $("#dailyTabs").attr('class','glowOut ibox float-e-margins');
     $("#transTabs").attr('class','glow ibox float-e-margins');
@@ -189,8 +239,8 @@ function showTransCapacityGraphs() {
         url: "view/maps_with_tabs.php"
     }).done(function( result ) {
         $("#map-container").html(result);
-        loadIndiaMap();
-        $("#map-container-v1").attr('style','height:450px');
+        loadOverlayMap();
+        $("#map-container-v1").attr('style','min-height:780px');
     });
 
     $.ajax({
@@ -210,9 +260,14 @@ function showTransCapacityGraphs() {
 }
 
 function showUrbanDistributionGraphs(){
-
-
-
+    CurrentTab = 'urbanDistribution';
+    $("#state").data('stateMap','');
+    $("#discom").data('discomMap','');
+    $("#town").data('townMap','');
+    removeLevel('state');
+    removeLevel('discom');
+    removeLevel('town');
+    $("#map-container").html('<img style="width:100%; height: 100%;" src="./dist/img/gifImages/load.gif">');
     $("#installTabs").attr('class','glowOut ibox float-e-margins');
     $("#dailyTabs").attr('class','glowOut ibox float-e-margins');
     $("#transTabs").attr('class','glowOut ibox float-e-margins');
@@ -246,8 +301,8 @@ function showUrbanDistributionGraphs(){
         url: "view/maps_with_tabs.php"
     }).done(function( result ) {
         $("#map-container").html(result);
-        loadDailyIndiaMap();
-        $("#map-container-v1").attr('style','height:450px');
+        loadFullMap('all-india',false);
+        $("#map-container-v1").attr('style','min-height:780px');
     });
 
     $.ajax({
@@ -256,10 +311,10 @@ function showUrbanDistributionGraphs(){
         url: "view/map_info.php"
     }).done(function( result ) {
         $("#map_info").html(result);
-        $("#title1").html('AT&C loss');
-        $("#title2").html('Bill Efficiency');
-        $("#title3").html('Coll Efficiency');
-        $("#title4").html('RES');
+        $("#title1").html('Consumption in Domestic');
+        $("#title2").html('Consumption in Commercial');
+        $("#title3").html('Consumption in Industrial');
+        $("#title4").html('Consumption in Agricultural');
 
         $("#leftHead1").html('IT Enabled (go-live) towns');
         $("#leftHead2").html('Consumer Complaints Redressed');
@@ -273,7 +328,14 @@ function showUrbanDistributionGraphs(){
 }
 
 function showRuralDistributionGraphs(){
-
+    CurrentTab = 'ruralDistribution';
+    $("#state").data('stateMap','');
+    $("#discom").data('discomMap','');
+    $("#town").data('townMap','');
+    removeLevel('state');
+    removeLevel('discom');
+    removeLevel('town');
+    $("#map-container").html('<img style="width:100%; height: 100%;" src="./dist/img/gifImages/load.gif">');
     $("#installTabs").attr('class','glowOut ibox float-e-margins');
     $("#dailyTabs").attr('class','glowOut ibox float-e-margins');
     $("#transTabs").attr('class','glowOut ibox float-e-margins');
@@ -308,8 +370,9 @@ function showRuralDistributionGraphs(){
         url: "view/maps_with_tabs.php"
     }).done(function( result ) {
         $("#map-container").html(result);
-        loadRuralIndiaMap();
-        $("#map-container-v1").attr('style','height:450px');
+        // loadFullMap('all-india',false);
+        loadGoogleMap();
+        $("#map-container-v1").attr('style','min-height:780px');
     });
 
     $.ajax({
@@ -328,7 +391,14 @@ function showRuralDistributionGraphs(){
 }
 
 function showFundingGraphs(){
-
+    CurrentTab = 'funding';
+    $("#state").data('stateMap','');
+    $("#discom").data('discomMap','');
+    $("#town").data('townMap','');
+    removeLevel('state');
+    removeLevel('discom');
+    removeLevel('town');
+    $("#map-container").html('<img style="width:100%; height: 100%;" src="./dist/img/gifImages/load.gif">');
     $("#installTabs").attr('class','glowOut ibox float-e-margins');
     $("#dailyTabs").attr('class','glowOut ibox float-e-margins');
     $("#transTabs").attr('class','glowOut ibox float-e-margins');
@@ -359,8 +429,9 @@ function showFundingGraphs(){
         url: "view/maps_with_tabs.php"
     }).done(function( result ) {
         $("#map-container").html(result);
-        loadFundIndiaMap();
-        $("#map-container-v1").attr('style','height:450px');
+        // loadFullMap('all-india',false);
+        loadGoogleMap();
+        $("#map-container-v1").attr('style','min-height:780px');
     });
 
     $.ajax({
@@ -468,12 +539,21 @@ function showIndiaMap(){
 
 
 
-function changeInfoGraphs($type){
+function changeInfoGraphs($type,$level,$detail){
+
+    $("#transmissionCapacity1").show();
+    $("#transmissionCapacity2").show();
+
+    document.getElementById('installed_capacity').style.height = "83px";
+    document.getElementById('cumulative_capacity').style.height = "83px";
+    document.getElementById('transportation_capacity').style.height = "83px";
+    document.getElementById('transmission_capacity').style.height = "83px";
     if($type == 'trans'){
         document.getElementById('leftTitle1').style.height = "83px";
         document.getElementById('leftTitle2').style.height = "83px";
         document.getElementById('leftTitle3').style.height = "83px";
         document.getElementById('leftTitle4').style.height = "83px";
+
         $("#transmissionCapacityss").show();
         createInstalledCapacityInfoGraph("#installed_capacity");
         cumulativeGeneration("#cumulative_capacity");
@@ -488,22 +568,58 @@ function changeInfoGraphs($type){
 
     }else if($type == 'urban'){
 
-        document.getElementById('leftTitle1').style.height = "120px";
-        document.getElementById('leftTitle2').style.height = "120px";
-        document.getElementById('leftTitle3').style.height = "120px";
-        document.getElementById('leftTitle4').style.height = "120px";
-        // Right Side
-        createInstalledCapacityInfoGraph("#installed_capacity");
-        cumulativeGeneration("#cumulative_capacity");
-        transportationCapacity("#transportation_capacity");
-        transmissionCapacity("#transmission_capacity");
-        transmissionCapacity("#rightTitle5");
+        $("#installedCapacity").show();
+        document.getElementById('leftTitle1').style.height = "115px";
+        document.getElementById('leftTitle2').style.height = "115px";
+        document.getElementById('leftTitle3').style.height = "115px";
+        document.getElementById('leftTitle4').style.height = "115px";
 
-        urbanDistributionGraphs1('#leftTitle1','goLive');
-        urbanDistributionGraphs2('#leftTitle2','complaint');
-        urbanDistributionGraphs1('#leftTitle3','connection');
-        urbanDistributionGraphs2('#leftTitle4','interuption');
+        document.getElementById('installed_capacity').style.height = "115px";
+        document.getElementById('cumulative_capacity').style.height = "115px";
+        document.getElementById('transportation_capacity').style.height = "115px";
+        document.getElementById('transmission_capacity').style.height = "115px";
 
+        if($level == 'discom') {
+
+            createInstalledCapacityInfoGraph("#installed_capacity");
+            cumulativeGeneration("#cumulative_capacity");
+            transportationCapacity("#transportation_capacity");
+            // transmissionCapacity("#transmission_capacity");
+            // transmissionCapacity("#rightTitle5");
+
+            urbanDistributionGraphs1('#leftTitle1', 'goLive');
+            urbanDistributionGraphs1('#leftTitle2', 'complaint');
+            urbanDistributionGraphs1('#leftTitle3', 'connection');
+            urbanDistributionGraphs2('#leftTitle4', 'interuption');
+        }else if($level == 'town'){
+
+            createInstalledCapacityInfoGraph("#installed_capacity");
+            cumulativeGeneration("#cumulative_capacity");
+            transportationCapacity("#transportation_capacity");
+            transmissionCapacity("#transmission_capacity");
+            transmissionCapacity("#rightTitle5");
+
+            // urbanDistributionGraphs1('#leftTitle1', 'goLive');
+            $("#installedCapacity").hide();
+            urbanDistributionGraphs1('#leftTitle2', 'complaint');
+            urbanDistributionGraphs1('#leftTitle3', 'connection');
+            urbanDistributionGraphs2('#leftTitle4', 'interuption');
+
+        }else{
+            $("#installedCapacity").show();
+            createInstalledCapacityInfoGraph("#installed_capacity");
+            cumulativeGeneration("#cumulative_capacity");
+            transportationCapacity("#transportation_capacity");
+            transmissionCapacity("#transmission_capacity");
+            transmissionCapacity("#rightTitle5");
+
+            urbanDistributionGraphs1('#leftTitle1', 'goLive');
+            urbanDistributionGraphs2('#leftTitle2', 'complaint');
+            urbanDistributionGraphs2('#leftTitle3', 'connection');
+            urbanDistributionGraphs2('#leftTitle4', 'interuption');
+
+        }
+        $("#transmissionCapacity2").hide();
         $("#transmissionCapacityss").hide();
 
     }else{
